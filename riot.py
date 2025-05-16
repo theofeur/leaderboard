@@ -80,6 +80,28 @@ for riot_id in riot_ids:
     ranked_data = r3.json()
     soloq_data = next((entry for entry in ranked_data if entry["queueType"] == "RANKED_SOLO_5x5"), None)
 
+    #Obtenir détails dernier match
+    url_matches = f"https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?start=0&count=1"
+    r_matches = requests.get(url_matches, headers=headers)
+    if r_matches.status_code != 200:
+        print(f"Erreur pour {riot_id} (match list): {r_matches.status_code}")
+        last_game_timestamp = None
+    else:
+        match_ids = r_matches.json()
+        if len(match_ids) == 0:
+            last_game_timestamp = None
+        else:
+            last_match_id = match_ids[0]
+            # Récupérer les détails du dernier match
+            url_match_detail = f"https://europe.api.riotgames.com/lol/match/v5/matches/{last_match_id}"
+            r_match_detail = requests.get(url_match_detail, headers=headers)
+            if r_match_detail.status_code != 200:
+                print(f"Erreur pour {riot_id} (match detail): {r_match_detail.status_code}")
+                last_game_timestamp = None
+            else:
+                match_info = r_match_detail.json()["info"]
+                last_game_timestamp = match_info.get("gameStartTimestamp", None)  # en ms
+
     if soloq_data:
         wins = soloq_data["wins"]
         losses = soloq_data["losses"]
@@ -108,6 +130,7 @@ for riot_id in riot_ids:
             "rank": rank,
             "lp": lp,
             "profileIconId": summoner_data["profileIconId"],
+            "lastGameTimestamp": last_game_timestamp
         })
 
 
