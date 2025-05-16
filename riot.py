@@ -4,8 +4,7 @@ import os
 import time
 
 MAX_REQUESTS_PER_SECOND = 19  # on prend 19 par précaution
-API_KEY = 'RGAPI-61923cf2-b746-4891-84a2-fe7604a1aeaa'
-#os.getenv("RIOT_API_KEY")
+API_KEY = os.getenv("RIOT_API_KEY")
 headers = {"X-Riot-Token": API_KEY}
 request_count = 0
 start_time = time.time()
@@ -99,8 +98,7 @@ def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matc
     if last_ranked_time is None:
         return None
     else:
-        # Convertir ms en timestamp seconds (optionnel)
-        return last_ranked_time // 1000
+        return last_ranked_time
     
 
 def sort_key(player):
