@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>League Leaderboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎮 League of Legends Leaderboard</h1>
+
+  <div class="controls">
+    <button onclick="sortByWinrate()">🔁 Trier par Winrate</button>
+    <button onclick="sortByElo()">🧱 Trier par Elo</button>
+  </div>
+
+  <table id="leaderboard">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Joueur</th>
+        <th>Tier</th>
+        <th>LP</th>
+        <th>Winrate</th>
+        <th>Stats</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    let data = [];
+
+    const tierOrder = {
+      "UNRANKED": 0,
+      "IRON": 1,
+      "BRONZE": 2,
+      "SILVER": 3,
+      "GOLD": 4,
+      "PLATINUM": 5,
+      "EMERALD": 6,
+      "DIAMOND": 7,
+      "MASTER": 8,
+      "GRANDMASTER": 8,
+      "CHALLENGER": 8
+    };
+
+    const rankOrder = {
+      "IV": 1,
+      "III": 2,
+      "II": 3,
+      "I": 4
+    };
+
+    function displayLeaderboard(sortedData) {
+        const tbody = document.querySelector("#leaderboard tbody");
+        tbody.innerHTML = "";
+
+        sortedData.forEach((player, index) => {
+            const imgTier = `assets/tiers/${player.tier.toLowerCase()}.png`;
+            const imgIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${player.profileIconId}.png`;
+
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td class="highlight">
+                <img src="${imgIcon}" alt="Icon" style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;" />
+                ${player.name}
+            </td>
+            <td>
+                <img src="${imgTier}" alt="${player.tier}" style="width: 30px; vertical-align: middle; margin-right: 8px;" />
+                ${player.tier} ${player.rank}
+            </td>
+            <td>${player.lp} LP</td>
+            <td>${player.winrate.toFixed(1)}%</td>
+            <td>${player.wins}W / ${player.losses}L</td>
+            `;
+            tbody.appendChild(tr);
+        });
+        }
+
+    function sortByWinrate() {
+      const sorted = [...data].sort((a, b) => b.winrate - a.winrate);
+      displayLeaderboard(sorted);
+    }
+
+    function sortByElo() {
+      const sorted = [...data].sort((a, b) => {
+        const tierA = tierOrder[a.tier.toUpperCase()] || 0;
+        const tierB = tierOrder[b.tier.toUpperCase()] || 0;
+
+        if (tierA !== tierB) {
+          return tierB - tierA;
+        }
+
+        const rankA = rankOrder[a.rank.toUpperCase()] || 0;
+        const rankB = rankOrder[b.rank.toUpperCase()] || 0;
+
+        if (rankA !== rankB) {
+          return rankB - rankA;
+        }
+
+        return b.lp - a.lp;
+      });
+
+      displayLeaderboard(sorted);
+    }
+
+    // Initial fetch and display
+    fetch("leaderboard.json")
+      .then((res) => res.json())
+      .then((jsonData) => {
+        data = jsonData;
+        sortByElo(); // default view
+      });
+  </script>
+</body>
+</html>
