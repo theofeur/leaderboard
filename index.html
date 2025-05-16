@@ -24,6 +24,7 @@
         <th>LP</th>
         <th>Winrate</th>
         <th>Stats</th>
+        <th>Dernière partie</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -53,35 +54,55 @@
       "I": 4
     };
 
+
+
+    function timeSince(timestampMs) {
+        if (!timestampMs) return "Aucune partie";
+
+        const now = Date.now();
+        const diffMs = now - timestampMs;
+        const seconds = Math.floor(diffMs / 1000);
+        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(minutes / 60);
+        const days = Math.floor(hours / 24);
+
+        if (days > 0) return `${days} jour${days > 1 ? 's' : ''} auparavant`;
+        if (hours > 0) return `${hours} heure${hours > 1 ? 's' : ''} auparavant`;
+        if (minutes > 0) return `${minutes} minute${minutes > 1 ? 's' : ''} auparavant`;
+        return `Il y a quelques secondes`;
+    }
+
     function displayLeaderboard(sortedData) {
         const tbody = document.querySelector("#leaderboard tbody");
-
         tbody.innerHTML = "";
 
         sortedData.forEach((player, index) => {
             const imgTier = `assets/tiers/${player.tier.toLowerCase()}.png`;
             const imgIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${player.profileIconId}.png`;
             const [playerName, playerTag] = player.name.split("#");
+            const lastGame = timeSince(player.lastGameTimestamp);
+
             const tr = document.createElement("tr");
             tr.innerHTML = `
-            <td>${index + 1}</td>
-            <td class="highlight">
-                <img src="${imgIcon}" alt="Icon" style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;" />
-                <a href="https://www.op.gg/summoners/euw/${playerName}-${playerTag}" target="_blank" style="color:#00bfff; text-decoration:none;">
-                ${player.name}
-                </a>
-            </td>
-            <td>
-                <img src="${imgTier}" alt="${player.tier}" style="width: 30px; vertical-align: middle; margin-right: 8px;" />
-                ${player.tier} ${player.rank}
-            </td>
-            <td>${player.lp} LP</td>
-            <td>${player.winrate.toFixed(1)}%</td>
-            <td>${player.wins}W / ${player.losses}L</td>
+                <td>${index + 1}</td>
+                <td class="highlight">
+                    <img src="${imgIcon}" alt="Icon" style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;" />
+                    <a href="https://www.op.gg/summoners/euw/${playerName}-${playerTag}" target="_blank" style="color:#00bfff; text-decoration:none;">
+                        ${player.name}
+                    </a>
+                </td>
+                <td>
+                    <img src="${imgTier}" alt="${player.tier}" style="width: 30px; vertical-align: middle; margin-right: 8px;" />
+                    ${player.tier} ${player.rank}
+                </td>
+                <td>${player.lp} LP</td>
+                <td>${player.winrate.toFixed(1)}%</td>
+                <td>${player.wins}W / ${player.losses}L</td>
+                <td>${lastGame}</td> <!-- Nouvelle colonne -->
             `;
             tbody.appendChild(tr);
         });
-        }
+    }
 
     function sortByWinrate() {
       const sorted = [...data].sort((a, b) => b.winrate - a.winrate);
