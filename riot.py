@@ -1,10 +1,14 @@
 import requests
 import json
 import os
+import time
 
-
-API_KEY = os.getenv("RIOT_API_KEY")
+MAX_REQUESTS_PER_SECOND = 19  # on prend 19 par précaution
+API_KEY = 'RGAPI-61923cf2-b746-4891-84a2-fe7604a1aeaa'
+#os.getenv("RIOT_API_KEY")
 headers = {"X-Riot-Token": API_KEY}
+request_count = 0
+start_time = time.time()
 
 TIER_ORDER = {
     "UNRANKED": 0,
@@ -27,10 +31,49 @@ RANK_ORDER = {
     "I": 4
 }
 
+def rate_limited_request(url, headers):
+    global request_count, start_time
 
-def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matches=50):
+    while True:
+        now = time.time()
+
+        # Reset toutes les 1s
+        if now - start_time >= 1:
+            request_count = 0
+            start_time = now
+
+        # Si trop de requêtes, on attend
+        if request_count >= MAX_REQUESTS_PER_SECOND:
+            sleep_time = 1 - (now - start_time)
+            if sleep_time > 0:
+                print(f"[⏳] Limite atteinte, pause {sleep_time:.2f}s")
+                time.sleep(sleep_time)
+            request_count = 0
+            start_time = time.time()
+
+        # Faire la requête
+        response = requests.get(url, headers=headers)
+        request_count += 1
+
+        # Si tout va bien, retourner la réponse
+        if response.status_code == 200:
+            return response
+
+        # Si on dépasse les quotas
+        elif response.status_code == 429:
+            retry_after = int(response.headers.get("Retry-After", 1))
+            print(f"[⚠️] Rate limit dépassé. Attente {retry_after} secondes.")
+            time.sleep(retry_after)
+            continue  # Refaire la requête
+
+        else:
+            # Retourner même si ce n’est pas 200 (on laisse ton script gérer)
+            return response
+
+
+def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matches=20):
     url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
-    r = requests.get(url_matches, headers=headers)
+    r = rate_limited_request(url_matches, headers=headers)
     if r.status_code != 200:
         print(f"Erreur récupération matchs : {r.status_code}")
         return None
@@ -40,11 +83,10 @@ def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matc
 
     for match_id in match_ids:
         url_match_detail = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/{match_id}"
-        r_match = requests.get(url_match_detail, headers=headers)
+        r_match = rate_limited_request(url_match_detail, headers=headers)
         if r_match.status_code != 200:
             print(f"Erreur récupération détail match {match_id}: {r_match.status_code}")
             continue
-
         match_data = r_match.json()
         queue_id = match_data.get("info", {}).get("queueId", 0)
 
@@ -88,7 +130,7 @@ for riot_id in riot_ids:
 
     # Obtenir le PUUID
     url_account = f"https://{ACCOUNT_ROUTING}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{game_name}/{tag_line}"
-    r1 = requests.get(url_account, headers=headers)
+    r1 = rate_limited_request(url_account, headers=headers)
     if r1.status_code != 200:
         print(f"Erreur pour {riot_id} (account API): {r1.status_code}")
         continue
@@ -97,7 +139,7 @@ for riot_id in riot_ids:
 
     # Obtenir le summonerId
     url_summoner = f"https://{PLATFORM_ROUTING}.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/{puuid}"
-    r2 = requests.get(url_summoner, headers=headers)
+    r2 = rate_limited_request(url_summoner, headers=headers)
     if r2.status_code != 200:
         print(f"Erreur pour {riot_id} (summoner API): {r2.status_code}")
         continue
@@ -107,7 +149,7 @@ for riot_id in riot_ids:
 
     # Obtenir les stats classées
     url_ranked = f"https://{PLATFORM_ROUTING}.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_id}"
-    r3 = requests.get(url_ranked, headers=headers)
+    r3 = rate_limited_request(url_ranked, headers=headers)
     if r3.status_code != 200:
         print(f"Erreur pour {riot_id} (ranked stats): {r3.status_code}")
         continue
@@ -116,7 +158,7 @@ for riot_id in riot_ids:
     soloq_data = next((entry for entry in ranked_data if entry["queueType"] == "RANKED_SOLO_5x5"), None)
 
     #Obtenir détails dernier match
-    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, PLATFORM_ROUTING, max_matches=50)
+    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, ACCOUNT_ROUTING, max_matches=20)
 
     if soloq_data:
         wins = soloq_data["wins"]
