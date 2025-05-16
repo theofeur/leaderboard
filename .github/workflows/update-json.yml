@@ -5,6 +5,10 @@ on:
     - cron: '*/10 * * * *'  # toutes les 10 minutes
   workflow_dispatch:         # permet aussi de déclencher manuellement
 
+
+permissions:
+  contents: write
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
