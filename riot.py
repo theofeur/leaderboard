@@ -28,7 +28,7 @@ RANK_ORDER = {
 }
 
 
-def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matches=20):
+def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matches=50):
     url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
     r = requests.get(url_matches, headers=headers)
     if r.status_code != 200:
@@ -116,7 +116,7 @@ for riot_id in riot_ids:
     soloq_data = next((entry for entry in ranked_data if entry["queueType"] == "RANKED_SOLO_5x5"), None)
 
     #Obtenir détails dernier match
-    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, PLATFORM_ROUTING, max_matches=20)
+    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, PLATFORM_ROUTING, max_matches=50)
 
     if soloq_data:
         wins = soloq_data["wins"]
