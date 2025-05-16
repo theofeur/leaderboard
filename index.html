@@ -57,7 +57,7 @@
 
 
     function timeSince(timestampMs) {
-        if (!timestampMs) return "Aucune partie";
+        if (!timestampMs) return "Aucune partie récente";
 
         const now = Date.now();
         const diffMs = now - timestampMs;
@@ -66,9 +66,9 @@
         const hours = Math.floor(minutes / 60);
         const days = Math.floor(hours / 24);
 
-        if (days > 0) return `${days} jour${days > 1 ? 's' : ''} auparavant`;
-        if (hours > 0) return `${hours} heure${hours > 1 ? 's' : ''} auparavant`;
-        if (minutes > 0) return `${minutes} minute${minutes > 1 ? 's' : ''} auparavant`;
+        if (days > 0) return `il y a ${days} jour${days > 1 ? 's' : ''}`;
+        if (hours > 0) return `il y a ${hours} heure${hours > 1 ? 's' : ''}`;
+        if (minutes > 0) return `il y a ${minutes} minute${minutes > 1 ? 's' : ''}`;
         return `Il y a quelques secondes`;
     }
 
