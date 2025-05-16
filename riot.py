@@ -1,7 +1,8 @@
 import requests
 import json
+import os
 
-API_KEY = "RGAPI-26a6c6bd-bc0c-4a63-ae12-ab2029f61b27"
+API_KEY = os.getenv("RIOT_API_KEY")
 headers = {"X-Riot-Token": API_KEY}
 
 TIER_ORDER = {
