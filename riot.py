@@ -1,7 +1,6 @@
 import requests
 import json
 import os
-import time
 
 API_KEY = os.getenv("RIOT_API_KEY")
 headers = {"X-Riot-Token": API_KEY}
@@ -27,39 +26,6 @@ RANK_ORDER = {
     "I": 4
 }
 
-
-def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matches=20):
-    url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
-    r = requests.get(url_matches, headers=headers)
-    if r.status_code != 200:
-        print(f"Erreur récupération matchs : {r.status_code}")
-        return None
-    
-    match_ids = r.json()
-    last_ranked_time = None
-
-    for match_id in match_ids:
-        url_match_detail = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/{match_id}"
-        r_match = requests.get(url_match_detail, headers=headers)
-        if r_match.status_code != 200:
-            print(f"Erreur récupération détail match {match_id}: {r_match.status_code}")
-            continue
-
-        match_data = r_match.json()
-        queue_id = match_data.get("info", {}).get("queueId", 0)
-
-        # 420 = Ranked Solo queue id
-        if queue_id == 420:
-            game_start = match_data["info"]["gameStartTimestamp"]  # en ms depuis epoch
-            if last_ranked_time is None or game_start > last_ranked_time:
-                last_ranked_time = game_start
-
-    if last_ranked_time is None:
-        return None
-    else:
-        # Convertir ms en timestamp seconds (optionnel)
-        return last_ranked_time // 1000
-    
 
 def sort_key(player):
     tier_value = TIER_ORDER.get(player["tier"], -1)
@@ -116,7 +82,26 @@ for riot_id in riot_ids:
     soloq_data = next((entry for entry in ranked_data if entry["queueType"] == "RANKED_SOLO_5x5"), None)
 
     #Obtenir détails dernier match
-    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, PLATFORM_ROUTING, max_matches=20)
+    url_matches = f"https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?start=0&count=1"
+    r_matches = requests.get(url_matches, headers=headers)
+    if r_matches.status_code != 200:
+        print(f"Erreur pour {riot_id} (match list): {r_matches.status_code}")
+        last_game_timestamp = None
+    else:
+        match_ids = r_matches.json()
+        if len(match_ids) == 0:
+            last_game_timestamp = None
+        else:
+            last_match_id = match_ids[0]
+            # Récupérer les détails du dernier match
+            url_match_detail = f"https://europe.api.riotgames.com/lol/match/v5/matches/{last_match_id}"
+            r_match_detail = requests.get(url_match_detail, headers=headers)
+            if r_match_detail.status_code != 200:
+                print(f"Erreur pour {riot_id} (match detail): {r_match_detail.status_code}")
+                last_game_timestamp = None
+            else:
+                match_info = r_match_detail.json()["info"]
+                last_game_timestamp = match_info.get("gameStartTimestamp", None)  # en ms
 
     if soloq_data:
         wins = soloq_data["wins"]
