@@ -5,9 +5,8 @@ on:
     - cron: '*/10 * * * *'  # toutes les 10 minutes
   workflow_dispatch:         # permet aussi de déclencher manuellement
 
-
 permissions:
-  contents: write
+  contents: write  # <-- Nécessaire pour autoriser le push
 
 jobs:
   update-json:
