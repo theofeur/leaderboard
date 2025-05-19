@@ -56,17 +56,6 @@
       "lastGameTimestamp": 1746894683103
     },
     {
-      "name": "Vegetation94#EUW",
-      "winrate": 52.4390243902439,
-      "wins": 86,
-      "losses": 78,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 48,
-      "profileIconId": 23,
-      "lastGameTimestamp": 1747664850467
-    },
-    {
       "name": "twtv koen#ily",
       "winrate": 62.7906976744186,
       "wins": 81,
@@ -78,15 +67,26 @@
       "lastGameTimestamp": 1747582061946
     },
     {
-      "name": "Girl feet addict #FEET",
-      "winrate": 50.51282051282051,
-      "wins": 197,
-      "losses": 193,
+      "name": "Vegetation94#EUW",
+      "winrate": 52.121212121212125,
+      "wins": 86,
+      "losses": 79,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 22,
+      "lp": 32,
+      "profileIconId": 23,
+      "lastGameTimestamp": 1747666460142
+    },
+    {
+      "name": "Girl feet addict #FEET",
+      "winrate": 50.38363171355499,
+      "wins": 197,
+      "losses": 194,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 3,
       "profileIconId": 6570,
-      "lastGameTimestamp": 1747664850467
+      "lastGameTimestamp": 1747666460142
     },
     {
       "name": "Dhalianoir#EUW",
@@ -709,6 +709,20 @@
       "duration": 1957
     },
     {
+      "match_id": "EUW1_7405699339",
+      "timestamp": 1747666460142,
+      "player": "Vegetation94#EUW",
+      "champion": "Leona",
+      "win": false,
+      "kills": 2,
+      "deaths": 3,
+      "assists": 7,
+      "cs": 35,
+      "gold": 6817,
+      "damage": 4672,
+      "duration": 1378
+    },
+    {
       "match_id": "EUW1_7405681684",
       "timestamp": 1747664850467,
       "player": "Vegetation94#EUW",
@@ -793,18 +807,18 @@
       "duration": 1658
     },
     {
-      "match_id": "EUW1_7379998772",
-      "timestamp": 1745524201129,
-      "player": "Vegetation94#EUW",
-      "champion": "Rakan",
-      "win": true,
-      "kills": 1,
-      "deaths": 5,
-      "assists": 23,
-      "cs": 29,
-      "gold": 8493,
-      "damage": 9364,
-      "duration": 1700
+      "match_id": "EUW1_7405699339",
+      "timestamp": 1747666460142,
+      "player": "Girl feet addict #FEET",
+      "champion": "Aphelios",
+      "win": false,
+      "kills": 4,
+      "deaths": 8,
+      "assists": 3,
+      "cs": 155,
+      "gold": 8963,
+      "damage": 9742,
+      "duration": 1378
     },
     {
       "match_id": "EUW1_7405681684",
@@ -931,20 +945,6 @@
       "gold": 16420,
       "damage": 48341,
       "duration": 2054
-    },
-    {
-      "match_id": "EUW1_7375211442",
-      "timestamp": 1745160865418,
-      "player": "Girl feet addict #FEET",
-      "champion": "Kaisa",
-      "win": false,
-      "kills": 2,
-      "deaths": 4,
-      "assists": 2,
-      "cs": 119,
-      "gold": 6364,
-      "damage": 4989,
-      "duration": 964
     }
   ]
 }
