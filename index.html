@@ -168,7 +168,7 @@
     fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
       .then((res) => res.json())
       .then((jsonData) => {
-        data = jsonData;
+        data = jsonData.players;
         currentSort = { column: "tier", direction: 1 }; // ou -1 pour inverser
         sortDataBy("tier");
       });
