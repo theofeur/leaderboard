@@ -12,10 +12,12 @@
 
   <!-- Onglets -->
   <div id="tabs">
-    <button onclick="showTab('leaderboard')">🏆 Leaderboard</button>
-    <button onclick="showTab('history')">📜 Historique</button>
+    <div id="tab-buttons">
+      <button onclick="showTab('leaderboard')">🏆 Leaderboard</button>
+      <button onclick="showTab('history')">📜 Historique</button>
+      <button id="mode-toggle">💡 Mode</button>
+    </div>
   </div>
-
   <!-- Section leaderboard -->
   <section id="leaderboard-tab">
     <table id="leaderboard">
@@ -27,7 +29,7 @@
           <th data-sort="lp">LP</th>
           <th data-sort="winrate">Winrate</th>
           <th data-sort="stats">Stats</th>
-          <th data-sort="lastGame">Dernière partie</th>
+          <th data-sort="lastGameTimestamp">Dernière partie</th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -76,9 +78,12 @@
     };
 
     function showTab(tab) {
-        document.getElementById("leaderboard-tab").style.display = tab === "leaderboard" ? "block" : "none";
-        document.getElementById("history-tab").style.display = tab === "history" ? "block" : "none";
-      }
+      document.getElementById("leaderboard-tab").style.display = tab === "leaderboard" ? "block" : "none";
+      document.getElementById("history-tab").style.display = tab === "history" ? "block" : "none";
+
+      document.querySelectorAll("#tab-buttons button").forEach(btn => btn.classList.remove("active"));
+      document.querySelector(`#tab-buttons button[onclick="showTab('${tab}')"]`).classList.add("active");
+    }
 
     function timeSince(timestampMs) {
         if (!timestampMs) return "Aucune partie récente";
@@ -123,7 +128,7 @@
                 <td>${player.lp} LP</td>
                 <td>${player.winrate.toFixed(1)}%</td>
                 <td>${player.wins}W / ${player.losses}L</td>
-                <td>${lastGame}</td> <!-- Nouvelle colonne -->
+                <td>${lastGame}</td> 
             `;
             tbody.appendChild(tr);
         });
@@ -265,6 +270,16 @@
       sortDataBy("tier");
     });
 
+
+    // 🎨 Mode sombre / clair
+    const toggleButton = document.getElementById("mode-toggle");
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") document.body.classList.add("dark-mode");
+
+    toggleButton.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+    });
   </script>
 </body>
 </html>
