@@ -101,6 +101,53 @@ def get_last_ranked_solo_game_timestamp(puuid, platform_routing="euw1", max_matc
         return last_ranked_time
     
 
+def get_ranked_solo_match_history(puuid, player_name, platform_routing="euw1", max_matches=20):
+    url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
+    r = rate_limited_request(url_matches, headers=headers)
+    if r.status_code != 200:
+        print(f"Erreur récupération matchs : {r.status_code}")
+        return []
+
+    match_ids = r.json()
+    ranked_history = []
+
+    for match_id in match_ids:
+        url_match_detail = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/{match_id}"
+        r_match = rate_limited_request(url_match_detail, headers=headers)
+        if r_match.status_code != 200:
+            print(f"Erreur récupération détail match {match_id}: {r_match.status_code}")
+            continue
+
+        match_data = r_match.json()
+        info = match_data.get("info", {})
+        queue_id = info.get("queueId", 0)
+
+        if queue_id != 420:
+            continue  # On ne garde que les Ranked Solo
+
+        game_start = info.get("gameStartTimestamp")
+        participants = info.get("participants", [])
+
+        for p in participants:
+            if p.get("puuid") == puuid:
+                ranked_history.append({
+                    "match_id": match_id,
+                    "timestamp": game_start,
+                    "player": player_name,
+                    "champion": p.get("championName"),
+                    "win": p.get("win"),
+                    "kills": p.get("kills"),
+                    "deaths": p.get("deaths"),
+                    "assists": p.get("assists"),
+                    "cs": p.get("totalMinionsKilled", 0) + p.get("neutralMinionsKilled", 0),
+                    "gold": p.get("goldEarned"),
+                    "damage": p.get("totalDamageDealtToChampions")
+                })
+                break
+
+    return ranked_history
+
+
 def sort_key(player):
     tier_value = TIER_ORDER.get(player["tier"], -1)
     rank_value = RANK_ORDER.get(player["rank"], 0)
@@ -115,6 +162,7 @@ with open("list.json", "r") as f:
     riot_ids = json.load(f)
 
 players_stats = []
+global_history = []
 
 for riot_id in riot_ids:
     try:
@@ -134,7 +182,7 @@ for riot_id in riot_ids:
         continue
 
     puuid = r1.json()["puuid"]
-
+    full_player_name = f"{game_name}#{tag_line}"
     # Obtenir le summonerId
     url_summoner = f"https://{PLATFORM_ROUTING}.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/{puuid}"
     r2 = rate_limited_request(url_summoner, headers=headers)
@@ -157,6 +205,8 @@ for riot_id in riot_ids:
 
     #Obtenir détails dernier match
     last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, ACCOUNT_ROUTING, max_matches=20)
+    player_history = get_ranked_solo_match_history(puuid, full_player_name, PLATFORM_ROUTING, max_matches=20)
+    global_history.extend(player_history)
 
     if soloq_data:
         wins = soloq_data["wins"]
@@ -210,4 +260,7 @@ for i, p in enumerate(players_stats, 1):
 
 
 with open("leaderboard.json", "w") as f:
-    json.dump(players_stats, f, indent=2)    
+    json.dump({
+        "players": players_stats,
+        "global_match_history": global_history
+    }, f, indent=2)

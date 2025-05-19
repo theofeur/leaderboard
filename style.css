@@ -91,5 +91,28 @@ body {
       padding-left: 10px;
       color: #999;
     }
+
   }
-  
+  .opgg-icon {
+    width: 35px;
+    height: 25px;
+    vertical-align: middle;
+    opacity: 0.8;
+    margin-left: 8px;
+    transition: opacity 0.2s ease;
+  }
+  .opgg-icon:hover {
+    opacity: 1;
+  }
+  th[data-sort]::after {
+    content: " ↕";
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  th.sorted-asc::after {
+  content: " ▲";
+}
+th.sorted-desc::after {
+  content: " ▼";
+}

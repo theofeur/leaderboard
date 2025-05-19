@@ -10,21 +10,16 @@
 <body>
   <h1>Gaming House SoloQ Leaderboard</h1>
 
-  <div class="controls">
-    <button onclick="sortByWinrate()">🔁 Trier par Winrate</button>
-    <button onclick="sortByElo()">🧱 Trier par Elo</button>
-  </div>
-
   <table id="leaderboard">
     <thead>
       <tr>
         <th>#</th>
-        <th>Joueur</th>
-        <th>Tier</th>
-        <th>LP</th>
-        <th>Winrate</th>
-        <th>Stats</th>
-        <th>Dernière partie</th>
+        <th data-sort="name">Joueur</th>
+        <th data-sort="tier">Tier</th>
+        <th data-sort="lp">LP</th>
+        <th data-sort="winrate">Winrate</th>
+        <th data-sort="stats">Stats</th>
+        <th data-sort="lastGame">Dernière partie</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -86,10 +81,11 @@
             tr.innerHTML = `
                 <td>${index + 1}</td>
                 <td class="highlight">
-                    <img src="${imgIcon}" alt="Icon" style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;" />
-                    <a href="https://www.op.gg/summoners/euw/${playerName}-${playerTag}" target="_blank" style="color:#00bfff; text-decoration:none;">
-                        ${player.name}
-                    </a>
+                  <img src="${imgIcon}" alt="Icon" style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;" />
+                  ${player.name}
+                <a href="https://www.op.gg/summoners/euw/${playerName}-${playerTag}" target="_blank">
+                  <img src="assets/opgg-icon.png" alt="OP.GG" class="opgg-icon" />
+                </a>
                 </td>
                 <td>
                     <img src="${imgTier}" alt="${player.tier}" style="width: 30px; vertical-align: middle; margin-right: 8px;" />
@@ -104,39 +100,77 @@
         });
     }
 
-    function sortByWinrate() {
-      const sorted = [...data].sort((a, b) => b.winrate - a.winrate);
-      displayLeaderboard(sorted);
-    }
+    let currentSort = { column: null, direction: 1 };
 
-    function sortByElo() {
-      const sorted = [...data].sort((a, b) => {
-        const tierA = tierOrder[a.tier.toUpperCase()] || 0;
-        const tierB = tierOrder[b.tier.toUpperCase()] || 0;
+    function sortDataBy(column) {
+        const sorted = [...data].sort((a, b) => {
+        let valA = a[column];
+        let valB = b[column];
 
-        if (tierA !== tierB) {
-          return tierB - tierA;
+        // Gestion spéciale pour certains types de données
+        if (column === "name") {
+          valA = valA.toLowerCase();
+          valB = valB.toLowerCase();
+        } else if (column === "winrate") {
+          valA = parseFloat(valA);
+          valB = parseFloat(valB);
+        } else if (column === "tier") {
+          const tierA = tierOrder[a.tier.toUpperCase()] || 0;
+          const tierB = tierOrder[b.tier.toUpperCase()] || 0;
+          if (tierA !== tierB) return (tierB - tierA) * currentSort.direction;
+
+          const rankA = rankOrder[a.rank.toUpperCase()] || 0;
+          const rankB = rankOrder[b.rank.toUpperCase()] || 0;
+          if (rankA !== rankB) return (rankB - rankA) * currentSort.direction;
+
+          return (b.lp - a.lp) * currentSort.direction;
+        } else if (column === "lastGameTimestamp") {
+          valA = a.lastGameTimestamp || 0;
+          valB = b.lastGameTimestamp || 0;
         }
 
-        const rankA = rankOrder[a.rank.toUpperCase()] || 0;
-        const rankB = rankOrder[b.rank.toUpperCase()] || 0;
-
-        if (rankA !== rankB) {
-          return rankB - rankA;
-        }
-
-        return b.lp - a.lp;
+        // Comparaison générique
+        if (valA < valB) return -1 * currentSort.direction;
+        if (valA > valB) return 1 * currentSort.direction;
+        return 0;
       });
 
       displayLeaderboard(sorted);
+
+      // ✅ Mise à jour visuelle des flèches de tri
+      document.querySelectorAll("th[data-sort]").forEach(th => {
+        th.classList.remove("sorted-asc", "sorted-desc");
+      });
+      const activeTh = document.querySelector(`th[data-sort="${column}"]`);
+      if (activeTh) {
+        activeTh.classList.add(currentSort.direction === 1 ? "sorted-asc" : "sorted-desc");
+      }
     }
+
+
+    // Ajout d’un écouteur sur chaque <th>
+    document.querySelectorAll("th[data-sort]").forEach(th => {
+      th.style.cursor = "pointer";
+      th.addEventListener("click", () => {
+        const column = th.getAttribute("data-sort");
+        if (currentSort.column === column) {
+          currentSort.direction *= -1; // toggle asc/desc
+        } else {
+          currentSort.column = column;
+          currentSort.direction = 1;
+        }
+        sortDataBy(column);
+      });
+    });
+
 
     // Initial fetch and display
     fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
       .then((res) => res.json())
       .then((jsonData) => {
         data = jsonData;
-        sortByElo(); // default view
+        currentSort = { column: "tier", direction: 1 }; // ou -1 pour inverser
+        sortDataBy("tier");
       });
   </script>
 </body>
