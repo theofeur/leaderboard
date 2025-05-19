@@ -116,3 +116,23 @@ body {
 th.sorted-desc::after {
   content: " ▼";
 }
+
+#tabs {
+  margin-bottom: 20px;
+}
+#tabs button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+tr.win {
+  background-color: #a3c6ff; /* bleu clair */
+  color: black;
+}
+
+tr.lose {
+  background-color: #f39e9e; /* rouge clair */
+  color: black;
+}

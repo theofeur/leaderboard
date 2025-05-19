@@ -8,22 +8,48 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Gaming House SoloQ Leaderboard</h1>
+  <h1>Gaming House SoloQ</h1>
 
-  <table id="leaderboard">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th data-sort="name">Joueur</th>
-        <th data-sort="tier">Tier</th>
-        <th data-sort="lp">LP</th>
-        <th data-sort="winrate">Winrate</th>
-        <th data-sort="stats">Stats</th>
-        <th data-sort="lastGame">Dernière partie</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <!-- Onglets -->
+  <div id="tabs">
+    <button onclick="showTab('leaderboard')">🏆 Leaderboard</button>
+    <button onclick="showTab('history')">📜 Historique</button>
+  </div>
+
+  <!-- Section leaderboard -->
+  <section id="leaderboard-tab">
+    <table id="leaderboard">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th data-sort="name">Joueur</th>
+          <th data-sort="tier">Tier</th>
+          <th data-sort="lp">LP</th>
+          <th data-sort="winrate">Winrate</th>
+          <th data-sort="stats">Stats</th>
+          <th data-sort="lastGame">Dernière partie</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- Section historique -->
+  <section id="history-tab" style="display: none;">
+    <table id="matchHistory">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Joueur</th>
+          <th>Champion</th>
+          <th>Résultat</th>
+          <th>KDA</th>
+          <th>Durée</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
 
   <script>
     let data = [];
@@ -49,7 +75,10 @@
       "I": 4
     };
 
-
+    function showTab(tab) {
+        document.getElementById("leaderboard-tab").style.display = tab === "leaderboard" ? "block" : "none";
+        document.getElementById("history-tab").style.display = tab === "history" ? "block" : "none";
+      }
 
     function timeSince(timestampMs) {
         if (!timestampMs) return "Aucune partie récente";
@@ -101,6 +130,57 @@
     }
 
     let currentSort = { column: null, direction: 1 };
+
+    function displayMatchHistory(matches, profileIconsMap) {
+        const tbody = document.querySelector("#matchHistory tbody");
+        tbody.innerHTML = "";
+
+        matches.sort((a, b) => b.timestamp - a.timestamp); // du plus récent au plus ancien
+
+        matches.forEach(match => {
+          const date = new Date(match.timestamp).toLocaleString("fr-FR");
+          const result = match.win ? "✅ Victoire" : "❌ Défaite";
+          const kda = `${match.kills}/${match.deaths}/${match.assists}`;
+          const durationMin = Math.floor(match.duration / 60);
+          const durationSec = match.duration % 60;
+
+          // Récupérer l'icone du joueur dans la map, sinon icône par défaut '0'
+          const iconId = profileIconsMap[match.player] || '0';
+          const imgPlayerIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${iconId}.png`;
+
+          const tr = document.createElement("tr");
+          tr.className = match.win ? "win" : "lose";
+
+          tr.innerHTML = `
+            <td>${date}</td>
+            <td>
+              <img 
+                src="${imgPlayerIcon}" 
+                alt="avatar" 
+                width="24" height="24" 
+                style="vertical-align: middle; border-radius: 50%; margin-right: 6px;"
+              >
+              ${match.player}
+            </td>
+            <td>
+              <img 
+                src="https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${match.champion}.png" 
+                alt="${match.champion}" 
+                width="24" height="24" 
+                style="vertical-align: middle; margin-right: 6px;"
+              >
+              ${match.champion}
+            </td>
+            <td>${result}</td>
+            <td>${kda}</td>
+            <td>${durationMin}m ${durationSec}s</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      }
+
+
+
 
     function sortDataBy(column) {
         const sorted = [...data].sort((a, b) => {
@@ -164,14 +244,27 @@
     });
 
 
-    // Initial fetch and display
-    fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
-      .then((res) => res.json())
-      .then((jsonData) => {
-        data = jsonData.players;
-        currentSort = { column: "tier", direction: 1 }; // ou -1 pour inverser
-        sortDataBy("tier");
+  let profileIconsMap = {};
+
+  // Initial fetch and display
+  fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
+    .then((res) => res.json())
+    .then((jsonData) => {
+      data = jsonData.players;
+
+      // Construire la map nom->profileIconId
+      profileIconsMap = {};
+      data.forEach(player => {
+        profileIconsMap[player.name] = player.profileIconId;
       });
+
+      // Appeler displayMatchHistory en passant la map
+      displayMatchHistory(jsonData.global_match_history || [], profileIconsMap);
+
+      currentSort = { column: "tier", direction: 1 };
+      sortDataBy("tier");
+    });
+
   </script>
 </body>
 </html>
