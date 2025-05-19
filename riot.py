@@ -72,7 +72,7 @@ def rate_limited_request(url, headers):
             return response
 
 
-def get_last_ranked_solo_game_timestamp(puuid, platform_routing="europe", max_matches=20):
+def get_last_ranked_solo_game_timestamp(puuid, platform_routing="europe", max_matches=15):
     url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
     r = rate_limited_request(url_matches, headers=headers)
     if r.status_code != 200:
@@ -207,8 +207,8 @@ for riot_id in riot_ids:
     soloq_data = next((entry for entry in ranked_data if entry["queueType"] == "RANKED_SOLO_5x5"), None)
 
     #Obtenir détails dernier match
-    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, ACCOUNT_ROUTING, max_matches=20)
-    player_history = get_ranked_solo_match_history(puuid, full_player_name, ACCOUNT_ROUTING, max_matches=20)
+    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, ACCOUNT_ROUTING, max_matches=15)
+    player_history = get_ranked_solo_match_history(puuid, full_player_name, ACCOUNT_ROUTING, max_matches=10)
     global_history.extend(player_history)
 
     if soloq_data:
