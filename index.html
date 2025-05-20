@@ -9,16 +9,25 @@
 </head>
 <body>
   <h1>Gaming House SoloQ</h1>
-
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="themeCheckbox" onchange="toggleTheme()">
+      <span class="slider round">
+        <span class="icon sun">☀️</span>
+        <span class="icon moon">🌙</span>
+      </span>
+    </label>
+  </div>
   <!-- Onglets -->
   <div id="tabs">
     <div id="tab-buttons">
-      <button onclick="showTab('leaderboard')">🏆 Leaderboard</button>
-      <button onclick="showTab('history')">📜 Historique</button>
+      <button onclick="switchTab('leaderboard-tab')" class="tab-btn">Leaderboard</button>
+      <button onclick="switchTab('history-tab')" class="tab-btn">Historique</button>
     </div>
   </div>
+  <div class="tab-container">
   <!-- Section leaderboard -->
-  <section id="leaderboard-tab">
+  <section id="leaderboard-tab" class="tab-content active">
     <table id="leaderboard">
       <thead>
         <tr>
@@ -35,8 +44,9 @@
     </table>
   </section>
 
+
   <!-- Section historique -->
-  <section id="history-tab" style="display: none;">
+  <section id="history-tab" class="tab-content">
     <table id="matchHistory">
       <thead>
         <tr>
@@ -51,8 +61,39 @@
       <tbody></tbody>
     </table>
   </section>
+</div>
 
   <script>
+
+      // Initial fetch and display
+  fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
+    .then((res) => res.json())
+    .then((jsonData) => {
+      data = jsonData.players;
+
+      // Construire la map nom->profileIconId
+      profileIconsMap = {};
+      data.forEach(player => {
+        profileIconsMap[player.name] = player.profileIconId;
+      });
+
+      // Appeler displayMatchHistory en passant la map
+      displayMatchHistory(jsonData.global_match_history || [], profileIconsMap);
+      displayLeaderboard(data);
+      currentSort = { column: "tier", direction: 1 };
+      sortDataBy("tier");
+      switchTab('leaderboard-tab');
+    });
+
+  window.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('theme');
+      const isLight = savedTheme === 'light';
+      if (isLight) document.body.classList.add('light-mode');
+      document.getElementById('themeCheckbox').checked = isLight;
+
+      // 🟢 Active le bon onglet (au lieu de modifier manuellement les classes)
+      switchTab('leaderboard-tab');
+    });
     let data = [];
 
     const tierOrder = {
@@ -76,10 +117,27 @@
       "I": 4
     };
 
-    function showTab(tab) {
-      document.getElementById("leaderboard-tab").style.display = tab === "leaderboard" ? "block" : "none";
-      document.getElementById("history-tab").style.display = tab === "history" ? "block" : "none";
-    }
+    function switchTab(tabId) {
+        const container = document.querySelector('.tab-container');
+        const tabs = document.querySelectorAll('.tab-content');
+        const buttons = document.querySelectorAll('.tab-btn');
+
+        // Désactiver tous les onglets et boutons
+        tabs.forEach(tab => tab.classList.remove('active'));
+        buttons.forEach(btn => btn.classList.remove('active'));
+
+        // Activer l’onglet et le bouton correspondant
+        const activeTab = document.getElementById(tabId);
+        activeTab.classList.add('active');
+
+        const activeBtn = document.querySelector(`[onclick="switchTab('${tabId}')"]`);
+        if (activeBtn) activeBtn.classList.add('active');
+
+        // Ajuster la hauteur
+        container.style.height = activeTab.scrollHeight + 'px';
+      }
+
+
 
     function timeSince(timestampMs) {
         if (!timestampMs) return "Aucune partie récente";
@@ -109,22 +167,27 @@
 
             const tr = document.createElement("tr");
             tr.innerHTML = `
-                <td>${index + 1}</td>
-                <td class="highlight">
-                  <img src="${imgIcon}" alt="Icon" style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;" />
-                  ${player.name}
+              <td>${index + 1}</td>
+              <td class="highlight">
+                <img 
+                  src="https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${player.profileIconId}.png" 
+                  alt="Icon" 
+                  style="width: 24px; vertical-align: middle; border-radius: 50%; margin-right: 8px;"
+                  onerror="this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/29.png';"
+                />
+                ${player.name}
                 <a href="https://www.op.gg/summoners/euw/${playerName}-${playerTag}" target="_blank">
                   <img src="assets/opgg-icon.png" alt="OP.GG" class="opgg-icon" />
                 </a>
-                </td>
-                <td>
-                    <img src="${imgTier}" alt="${player.tier}" style="width: 30px; vertical-align: middle; margin-right: 8px;" />
-                    ${player.tier} ${player.rank}
-                </td>
-                <td>${player.lp} LP</td>
-                <td>${player.winrate.toFixed(1)}%</td>
-                <td>${player.wins}W / ${player.losses}L</td>
-                <td>${lastGame}</td> 
+              </td>
+              <td>
+                  <img src="${imgTier}" alt="${player.tier}" style="width: 30px; vertical-align: middle; margin-right: 8px;" />
+                  ${player.tier} ${player.rank}
+              </td>
+              <td>${player.lp} LP</td>
+              <td>${player.winrate.toFixed(1)}%</td>
+              <td>${player.wins}W / ${player.losses}L</td>
+              <td>${lastGame}</td> 
             `;
             tbody.appendChild(tr);
         });
@@ -133,52 +196,52 @@
     let currentSort = { column: null, direction: 1 };
 
     function displayMatchHistory(matches, profileIconsMap) {
-        const tbody = document.querySelector("#matchHistory tbody");
-        tbody.innerHTML = "";
+    const tbody = document.querySelector("#matchHistory tbody");
+    tbody.innerHTML = "";
 
-        matches.sort((a, b) => b.timestamp - a.timestamp); // du plus récent au plus ancien
+    matches.sort((a, b) => b.timestamp - a.timestamp); // du plus récent au plus ancien
 
-        matches.forEach(match => {
-          const date = new Date(match.timestamp).toLocaleString("fr-FR");
-          const result = match.win ? "✅ Victoire" : "❌ Défaite";
-          const kda = `${match.kills}/${match.deaths}/${match.assists}`;
-          const durationMin = Math.floor(match.duration / 60);
-          const durationSec = match.duration % 60;
+    matches.forEach(match => {
+      const date = new Date(match.timestamp).toLocaleString("fr-FR");
+      const durationMin = Math.floor(match.duration / 60);
+      const durationSec = match.duration % 60;
+      const kda = `${match.kills}/${match.deaths}/${match.assists}`;
+      const iconId = profileIconsMap[match.player] || '0';
 
-          // Récupérer l'icone du joueur dans la map, sinon icône par défaut '0'
-          const iconId = profileIconsMap[match.player] || '0';
-          const imgPlayerIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${iconId}.png`;
+      const imgPlayerIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${iconId}.png`;
+      const imgChampion = `https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${match.champion}.png`;
 
-          const tr = document.createElement("tr");
-          tr.className = match.win ? "win" : "lose";
+      const tr = document.createElement("tr");
+      tr.className = match.win ? "win-row" : "lose-row";
 
-          tr.innerHTML = `
-            <td>${date}</td>
-            <td>
-              <img 
-                src="${imgPlayerIcon}" 
-                alt="avatar" 
-                width="24" height="24" 
-                style="vertical-align: middle; border-radius: 50%; margin-right: 6px;"
-              >
-              ${match.player}
-            </td>
-            <td>
-              <img 
-                src="https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${match.champion}.png" 
-                alt="${match.champion}" 
-                width="24" height="24" 
-                style="vertical-align: middle; margin-right: 6px;"
-              >
-              ${match.champion}
-            </td>
-            <td>${result}</td>
-            <td>${kda}</td>
-            <td>${durationMin}m ${durationSec}s</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      }
+      const resultBadge = match.win
+        ? `<span class="badge win">Victoire</span>`
+        : `<span class="badge lose">Défaite</span>`;
+
+      tr.innerHTML = `
+        <td>${date}</td>
+        <td>
+          <img 
+            class="avatar" 
+            src="${imgPlayerIcon}" 
+            alt="avatar"
+            onerror="this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/29.png';"
+          >
+          ${match.player}
+        </td>
+        <td>
+          <div class="champion-cell">
+            <img class="champion-icon" src="${imgChampion}" alt="${match.champion}">
+            <span>${match.champion}</span>
+          </div>
+        </td>
+        <td>${resultBadge}</td>
+        <td>${kda}</td>
+        <td>${durationMin}m ${durationSec}s</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
 
 
 
@@ -244,27 +307,16 @@
       });
     });
 
+    function toggleTheme() {
+        const body = document.body;
+        const isLight = body.classList.toggle('light-mode');
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      }
+
 
   let profileIconsMap = {};
 
-  // Initial fetch and display
-  fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
-    .then((res) => res.json())
-    .then((jsonData) => {
-      data = jsonData.players;
 
-      // Construire la map nom->profileIconId
-      profileIconsMap = {};
-      data.forEach(player => {
-        profileIconsMap[player.name] = player.profileIconId;
-      });
-
-      // Appeler displayMatchHistory en passant la map
-      displayMatchHistory(jsonData.global_match_history || [], profileIconsMap);
-
-      currentSort = { column: "tier", direction: 1 };
-      sortDataBy("tier");
-    });
   </script>
 </body>
 </html>
