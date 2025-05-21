@@ -134,14 +134,14 @@
     },
     {
       "name": "plop c izy #2525",
-      "winrate": 48.45360824742268,
-      "wins": 94,
+      "winrate": 48.717948717948715,
+      "wins": 95,
       "losses": 100,
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 18,
+      "lp": 36,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1747837604667
+      "lastGameTimestamp": 1747840461316
     }
   ],
   "global_match_history": [
@@ -2050,6 +2050,22 @@
       "team_kills": 36
     },
     {
+      "match_id": "EUW1_7407718257",
+      "timestamp": 1747840461316,
+      "player": "plop c izy #2525",
+      "champion": "Riven",
+      "win": true,
+      "kills": 6,
+      "deaths": 11,
+      "assists": 11,
+      "cs": 211,
+      "gold": 14125,
+      "damage": 31267,
+      "duration": 2111,
+      "role": "MIDDLE",
+      "team_kills": 35
+    },
+    {
       "match_id": "EUW1_7407682485",
       "timestamp": 1747837604667,
       "player": "plop c izy #2525",
@@ -2256,22 +2272,6 @@
       "duration": 1875,
       "role": "TOP",
       "team_kills": 26
-    },
-    {
-      "match_id": "EUW1_7405366798",
-      "timestamp": 1747616245627,
-      "player": "plop c izy #2525",
-      "champion": "Riven",
-      "win": false,
-      "kills": 14,
-      "deaths": 15,
-      "assists": 4,
-      "cs": 210,
-      "gold": 16649,
-      "damage": 49776,
-      "duration": 2438,
-      "role": "TOP",
-      "team_kills": 40
     }
   ]
 }
