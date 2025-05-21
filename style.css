@@ -361,3 +361,324 @@ input:checked + .slider .moon {
   pointer-events: auto;
   z-index: 1;
 }
+
+/* Popup */
+
+#leaderboard tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.05); /* Optionnel : effet visuel au hover */
+}
+
+
+.modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90vw;
+  max-width: 1000px;
+  max-height: 90vh;            /* ✅ Limite verticale */
+  overflow-y: auto;            /* ✅ Scroll vertical si nécessaire */
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.modal-header {
+  position: relative;
+  padding-bottom: 80px; /* pour compenser l'espace "volé" par .rank-info */
+}
+
+.modal-name {
+  font-weight: 700; /* ou bold */
+  font-size: 1.2rem; /* un peu plus grand si tu veux */
+  margin-left: 10px; /* espace entre l’avatar et le nom */
+  align-self: center; /* bien centrer verticalement */
+}
+
+
+
+
+.player-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.modal-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.rank-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  max-width: 200px;
+  padding-right: 55px; /* espace à droite */
+}
+
+
+.rank-icon {
+  width: 100px; /* plus grand que avant */
+  height: 100px;
+  object-fit: contain;
+  margin-right: 10px; /* pour avoir un peu d’espace */
+}
+
+.rank-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.rank-winrate {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.modal-details p {
+  margin: 4px 0;
+}
+
+/* Détails des champions à gauche*/
+.modal-details-flex {
+  display: flex;
+  flex-direction: row; /* côté à côte */
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.champion-stats-section {
+  flex: 0 0 300px; /* largeur fixe ou ajustable */
+}
+
+.match-history-section {
+  flex: 1; /* prend le reste */
+  min-width: 0; /* empêche les débordements */
+}
+
+
+.champion-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.champion-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.champion-row .champion-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.champion-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.kda-blood-red {
+  color: #990000; /* Rouge sang */
+  font-weight: bold;
+}
+
+.kda-dark-red {
+  color: #ff4625; /* Rouge sombre */
+  font-weight:bold;
+}
+
+.kda-cyan {
+  color: #1ee5ff; /* Cyan */
+  font-weight: bold;
+}
+
+.kda-gold {
+  color: #FFD700; /* Or */
+  font-weight: bold;
+}
+
+.kda-normal {
+  font-weight: bold;
+}
+
+.cs-icon-right {
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+
+.player-history-table {
+  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.player-history-table th,
+.player-history-table td {
+  padding: 6px 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.player-history-table .champion-icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 4px;
+}
+
+.player-history-table .win {
+  color: green;
+  font-weight: bold;
+}
+
+.player-history-table .loss {
+  color: red;
+  font-weight: bold;
+}
+
+.last-games-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/*Icone gold/cs header tableau*/
+.header-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0;
+  width: 16px;
+  height: 16px;
+}
+th span {
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.gold-per-min, .cs-per-min {
+  min-width: 60px;
+  vertical-align: middle;
+  font-family: monospace;
+  text-indent: 0.7em; /* décale le texte vers la droite */
+  text-align: right;
+}
+
+.high-kp {
+  color: #ffae00f8 !important;
+  font-weight: bold;
+}
+
+
+.badge-excellent {
+  background:#8c52ff;       /* violet */
+  color:#fff;
+  border-radius:8px;
+  padding:2px 6px;
+  font-size:0.75rem;
+  margin-left:6px;          /* petit espace après le KDA */
+  white-space:nowrap;
+}
+
+
+.role-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+
+/* Thème clair activé popup*/
+body.light-mode .modal-content {
+  background-color: white;
+  color: black;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Animation popup */
+@keyframes fadeSlideUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-fade-up {
+  animation: fadeSlideUp 0.4s ease;
+}
+
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+.modal-fade-out {
+  animation: fadeSlideDown 0.3s ease forwards;
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Badge Streak */
+
+.streak-badge:hover > .tooltip {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+

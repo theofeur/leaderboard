@@ -4,7 +4,8 @@ import os
 import time
 
 MAX_REQUESTS_PER_SECOND = 19  # on prend 19 par précaution
-API_KEY = os.getenv("RIOT_API_KEY")
+API_KEY = "RGAPI-61923cf2-b746-4891-84a2-fe7604a1aeaa"
+#os.getenv("RIOT_API_KEY")
 headers = {
     "X-Riot-Token": API_KEY
 }
@@ -72,7 +73,7 @@ def rate_limited_request(url, headers):
             return response
 
 
-def get_last_ranked_solo_game_timestamp(puuid, platform_routing="europe", max_matches=15):
+def get_last_ranked_solo_game_timestamp(puuid, platform_routing="europe", max_matches=10):
     url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
     r = rate_limited_request(url_matches, headers=headers)
     if r.status_code != 200:
@@ -103,7 +104,7 @@ def get_last_ranked_solo_game_timestamp(puuid, platform_routing="europe", max_ma
         return last_ranked_time
     
 
-def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe", max_matches=10):
+def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe", max_matches=20):
     url_matches = f"https://{platform_routing}.api.riotgames.com/lol/match/v5/matches/by-puuid/{puuid}/ids?count={max_matches}"
     r = rate_limited_request(url_matches, headers=headers)
     if r.status_code != 200:
@@ -132,6 +133,9 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
 
         for p in participants:
             if p.get("puuid") == puuid:
+                team_id = p.get("teamId")
+                # Total kills de l'équipe du joueur
+                team_kills = sum(part.get("kills", 0) for part in participants if part.get("teamId") == team_id)
                 ranked_history.append({
                     "match_id": match_id,
                     "timestamp": game_start,
@@ -144,7 +148,9 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
                     "cs": p.get("totalMinionsKilled", 0) + p.get("neutralMinionsKilled", 0),
                     "gold": p.get("goldEarned"),
                     "damage": p.get("totalDamageDealtToChampions"),
-                    "duration": info.get("gameDuration") 
+                    "duration": info.get("gameDuration"),
+                    "role": p.get("teamPosition"),
+                    "team_kills": team_kills
                 })
                 break
 
@@ -207,8 +213,8 @@ for riot_id in riot_ids:
     soloq_data = next((entry for entry in ranked_data if entry["queueType"] == "RANKED_SOLO_5x5"), None)
 
     #Obtenir détails dernier match
-    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, ACCOUNT_ROUTING, max_matches=15)
-    player_history = get_ranked_solo_match_history(puuid, full_player_name, ACCOUNT_ROUTING, max_matches=10)
+    last_game_timestamp = get_last_ranked_solo_game_timestamp(puuid, ACCOUNT_ROUTING, max_matches=10)
+    player_history = get_ranked_solo_match_history(puuid, full_player_name, ACCOUNT_ROUTING, max_matches=20)
     global_history.extend(player_history)
 
     if soloq_data:
