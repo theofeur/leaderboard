@@ -222,7 +222,7 @@ for riot_id in riot_ids:
         losses = soloq_data["losses"]
         total = wins + losses
         if total == 0:
-            continue
+            continue    
 
         winrate = 100 * wins / total
         tier = soloq_data["tier"]
@@ -252,20 +252,8 @@ for riot_id in riot_ids:
 # Trier par winrate décroissant
 players_stats.sort(key=lambda x: x["winrate"], reverse=True)
 
-# Affichage classement
-print("\n🎯 Classement par Winrate :")
-for i, player in enumerate(players_stats, 1):
-    print(f"{i}. {player['name']} - {player['winrate']:.2f}% ({player['wins']}W/{player['losses']}L) - {player['tier']} {player['rank']} {player['lp']} LP")
-
-# 🔢 Tri personnalisé
-
-
+# Tri par elo 
 players_stats.sort(key=sort_key, reverse=True)
-
-# 🖨️ Affichage du leaderboard
-print("\n🎯 Leaderboard par Tier personnalisé :")
-for i, p in enumerate(players_stats, 1):
-    print(f"{i}. {p['name']} - {p['tier']} {p['rank']} ({p['lp']} LP) - {p['winrate']:.1f}% WR ({p['wins']}W/{p['losses']}L)")    
 
 
 with open("leaderboard.json", "w") as f:

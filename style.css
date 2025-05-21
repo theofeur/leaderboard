@@ -401,6 +401,7 @@ input:checked + .slider .moon {
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   transition: background-color 0.3s, color 0.3s;
+  position: relative;
 }
 
 .modal-header {
@@ -415,7 +416,16 @@ input:checked + .slider .moon {
   align-self: center; /* bien centrer verticalement */
 }
 
-
+#closeModal {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+  z-index: 9999; /* 🔥 hyper prioritaire */
+}
 
 
 .player-info {
