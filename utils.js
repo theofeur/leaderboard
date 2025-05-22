@@ -201,8 +201,10 @@ function switchTab(tabId) {
 
       }
       
-        tbody.appendChild(tr);
-        // Après avoir rempli le tbody :
+      tbody.appendChild(tr);
+      });
+    
+      // Une fois que TOUT le tbody est généré, on ajuste la hauteur
       waitForImagesToLoad(document.getElementById("leaderboard-tab"), () => {
         const container = document.querySelector(".tab-container");
         const activeTab = document.querySelector(".tab-content.active");
@@ -210,8 +212,7 @@ function switchTab(tabId) {
           container.style.height = activeTab.scrollHeight + "px";
         }
       });
-    });
-}
+  }
 
 // Fonction pour attendre que toutes les images soient chargées
     // avant d'ajuster la hauteur du conteneur
