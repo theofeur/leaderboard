@@ -178,6 +178,11 @@ th.sorted-desc::after {
   border-radius: 12px;
   text-align: center;
 }
+
+.modal .badge.win {
+  color: white ;
+  font-weight: bold ;
+}
 .badge.win {
   background-color: #4caf50;
   color: white;
