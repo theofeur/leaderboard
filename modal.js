@@ -4,7 +4,21 @@ import { getKdaClass } from './kdaClass.js';
 import { timeSince } from './utils.js';
 
 function showPlayerModal(player,allMatches) {
-    const playerMatches = allMatches.filter(match => match.player === player.name);
+    const playerMatches = [];
+
+    allMatches.forEach(match => {
+      const playerData = match.players.find(p => p.name === player.name);
+      if (playerData) {
+        playerMatches.push({
+          ...playerData,
+          match_id: match.match_id,
+          timestamp: match.timestamp,
+          duration: match.duration,
+          team_kills: match.team_kills,
+          win: match.player === player.name ? match.win : null // fallback si win pas dispo dans chaque joueur
+        });
+      }
+    });
     const modal = document.querySelector("#playerModal");
     const modalStats = document.querySelector("#modalStats");
      // Calcul streak et affichage

@@ -72,263 +72,222 @@
   </div>
 </div>
 
-  <script type="module">
-    import { showPlayerModal } from './modal.js';
-    import { getStreakValue } from './streak.js';
-    import { getRoleIcon } from './roleIcon.js';
-    import { getKdaClass } from './kdaClass.js';
-    import { timeSince, switchTab, displayLeaderboard, waitForImagesToLoad } from './utils.js';
+<script type="module">
+  import { showPlayerModal } from './modal.js';
+  import { getStreakValue } from './streak.js';
+  import { getRoleIcon } from './roleIcon.js';
+  import { getKdaClass } from './kdaClass.js';
+  import { timeSince, switchTab, displayLeaderboard, waitForImagesToLoad } from './utils.js';
 
+  window.toggleTheme = toggleTheme;
 
-    window.toggleTheme = toggleTheme;
-    let allMatches = [];
-      // Initial fetch and display
+  let data = [];
+  let allMatches = [];
+  let profileIconsMap = {};
+  let currentSort = { column: "tier", direction: 1 };
+
+  const tierOrder = {
+    "UNRANKED": 0, "IRON": 1, "BRONZE": 2, "SILVER": 3, "GOLD": 4,
+    "PLATINUM": 5, "EMERALD": 6, "DIAMOND": 7, "MASTER": 8,
+    "GRANDMASTER": 8, "CHALLENGER": 8
+  };
+
+  const rankOrder = {
+    "IV": 1, "III": 2, "II": 3, "I": 4
+  };
+
+  // Initial fetch and display
   fetch(`leaderboard.json?timestamp=${new Date().getTime()}`)
     .then((res) => res.json())
     .then((jsonData) => {
       data = jsonData.players;
       allMatches = jsonData.global_match_history || [];
 
-      // Construire la map nom->profileIconId
+      // Map des icônes de profil
       profileIconsMap = {};
       data.forEach(player => {
         profileIconsMap[player.name] = player.profileIconId;
       });
 
-      // Appeler displayMatchHistory en passant la map
       displayMatchHistory(allMatches, profileIconsMap);
       displayLeaderboard(data, allMatches);
-      currentSort = { column: "tier", direction: 1 };
       sortDataBy("tier");
       switchTab('leaderboard-tab');
     });
 
   window.addEventListener('DOMContentLoaded', () => {
-      const savedTheme = localStorage.getItem('theme');
-      const isLight = savedTheme === 'light';
-      if (isLight) document.body.classList.add('light-mode');
-      document.getElementById('themeCheckbox').checked = isLight;
+    const savedTheme = localStorage.getItem('theme');
+    const isLight = savedTheme === 'light';
+    if (isLight) document.body.classList.add('light-mode');
+    document.getElementById('themeCheckbox').checked = isLight;
+    switchTab('leaderboard-tab');
+  });
 
-      // 🟢 Active le bon onglet (au lieu de modifier manuellement les classes)
-      switchTab('leaderboard-tab');
-    });
-    let data = [];
-
-    const tierOrder = {
-      "UNRANKED": 0,
-      "IRON": 1,
-      "BRONZE": 2,
-      "SILVER": 3,
-      "GOLD": 4,
-      "PLATINUM": 5,
-      "EMERALD": 6,
-      "DIAMOND": 7,
-      "MASTER": 8,
-      "GRANDMASTER": 8,
-      "CHALLENGER": 8
-    };
-
-    const rankOrder = {
-      "IV": 1,
-      "III": 2,
-      "II": 3,
-      "I": 4
-    };
-
-
-
-    document.querySelectorAll("#tab-buttons .tab-btn").forEach(button => {
+  document.querySelectorAll("#tab-buttons .tab-btn").forEach(button => {
     button.addEventListener("click", () => {
       const tab = button.getAttribute("data-tab");
       switchTab(tab);
     });
   });
 
-
-
-
-
-    let currentSort = { column: null, direction: 1 };
-
-    function displayMatchHistory(matches, profileIconsMap) {
-        const tbody = document.querySelector("#matchHistory tbody");
-        tbody.innerHTML = "";
-
-        matches.sort((a, b) => b.timestamp - a.timestamp); // du plus récent au plus ancien
-
-        matches.forEach(match => {
-          const date = new Date(match.timestamp).toLocaleString("fr-FR");
-          const durationMin = Math.floor(match.duration / 60);
-          const durationSec = match.duration % 60;
-          const kda = `${match.kills}/${match.deaths}/${match.assists}`;
-          const iconId = profileIconsMap[match.player] || '0';
-
-          const imgPlayerIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${iconId}.png`;
-          const imgChampion = `https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${match.champion}.png`;
-          const roleIcon = getRoleIcon(match.role || ""); // Ajout icône de rôle
-
-          const tr = document.createElement("tr");
-          tr.className = match.win ? "win-row" : "lose-row";
-
-          const resultBadge = match.win
-            ? `<span class="badge win">Victoire</span>`
-            : `<span class="badge lose">Défaite</span>`;
-
-          tr.innerHTML = `
-            <td>${date}</td>
-            <td>
-              <img 
-                class="avatar" 
-                src="${imgPlayerIcon}" 
-                alt="avatar"
-                onerror="this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/29.png';"
-              >
-              ${match.player}
-            </td>
-            <td>
-              <div class="champion-cell">
-                <img class="champion-icon" src="${imgChampion}" alt="${match.champion}">
-                <span>${match.champion}</span>
-              </div>
-            </td>
-            <td>
-              <img 
-                class="role-icon" 
-                src="${roleIcon}" 
-                alt="${match.role}" 
-                title="${match.role || 'Inconnu'}"
-              />
-            </td>
-            <td>${resultBadge}</td>
-            <td>${kda}</td>
-            <td>${durationMin}m ${durationSec}s</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      }
-
-     //Fonction pour obtenir la couleur du KDA 
-
-
-
-
-function sortDataBy(column) {
-  const sorted = [...data].sort((a, b) => {
-    if (column === "tier") {
-      const tierA = tierOrder[a.tier?.toUpperCase()] || 0;
-      const tierB = tierOrder[b.tier?.toUpperCase()] || 0;
-      if (tierA !== tierB) return (tierB - tierA) * currentSort.direction;
-
-      const rankA = rankOrder[a.rank?.toUpperCase()] || 0;
-      const rankB = rankOrder[b.rank?.toUpperCase()] || 0;
-      if (rankA !== rankB) return (rankB - rankA) * currentSort.direction;
-
-      return (b.lp - a.lp) * currentSort.direction;
-    }
-
-    let valA = a[column] ?? "";
-    let valB = b[column] ?? "";
-
-    if (column === "name") {
-      valA = valA.toLowerCase();
-      valB = valB.toLowerCase();
-    } else if (column === "winrate") {
-      valA = parseFloat(valA);
-      valB = parseFloat(valB);
-    } else if (column === "lastGameTimestamp") {
-      valA = valA || 0;
-      valB = valB || 0;
-    }
-
-    if (valA < valB) return -1 * currentSort.direction;
-    if (valA > valB) return 1 * currentSort.direction;
-    return 0;
-  });
-
-  displayLeaderboard(sorted, allMatches);
-
-  // Mise à jour des classes visuelles
   document.querySelectorAll("th[data-sort]").forEach(th => {
-    th.classList.remove("sorted-asc", "sorted-desc");
+    th.style.cursor = "pointer";
+    th.addEventListener("click", () => {
+      const column = th.getAttribute("data-sort");
+      if (currentSort.column === column) {
+        currentSort.direction *= -1;
+      } else {
+        currentSort.column = column;
+        currentSort.direction = 1;
+      }
+      sortDataBy(column);
+    });
   });
-  const activeTh = document.querySelector(`th[data-sort="${column}"]`);
-  if (activeTh) {
-    activeTh.classList.add(currentSort.direction === 1 ? "sorted-asc" : "sorted-desc");
-  }
+
+  function displayMatchHistory(matches, profileIconsMap) {
+  const tbody = document.querySelector("#matchHistory tbody");
+  tbody.innerHTML = "";
+
+  matches.sort((a, b) => b.timestamp - a.timestamp); // Tri du plus récent au plus ancien
+
+  matches.forEach(match => {
+    const date = new Date(match.timestamp).toLocaleString("fr-FR");
+    const iconId = profileIconsMap[match.player] || '0';
+    const imgPlayerIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${iconId}.png`;
+
+    // Trouver les stats du joueur principal
+    const mainPlayerStats = match.players.find(p => p.name === match.player);
+
+    // Si absent (cas très rare), ignorer le match
+    if (!mainPlayerStats) return;
+
+    const { champion, kills, deaths, assists, role } = mainPlayerStats;
+    const kda = `${kills}/${deaths}/${assists}`;
+    const imgChampion = `https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${champion}.png`;
+    const roleIcon = getRoleIcon(role || "");
+
+    const durationMin = Math.floor(match.duration / 60);
+    const durationSec = match.duration % 60;
+
+    const resultBadge = match.win
+      ? `<span class="badge win">Victoire</span>`
+      : `<span class="badge lose">Défaite</span>`;
+
+    const tr = document.createElement("tr");
+    tr.className = match.win ? "win-row" : "lose-row";
+
+    tr.innerHTML = `
+      <td>${date}</td>
+      <td>
+        <img 
+          class="avatar" 
+          src="${imgPlayerIcon}" 
+          alt="avatar"
+          onerror="this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/29.png';"
+        >
+        ${match.player}
+      </td>
+      <td>
+        <div class="champion-cell">
+          <img class="champion-icon" src="${imgChampion}" alt="${champion}">
+          <span>${champion}</span>
+        </div>
+      </td>
+      <td>
+        <img 
+          class="role-icon" 
+          src="${roleIcon}" 
+          alt="${role}" 
+          title="${role || 'Inconnu'}"
+        />
+      </td>
+      <td>${resultBadge}</td>
+      <td>${kda}</td>
+      <td>${durationMin}m ${durationSec}s</td>
+    `;
+
+    tbody.appendChild(tr);
+  });
 }
 
 
-    // Ajout d’un écouteur sur chaque <th>
-    document.querySelectorAll("th[data-sort]").forEach(th => {
-      th.style.cursor = "pointer";
-      th.addEventListener("click", () => {
-        const column = th.getAttribute("data-sort");
-        if (currentSort.column === column) {
-          currentSort.direction *= -1; // toggle asc/desc
-        } else {
-          currentSort.column = column;
-          currentSort.direction = 1;
-        }
-        sortDataBy(column);
-      });
-    });
+  function sortDataBy(column) {
+    const sorted = [...data].sort((a, b) => {
+      if (column === "tier") {
+        const tierA = tierOrder[a.tier?.toUpperCase()] || 0;
+        const tierB = tierOrder[b.tier?.toUpperCase()] || 0;
+        if (tierA !== tierB) return (tierB - tierA) * currentSort.direction;
 
-    function toggleTheme() {
-        const body = document.body;
-        const isLight = body.classList.toggle('light-mode');
-        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        const rankA = rankOrder[a.rank?.toUpperCase()] || 0;
+        const rankB = rankOrder[b.rank?.toUpperCase()] || 0;
+        if (rankA !== rankB) return (rankB - rankA) * currentSort.direction;
+
+        return (b.lp - a.lp) * currentSort.direction;
       }
 
+      let valA = a[column] ?? "";
+      let valB = b[column] ?? "";
 
-    let profileIconsMap = {};
+      if (column === "name") {
+        valA = valA.toLowerCase();
+        valB = valB.toLowerCase();
+      } else if (column === "winrate") {
+        valA = parseFloat(valA);
+        valB = parseFloat(valB);
+      } else if (column === "lastGameTimestamp") {
+        valA = valA || 0;
+        valB = valB || 0;
+      }
 
-    const modal = document.getElementById("playerModal");
-    const closeModal = document.getElementById("closeModal");
-    const modalStats = document.getElementById("modalStats");
+      if (valA < valB) return -1 * currentSort.direction;
+      if (valA > valB) return 1 * currentSort.direction;
+      return 0;
+    });
 
-    // Fonction pour ouvrir le modal avec un joueur (popup)
-  
+    displayLeaderboard(sorted, allMatches);
 
+    // Mise à jour des classes visuelles
+    document.querySelectorAll("th[data-sort]").forEach(th => {
+      th.classList.remove("sorted-asc", "sorted-desc");
+    });
+    const activeTh = document.querySelector(`th[data-sort="${column}"]`);
+    if (activeTh) {
+      activeTh.classList.add(currentSort.direction === 1 ? "sorted-asc" : "sorted-desc");
+    }
+  }
 
-    // Fermer le popup via bouton
-    closeModal.addEventListener("click", () => {
-      modal.classList.remove("modal-zoom-in", "modal-slide-right", "modal-bounce", "modal-fade-up"); // nettoie les anim d'ouverture
+  function toggleTheme() {
+    const body = document.body;
+    const isLight = body.classList.toggle('light-mode');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+  }
+
+  // Gestion de la modale joueur
+  const modal = document.getElementById("playerModal");
+  const closeModal = document.getElementById("closeModal");
+
+  closeModal.addEventListener("click", () => {
+    modal.classList.remove("modal-zoom-in", "modal-slide-right", "modal-bounce", "modal-fade-up");
+    modal.classList.add("modal-fade-out");
+    modal.addEventListener("animationend", function handler() {
+      modal.classList.add("hidden");
+      modal.classList.remove("modal-fade-out");
+      modal.removeEventListener("animationend", handler);
+    });
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.remove("modal-zoom-in", "modal-slide-right", "modal-bounce", "modal-fade-up");
       modal.classList.add("modal-fade-out");
-
       modal.addEventListener("animationend", function handler() {
         modal.classList.add("hidden");
         modal.classList.remove("modal-fade-out");
         modal.removeEventListener("animationend", handler);
       });
-    });
-
-    // Fermer en cliquant en dehors de la box
-    window.addEventListener("click", (e) => {
-      if (e.target === modal) {
-        modal.classList.remove("modal-zoom-in", "modal-slide-right", "modal-bounce", "modal-fade-up"); // idem
-        modal.classList.add("modal-fade-out");
-
-        modal.addEventListener("animationend", function handler() {
-          modal.classList.add("hidden");
-          modal.classList.remove("modal-fade-out");
-          modal.removeEventListener("animationend", handler);
-        });
-      }
-    });
-
-    
-
-
-    
-
-
-      // Fonction pour obtenir l'icône de rôle  
-
-
-
-      //Fonction pour obtenir la streak
-      
-  </script>
+    }
+  });
+</script>
   
 </body>
 </html>

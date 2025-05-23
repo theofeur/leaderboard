@@ -4,8 +4,7 @@ import os
 import time
 
 MAX_REQUESTS_PER_SECOND = 19  # on prend 19 par précaution
-API_KEY = "RGAPI-61923cf2-b746-4891-84a2-fe7604a1aeaa"
-#os.getenv("RIOT_API_KEY")
+API_KEY = os.getenv("RIOT_API_KEY")
 headers = {
     "X-Riot-Token": API_KEY
 }
@@ -131,28 +130,42 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
         game_start = info.get("gameStartTimestamp")
         participants = info.get("participants", [])
 
+        main_player = next((p for p in participants if p["puuid"] == puuid), None)
+        if not main_player:
+            continue
+
+        team_id = main_player["teamId"]
+        team_kills = sum(p.get("kills", 0) for p in participants if p["teamId"] == team_id)
+
+        players_info = []
         for p in participants:
-            if p.get("puuid") == puuid:
-                team_id = p.get("teamId")
-                # Total kills de l'équipe du joueur
-                team_kills = sum(part.get("kills", 0) for part in participants if part.get("teamId") == team_id)
-                ranked_history.append({
-                    "match_id": match_id,
-                    "timestamp": game_start,
-                    "player": player_name,
-                    "champion": p.get("championName"),
-                    "win": p.get("win"),
-                    "kills": p.get("kills"),
-                    "deaths": p.get("deaths"),
-                    "assists": p.get("assists"),
-                    "cs": p.get("totalMinionsKilled", 0) + p.get("neutralMinionsKilled", 0),
-                    "gold": p.get("goldEarned"),
-                    "damage": p.get("totalDamageDealtToChampions"),
-                    "duration": info.get("gameDuration"),
-                    "role": p.get("teamPosition"),
-                    "team_kills": team_kills
-                })
-                break
+            players_info.append({
+                "name": f"{p['riotIdGameName']}#{p['riotIdTagline']}" if 'riotIdGameName' in p and 'riotIdTagline' in p else "Unknown",
+                "champion": p.get("championName"),
+                "kills": p.get("kills"),
+                "deaths": p.get("deaths"),
+                "assists": p.get("assists"),
+                "gold": p.get("goldEarned"),
+                "damage": p.get("totalDamageDealtToChampions"),
+                "role": p.get("teamPosition"),
+                "items": [p.get(f"item{i}") for i in range(7)],
+                "summoners": [p.get("summoner1Id"), p.get("summoner2Id")],
+                "runes": {
+                    "primary": p.get("perks", {}).get("styles", [{}])[0].get("style"),
+                    "keystone": p.get("perks", {}).get("styles", [{}])[0].get("selections", [{}])[0].get("perk"),
+                    "secondary": p.get("perks", {}).get("styles", [{}])[1].get("style")
+                }
+            })
+
+        ranked_history.append({
+            "match_id": match_id,
+            "timestamp": game_start,
+            "player": player_name,
+            "win": main_player.get("win"),
+            "team_kills": team_kills,
+            "players": players_info,
+            "duration": info.get("gameDuration"),
+        })
 
     return ranked_history
 
@@ -172,7 +185,6 @@ with open("list.json", "r") as f:
 
 players_stats = []
 global_history = []
-
 for riot_id in riot_ids:
     try:
         game_name, tag_line = riot_id.split("#")
