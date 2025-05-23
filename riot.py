@@ -4,8 +4,7 @@ import os
 import time
 
 MAX_REQUESTS_PER_SECOND = 19  # on prend 19 par précaution
-API_KEY = 'RGAPI-c130e717-33f6-4b59-bf99-8db5caf63bc6'
-#os.getenv("RIOT_API_KEY")
+API_KEY = os.getenv("RIOT_API_KEY")
 headers = {
     "X-Riot-Token": API_KEY
 }
