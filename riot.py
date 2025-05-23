@@ -4,7 +4,8 @@ import os
 import time
 
 MAX_REQUESTS_PER_SECOND = 19  # on prend 19 par précaution
-API_KEY = os.getenv("RIOT_API_KEY")
+API_KEY = 'RGAPI-c130e717-33f6-4b59-bf99-8db5caf63bc6'
+#os.getenv("RIOT_API_KEY")
 headers = {
     "X-Riot-Token": API_KEY
 }
@@ -138,6 +139,14 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
         team_kills = sum(p.get("kills", 0) for p in participants if p["teamId"] == team_id)
 
         players_info = []
+        main_player = next((p for p in participants if p["puuid"] == puuid), None)
+        if not main_player:
+            continue
+
+        team_id = main_player["teamId"]
+        team_kills = sum(p.get("kills", 0) for p in participants if p["teamId"] == team_id)
+
+        players_info = []
         for p in participants:
             players_info.append({
                 "name": f"{p['riotIdGameName']}#{p['riotIdTagline']}" if 'riotIdGameName' in p and 'riotIdTagline' in p else "Unknown",
@@ -146,6 +155,7 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
                 "deaths": p.get("deaths"),
                 "assists": p.get("assists"),
                 "gold": p.get("goldEarned"),
+                "cs": p.get("totalMinionsKilled", 0) + p.get("neutralMinionsKilled", 0),
                 "damage": p.get("totalDamageDealtToChampions"),
                 "role": p.get("teamPosition"),
                 "items": [p.get(f"item{i}") for i in range(7)],
