@@ -56,17 +56,6 @@
       "lastGameTimestamp": 1747862589874
     },
     {
-      "name": "twtv koen#ily",
-      "winrate": 60.294117647058826,
-      "wins": 82,
-      "losses": 54,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 0,
-      "profileIconId": 29,
-      "lastGameTimestamp": 1748285386635
-    },
-    {
       "name": "Waldox#XXX",
       "winrate": 61.320754716981135,
       "wins": 65,
@@ -76,6 +65,17 @@
       "lp": 45,
       "profileIconId": 5561,
       "lastGameTimestamp": 1748255246914
+    },
+    {
+      "name": "twtv koen#ily",
+      "winrate": 59.85401459854015,
+      "wins": 82,
+      "losses": 55,
+      "tier": "DIAMOND",
+      "rank": "I",
+      "lp": 75,
+      "profileIconId": 29,
+      "lastGameTimestamp": 1748303205348
     },
     {
       "name": "Rodrygoes#999",
@@ -123,14 +123,14 @@
     },
     {
       "name": "Plop c Izy#2525",
-      "winrate": 50.23474178403756,
-      "wins": 107,
+      "winrate": 50.69767441860465,
+      "wins": 109,
       "losses": 106,
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 38,
+      "lp": 76,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1748284406735
+      "lastGameTimestamp": 1748306272082
     },
     {
       "name": "\u9a6c\u514b\u6851\u5fb7#1457",
@@ -22957,6 +22957,306 @@
       "duration": 1153
     },
     {
+      "match_id": "EUW1_7413514629",
+      "timestamp": 1748303205348,
+      "player": "twtv koen#ily",
+      "win": false,
+      "team_kills": 14,
+      "players": [
+        {
+          "name": "QAAAAAAAAAAAAQQQ#UCM",
+          "champion": "Aatrox",
+          "kills": 2,
+          "deaths": 2,
+          "assists": 7,
+          "gold": 9567,
+          "cs": 206,
+          "damage": 20399,
+          "role": "TOP",
+          "items": [
+            2031,
+            3047,
+            3161,
+            6699,
+            3123,
+            1054,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Listener#RSB",
+          "champion": "Elise",
+          "kills": 11,
+          "deaths": 0,
+          "assists": 3,
+          "gold": 11556,
+          "cs": 173,
+          "damage": 13015,
+          "role": "JUNGLE",
+          "items": [
+            4645,
+            3175,
+            3041,
+            4646,
+            1052,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Viseu#EUW",
+          "champion": "Annie",
+          "kills": 4,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 9324,
+          "cs": 186,
+          "damage": 12824,
+          "role": "MIDDLE",
+          "items": [
+            1056,
+            3175,
+            3118,
+            4645,
+            1058,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "505#creep",
+          "champion": "Jinx",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 12,
+          "gold": 9612,
+          "cs": 166,
+          "damage": 17424,
+          "role": "BOTTOM",
+          "items": [
+            2031,
+            3031,
+            3172,
+            1018,
+            3032,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Fiza#6526",
+          "champion": "Lulu",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 17,
+          "gold": 7507,
+          "cs": 14,
+          "damage": 5174,
+          "role": "UTILITY",
+          "items": [
+            3869,
+            6621,
+            6617,
+            0,
+            0,
+            3170,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "DOFUS ADDICT#EUW",
+          "champion": "Jayce",
+          "kills": 1,
+          "deaths": 1,
+          "assists": 1,
+          "gold": 9362,
+          "cs": 242,
+          "damage": 11286,
+          "role": "TOP",
+          "items": [
+            3142,
+            3111,
+            2031,
+            3042,
+            3134,
+            0,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Asc3r#EUW",
+          "champion": "Volibear",
+          "kills": 6,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 10373,
+          "cs": 170,
+          "damage": 15462,
+          "role": "JUNGLE",
+          "items": [
+            6675,
+            4629,
+            3111,
+            3211,
+            3067,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "twtv koen#ily",
+          "champion": "Katarina",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 7264,
+          "cs": 158,
+          "damage": 5072,
+          "role": "MIDDLE",
+          "items": [
+            1082,
+            4645,
+            0,
+            3115,
+            1001,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Dumb Kitten#Sad",
+          "champion": "Senna",
+          "kills": 5,
+          "deaths": 5,
+          "assists": 4,
+          "gold": 9551,
+          "cs": 171,
+          "damage": 10114,
+          "role": "BOTTOM",
+          "items": [
+            3086,
+            1042,
+            3087,
+            3009,
+            3071,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "TRENsadin149#hien\u0103",
+          "champion": "Nautilus",
+          "kills": 1,
+          "deaths": 9,
+          "assists": 6,
+          "gold": 5671,
+          "cs": 31,
+          "damage": 8831,
+          "role": "UTILITY",
+          "items": [
+            3869,
+            2031,
+            3190,
+            1029,
+            3047,
+            3067,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1463
+    },
+    {
       "match_id": "EUW1_7413161406",
       "timestamp": 1748285386635,
       "player": "twtv koen#ily",
@@ -26255,306 +26555,6 @@
         }
       ],
       "duration": 1957
-    },
-    {
-      "match_id": "EUW1_7403364615",
-      "timestamp": 1747485886942,
-      "player": "twtv koen#ily",
-      "win": true,
-      "team_kills": 22,
-      "players": [
-        {
-          "name": "Pink Panther#PPPPP",
-          "champion": "Yone",
-          "kills": 0,
-          "deaths": 7,
-          "assists": 0,
-          "gold": 4958,
-          "cs": 112,
-          "damage": 6207,
-          "role": "TOP",
-          "items": [
-            1055,
-            3032,
-            3006,
-            0,
-            0,
-            0,
-            3363
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "The sky of fate#1023",
-          "champion": "Udyr",
-          "kills": 1,
-          "deaths": 2,
-          "assists": 0,
-          "gold": 6705,
-          "cs": 130,
-          "damage": 2256,
-          "role": "JUNGLE",
-          "items": [
-            3161,
-            3044,
-            2021,
-            2422,
-            0,
-            1042,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8230,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "catboy#FAKE",
-          "champion": "Vex",
-          "kills": 3,
-          "deaths": 7,
-          "assists": 0,
-          "gold": 6162,
-          "cs": 127,
-          "damage": 9432,
-          "role": "MIDDLE",
-          "items": [
-            1056,
-            6655,
-            3113,
-            1052,
-            1001,
-            1052,
-            3340
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "watch the throne#18224",
-          "champion": "Jhin",
-          "kills": 2,
-          "deaths": 1,
-          "assists": 0,
-          "gold": 7511,
-          "cs": 193,
-          "damage": 6250,
-          "role": "BOTTOM",
-          "items": [
-            1055,
-            3142,
-            3134,
-            3009,
-            3133,
-            0,
-            3363
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8021,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "L\u00e9cheurdeQ#KIFF",
-          "champion": "Zyra",
-          "kills": 0,
-          "deaths": 5,
-          "assists": 3,
-          "gold": 4487,
-          "cs": 25,
-          "damage": 5615,
-          "role": "UTILITY",
-          "items": [
-            6653,
-            0,
-            0,
-            3871,
-            0,
-            1001,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8229,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "top#042",
-          "champion": "Rumble",
-          "kills": 5,
-          "deaths": 0,
-          "assists": 3,
-          "gold": 8600,
-          "cs": 185,
-          "damage": 10725,
-          "role": "TOP",
-          "items": [
-            3047,
-            1056,
-            3152,
-            3147,
-            2508,
-            0,
-            3363
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8229,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "\u9648\u4f1f\u9706#OLVIA",
-          "champion": "Zed",
-          "kills": 9,
-          "deaths": 0,
-          "assists": 1,
-          "gold": 9853,
-          "cs": 183,
-          "damage": 7396,
-          "role": "JUNGLE",
-          "items": [
-            6699,
-            6692,
-            3134,
-            2021,
-            2422,
-            0,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "twtv koen#ily",
-          "champion": "Katarina",
-          "kills": 4,
-          "deaths": 2,
-          "assists": 5,
-          "gold": 9224,
-          "cs": 159,
-          "damage": 9678,
-          "role": "MIDDLE",
-          "items": [
-            3100,
-            3115,
-            3020,
-            1058,
-            1082,
-            0,
-            3364
-          ],
-          "summoners": [
-            4,
-            12
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "\uff30\uff53\uff59\uff43\uff48\uff4f \uff32\uff41\uff54#ill",
-          "champion": "Senna",
-          "kills": 1,
-          "deaths": 2,
-          "assists": 7,
-          "gold": 7655,
-          "cs": 148,
-          "damage": 3578,
-          "role": "BOTTOM",
-          "items": [
-            1055,
-            6672,
-            3009,
-            3035,
-            1036,
-            0,
-            3340
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8021,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "antonzaga#EUW",
-          "champion": "Pyke",
-          "kills": 3,
-          "deaths": 2,
-          "assists": 8,
-          "gold": 6198,
-          "cs": 19,
-          "damage": 5815,
-          "role": "UTILITY",
-          "items": [
-            3869,
-            3179,
-            3173,
-            1036,
-            0,
-            0,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 9923,
-            "secondary": 8400
-          }
-        }
-      ],
-      "duration": 1161
     },
     {
       "match_id": "EUW1_7408193528",
@@ -37057,6 +37057,606 @@
       "duration": 1798
     },
     {
+      "match_id": "EUW1_7413534732",
+      "timestamp": 1748306272082,
+      "player": "Plop c Izy#2525",
+      "win": true,
+      "team_kills": 37,
+      "players": [
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Riven",
+          "kills": 12,
+          "deaths": 3,
+          "assists": 3,
+          "gold": 12841,
+          "cs": 175,
+          "damage": 25240,
+          "role": "TOP",
+          "items": [
+            3142,
+            6610,
+            6694,
+            2003,
+            3171,
+            1036,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "wallaazize#75474",
+          "champion": "LeeSin",
+          "kills": 4,
+          "deaths": 1,
+          "assists": 9,
+          "gold": 9337,
+          "cs": 143,
+          "damage": 10621,
+          "role": "JUNGLE",
+          "items": [
+            6610,
+            6692,
+            2019,
+            0,
+            2422,
+            2055,
+            3340
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "SUPERSTARSLEEPY#DAUS",
+          "champion": "Vladimir",
+          "kills": 11,
+          "deaths": 0,
+          "assists": 4,
+          "gold": 10575,
+          "cs": 165,
+          "damage": 19149,
+          "role": "MIDDLE",
+          "items": [
+            1056,
+            3152,
+            3175,
+            3041,
+            3089,
+            1052,
+            3340
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Yeinwdan#7034",
+          "champion": "Smolder",
+          "kills": 1,
+          "deaths": 2,
+          "assists": 12,
+          "gold": 9609,
+          "cs": 190,
+          "damage": 16860,
+          "role": "BOTTOM",
+          "items": [
+            2031,
+            3161,
+            3508,
+            3171,
+            1055,
+            3086,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "SQ Wekache#EUW",
+          "champion": "Sylas",
+          "kills": 9,
+          "deaths": 6,
+          "assists": 4,
+          "gold": 8076,
+          "cs": 17,
+          "damage": 16336,
+          "role": "UTILITY",
+          "items": [
+            3871,
+            3152,
+            2055,
+            4646,
+            3020,
+            1052,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "SERGY\u30c4#zzz",
+          "champion": "Camille",
+          "kills": 2,
+          "deaths": 7,
+          "assists": 2,
+          "gold": 6760,
+          "cs": 132,
+          "damage": 11773,
+          "role": "TOP",
+          "items": [
+            1055,
+            3077,
+            3078,
+            2422,
+            1053,
+            2022,
+            3340
+          ],
+          "summoners": [
+            12,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "MyQinuass#EUW",
+          "champion": "Kayn",
+          "kills": 4,
+          "deaths": 9,
+          "assists": 1,
+          "gold": 7726,
+          "cs": 118,
+          "damage": 11124,
+          "role": "JUNGLE",
+          "items": [
+            1101,
+            6692,
+            3047,
+            3071,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "YoloSweg360#EUW",
+          "champion": "Orianna",
+          "kills": 0,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 5854,
+          "cs": 122,
+          "damage": 9969,
+          "role": "MIDDLE",
+          "items": [
+            3158,
+            6653,
+            3070,
+            0,
+            3916,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "CS ECLATE ROC#ROC",
+          "champion": "Kaisa",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 2,
+          "gold": 7818,
+          "cs": 146,
+          "damage": 11024,
+          "role": "BOTTOM",
+          "items": [
+            6672,
+            3006,
+            1052,
+            1055,
+            1037,
+            1043,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Ruoxldia#8838",
+          "champion": "Blitzcrank",
+          "kills": 3,
+          "deaths": 7,
+          "assists": 6,
+          "gold": 6307,
+          "cs": 18,
+          "damage": 6165,
+          "role": "UTILITY",
+          "items": [
+            3190,
+            3013,
+            3076,
+            0,
+            3867,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1292
+    },
+    {
+      "match_id": "EUW1_7413521662",
+      "timestamp": 1748304314898,
+      "player": "Plop c Izy#2525",
+      "win": true,
+      "team_kills": 49,
+      "players": [
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Riven",
+          "kills": 11,
+          "deaths": 7,
+          "assists": 3,
+          "gold": 12018,
+          "cs": 135,
+          "damage": 18769,
+          "role": "TOP",
+          "items": [
+            6610,
+            3158,
+            6694,
+            1055,
+            6697,
+            1029,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "mute all#EUW2",
+          "champion": "Evelynn",
+          "kills": 8,
+          "deaths": 5,
+          "assists": 7,
+          "gold": 10569,
+          "cs": 141,
+          "damage": 20685,
+          "role": "JUNGLE",
+          "items": [
+            3100,
+            3089,
+            2055,
+            3020,
+            1026,
+            4630,
+            3363
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "ZacInYoureFace#EUW",
+          "champion": "Naafiri",
+          "kills": 8,
+          "deaths": 7,
+          "assists": 8,
+          "gold": 11095,
+          "cs": 140,
+          "damage": 28712,
+          "role": "MIDDLE",
+          "items": [
+            1055,
+            6692,
+            6694,
+            3171,
+            3142,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "McFemboy#FROG",
+          "champion": "Jinx",
+          "kills": 16,
+          "deaths": 6,
+          "assists": 12,
+          "gold": 15136,
+          "cs": 184,
+          "damage": 41470,
+          "role": "BOTTOM",
+          "items": [
+            1055,
+            3172,
+            3032,
+            3031,
+            3085,
+            3035,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Zarade#EUW",
+          "champion": "Yuumi",
+          "kills": 6,
+          "deaths": 4,
+          "assists": 24,
+          "gold": 10891,
+          "cs": 14,
+          "damage": 11161,
+          "role": "UTILITY",
+          "items": [
+            3222,
+            3870,
+            2065,
+            6617,
+            3504,
+            0,
+            3364
+          ],
+          "summoners": [
+            3,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "DaNN BilzeriaNN#EUW",
+          "champion": "LeeSin",
+          "kills": 4,
+          "deaths": 11,
+          "assists": 10,
+          "gold": 9039,
+          "cs": 120,
+          "damage": 13208,
+          "role": "TOP",
+          "items": [
+            1028,
+            1033,
+            3068,
+            3013,
+            3075,
+            1029,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "BDS Lunastus#V13",
+          "champion": "Vi",
+          "kills": 5,
+          "deaths": 10,
+          "assists": 10,
+          "gold": 9676,
+          "cs": 127,
+          "damage": 13686,
+          "role": "JUNGLE",
+          "items": [
+            3158,
+            6610,
+            2021,
+            3071,
+            1102,
+            1037,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "virtuose#777",
+          "champion": "Smolder",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 12,
+          "gold": 11845,
+          "cs": 239,
+          "damage": 21075,
+          "role": "MIDDLE",
+          "items": [
+            1055,
+            3508,
+            3161,
+            3158,
+            3031,
+            1018,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "bizit#EUW",
+          "champion": "Ashe",
+          "kills": 8,
+          "deaths": 12,
+          "assists": 11,
+          "gold": 11874,
+          "cs": 142,
+          "damage": 22924,
+          "role": "BOTTOM",
+          "items": [
+            1055,
+            3032,
+            3031,
+            3046,
+            1036,
+            3006,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "SheLovesKenay#EUW",
+          "champion": "Nami",
+          "kills": 4,
+          "deaths": 9,
+          "assists": 17,
+          "gold": 8582,
+          "cs": 17,
+          "damage": 10315,
+          "role": "UTILITY",
+          "items": [
+            3158,
+            4005,
+            2065,
+            3871,
+            2055,
+            3113,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1539
+    },
+    {
       "match_id": "EUW1_7413139280",
       "timestamp": 1748284406735,
       "player": "Plop c Izy#2525",
@@ -42455,306 +43055,6 @@
         }
       ],
       "duration": 965
-    },
-    {
-      "match_id": "EUW1_7411391030",
-      "timestamp": 1748131805608,
-      "player": "Double fantasy#zzzz",
-      "win": false,
-      "team_kills": 37,
-      "players": [
-        {
-          "name": "Rip Sodom#3360",
-          "champion": "Trundle",
-          "kills": 10,
-          "deaths": 5,
-          "assists": 7,
-          "gold": 19404,
-          "cs": 285,
-          "damage": 32597,
-          "role": "TOP",
-          "items": [
-            3181,
-            3139,
-            3074,
-            3153,
-            6333,
-            3009,
-            3340
-          ],
-          "summoners": [
-            4,
-            21
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Napaj#neo",
-          "champion": "Zac",
-          "kills": 3,
-          "deaths": 4,
-          "assists": 10,
-          "gold": 13415,
-          "cs": 194,
-          "damage": 17253,
-          "role": "JUNGLE",
-          "items": [
-            3158,
-            3068,
-            3075,
-            3105,
-            1011,
-            3065,
-            3340
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8000
-          }
-        },
-        {
-          "name": "le jus de pomme#EUW",
-          "champion": "Lux",
-          "kills": 6,
-          "deaths": 14,
-          "assists": 10,
-          "gold": 13131,
-          "cs": 186,
-          "damage": 26745,
-          "role": "MIDDLE",
-          "items": [
-            2421,
-            1058,
-            0,
-            3118,
-            3089,
-            3020,
-            3363
-          ],
-          "summoners": [
-            4,
-            12
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8229,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "locolacolina12#EUW",
-          "champion": "Caitlyn",
-          "kills": 11,
-          "deaths": 9,
-          "assists": 9,
-          "gold": 17305,
-          "cs": 267,
-          "damage": 33038,
-          "role": "BOTTOM",
-          "items": [
-            1055,
-            3032,
-            3031,
-            3006,
-            3094,
-            1038,
-            3363
-          ],
-          "summoners": [
-            4,
-            21
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Hatori250#EUW",
-          "champion": "Lulu",
-          "kills": 2,
-          "deaths": 5,
-          "assists": 19,
-          "gold": 10537,
-          "cs": 24,
-          "damage": 9193,
-          "role": "UTILITY",
-          "items": [
-            2065,
-            3870,
-            3222,
-            0,
-            3158,
-            3504,
-            3364
-          ],
-          "summoners": [
-            7,
-            4
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8214,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Hakuji#Kayn",
-          "champion": "Sett",
-          "kills": 2,
-          "deaths": 9,
-          "assists": 5,
-          "gold": 16074,
-          "cs": 305,
-          "damage": 24814,
-          "role": "TOP",
-          "items": [
-            3153,
-            3174,
-            6631,
-            3071,
-            3181,
-            2021,
-            3363
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "FDF Spirit#EUW",
-          "champion": "Shaco",
-          "kills": 8,
-          "deaths": 8,
-          "assists": 8,
-          "gold": 13589,
-          "cs": 199,
-          "damage": 21433,
-          "role": "JUNGLE",
-          "items": [
-            3078,
-            6698,
-            6695,
-            3172,
-            2019,
-            2055,
-            3364
-          ],
-          "summoners": [
-            11,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 9923,
-            "secondary": 8000
-          }
-        },
-        {
-          "name": "Einard#euw22",
-          "champion": "Leblanc",
-          "kills": 18,
-          "deaths": 7,
-          "assists": 5,
-          "gold": 17585,
-          "cs": 225,
-          "damage": 47442,
-          "role": "MIDDLE",
-          "items": [
-            2421,
-            3089,
-            6655,
-            3171,
-            4645,
-            3135,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Double fantasy#zzzz",
-          "champion": "Lucian",
-          "kills": 6,
-          "deaths": 6,
-          "assists": 8,
-          "gold": 14076,
-          "cs": 271,
-          "damage": 27974,
-          "role": "BOTTOM",
-          "items": [
-            3031,
-            3508,
-            3158,
-            3033,
-            6675,
-            0,
-            3363
-          ],
-          "summoners": [
-            4,
-            21
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8005,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Only Flip#LMAO",
-          "champion": "Braum",
-          "kills": 3,
-          "deaths": 2,
-          "assists": 18,
-          "gold": 10258,
-          "cs": 21,
-          "damage": 12041,
-          "role": "UTILITY",
-          "items": [
-            3190,
-            3869,
-            3111,
-            3075,
-            3110,
-            1006,
-            3364
-          ],
-          "summoners": [
-            3,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8465,
-            "secondary": 8000
-          }
-        }
-      ],
-      "duration": 2100
     }
   ]
 }
