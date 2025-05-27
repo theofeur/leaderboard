@@ -1266,5 +1266,13 @@ body.light-mode .player-history-table th {
   padding-right: 7px;
 }
 
+/* Cibler uniquement les objectifs dans la colonne rouge */
+.red-side .team-objectives {
+  flex-direction: row-reverse; /* inverse l’ordre des objectifs */
+}
 
+/* Miroiter uniquement les icônes pour qu’elles soient visuellement normales */
+.red-side .team-objectives .objective-icon {
+  transform: scaleX(-1);
+}
 
