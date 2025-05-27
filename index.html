@@ -57,6 +57,7 @@
           <th>Résultat</th>
           <th>KDA</th>
           <th>Durée</th>
+          <th></th>
         </tr>
       </thead>
       <tbody></tbody>
@@ -77,7 +78,7 @@
   import { getStreakValue } from './streak.js';
   import { getRoleIcon } from './roleIcon.js';
   import { getKdaClass } from './kdaClass.js';
-  import { timeSince, switchTab, displayLeaderboard, waitForImagesToLoad } from './utils.js';
+  import { timeSince, switchTab, displayLeaderboard, waitForImagesToLoad, getItemIconUrl, getSummonerIconUrl, getRuneIconUrl, generateTeamObjectivesHTML } from './utils.js';
 
   window.toggleTheme = toggleTheme;
 
@@ -155,15 +156,12 @@
     const iconId = profileIconsMap[match.player] || '0';
     const imgPlayerIcon = `https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/${iconId}.png`;
 
-    // Trouver les stats du joueur principal
     const mainPlayerStats = match.players.find(p => p.name === match.player);
-
-    // Si absent (cas très rare), ignorer le match
     if (!mainPlayerStats) return;
 
     const { champion, kills, deaths, assists, role } = mainPlayerStats;
     const kda = `${kills}/${deaths}/${assists}`;
-    const imgChampion = `https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${champion}.png`;
+    const imgChampion = `https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/${champion}.png`;
     const roleIcon = getRoleIcon(role || "");
 
     const durationMin = Math.floor(match.duration / 60);
@@ -174,12 +172,13 @@
       : `<span class="badge lose">Défaite</span>`;
 
     const tr = document.createElement("tr");
-    tr.className = match.win ? "win-row" : "lose-row";
+    tr.className = match.win ? "win-row match-row" : "lose-row match-row";
+    tr.style.cursor = "pointer";
 
     tr.innerHTML = `
       <td>${date}</td>
       <td>
-        <img 
+        <img  
           class="avatar" 
           src="${imgPlayerIcon}" 
           alt="avatar"
@@ -204,10 +203,211 @@
       <td>${resultBadge}</td>
       <td>${kda}</td>
       <td>${durationMin}m ${durationSec}s</td>
+      <td class="toggle-icon-cell">
+        <span class="toggle-icon">▼</span>
+      </td>
     `;
 
+    const detailRow = document.createElement("tr");
+    detailRow.style.display = "none";  // cacher la ligne détail au départ
+    detailRow.className = "detail-row";
+
+    detailRow.innerHTML = `
+  <td colspan="8">
+    ${generateMatchDetailsHTML(match)}
+  </td>
+`;
+
+
+    const toggleIcon = tr.querySelector(".toggle-icon");
+    const detailContainer = detailRow.querySelector(".match-details-container");
+
+    tr.addEventListener("click", () => {
+  const isOpen = detailContainer.classList.contains("open");
+  if (isOpen) {
+    // Fermeture : lance l'animation puis cache la ligne après
+    detailContainer.classList.remove("open");
+    toggleIcon.style.transform = "rotate(0deg)";
+
+    // À la fin de la transition, cacher la ligne
+    const onTransitionEnd = (event) => {
+      if (event.propertyName === "max-height") {
+        detailRow.style.display = "none";
+        detailContainer.removeEventListener("transitionend", onTransitionEnd);
+      }
+    };
+    detailContainer.addEventListener("transitionend", onTransitionEnd);
+  } else {
+    // Ouverture : afficher la ligne avant l'animation
+    detailRow.style.display = "table-row";
+
+    // Forcer un reflow pour assurer la prise en compte du display avant l'animation
+    detailContainer.offsetHeight; 
+
+    detailContainer.classList.add("open");
+    toggleIcon.style.transform = "rotate(180deg)";
+  }
+});
+
     tbody.appendChild(tr);
+    tbody.appendChild(detailRow);
   });
+}
+
+
+function generateMatchDetailsHTML(match) {
+  const EMPTY_ITEM_ICON_URL = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/gp_ui_placeholder.png";
+  const players = match.players;
+
+  const blueSide = players.slice(0, 5);
+  const redSide = players.slice(5, 10);
+
+  const mainPlayerName = match.player;
+  const isMainPlayerBlue = blueSide.some(p => p.name === mainPlayerName);
+
+  const blueTeamWon = isMainPlayerBlue ? match.win : !match.win;
+  const redTeamWon = !blueTeamWon;
+
+  const maxDamage = Math.max(...players.map(p => p.damage));
+
+  function generatePlayerRow(p, isRedSide = false) {
+    const championIcon = `https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/${p.champion}.png`;
+    const kda = `${p.kills}/${p.deaths}/${p.assists}`;
+    const kdaRatio = p.deaths === 0 ? (p.kills + p.assists) : ((p.kills + p.assists) / p.deaths);
+    const kdaClass = getKdaClass(kdaRatio);
+    const sortedItems = p.items.slice(0, 6).sort((a, b) => (a === 0) - (b === 0));
+    const itemIcons = sortedItems.map(id => {
+      const src = id !== 0 ? getItemIconUrl(id) : EMPTY_ITEM_ICON_URL;
+      const alt = id !== 0 ? `Item ${id}` : "";
+      return `<img src="${src}" class="item-icon" alt="${alt}">`;
+    }).join('');
+
+    const trinketId = p.items[6];
+    const trinketIcon = trinketId && trinketId !== 0
+      ? `<img src="${getItemIconUrl(trinketId)}" class="item-icon" alt="Trinket">`
+      : `<img src="${EMPTY_ITEM_ICON_URL}" class="item-icon" alt="">`;
+
+    const playerRowClass = isRedSide ? "player-row red-side" : "player-row";
+    const damagePercent = Math.round((p.damage / maxDamage) * 100);
+    const damageHTML = `
+      <div class="damage-bar-container">
+        <div class="damage-bar-bg">
+          <div class="damage-bar-fill" style="width: ${damagePercent}%"></div>
+          <div class="damage-text">${p.damage.toLocaleString("fr-FR")}</div>
+        </div>
+      </div>
+    `;
+    const cs = p.cs;
+    const csPerMin = (cs / (match.duration / 60)).toFixed(1);
+    const csHTML = `
+      <div class="cs-container">
+        <div class="cs-total">${cs}</div>
+        <div class="cs-per-min">(${csPerMin})</div>
+      </div>
+    `;
+    const visionHTML = `
+      <div class="vision-score">
+        ${p.visionScore ?? 0}
+      </div>
+    `;
+    const championBlock = `
+        <div class="champion-wrapper">
+          <img class="champion-icon" src="${championIcon}" alt="${p.champion}" title="${p.champion}">
+          <div class="champion-extras">
+            <div class="champion-spell-wrapper">
+              <img src="${getSummonerIconUrl(p.summoners[0])}" alt="Spell 1">
+              <img src="${getSummonerIconUrl(p.summoners[1])}" alt="Spell 2">
+            </div>
+            <div class="champion-rune-wrapper">
+              <img src="${getRuneIconUrl(p.runes.keystone)}" class="keystone-rune" alt="Keystone">
+              <img src="${getRuneIconUrl(p.runes.secondary)}" class="secondary-rune" alt="Secondary Rune">
+            </div>
+          </div>
+        </div>
+      `;
+
+    return `
+      <div class="${playerRowClass}">
+        ${isRedSide
+          ? `<div class="items-container">${itemIcons}${trinketIcon}</div>
+             ${championBlock}
+             <div class="player-name" title="${p.name}">${p.name}</div>
+             <div class="kda">
+              ${kda}
+              <div class="kda-value ${kdaClass}">${kdaRatio.toFixed(2)}</div>
+            </div>
+             ${damageHTML}
+             ${csHTML}
+             ${visionHTML}`
+          : `${championBlock}
+             <div class="player-name" title="${p.name}">${p.name}</div>
+             <div class="kda">
+              ${kda}
+              <div class="kda-value ${kdaClass}">${kdaRatio.toFixed(2)}</div>
+            </div>
+             <div class="items-container">${itemIcons}${trinketIcon}</div>
+             ${damageHTML}
+             ${csHTML}
+             ${visionHTML}`
+        }
+      </div>
+    `;
+  }
+
+  function generateHeaderHTML(isRedSide, won) {
+    const title = won ? "Victoire" : "Défaite";
+    return `
+      <div class="match-history-header-wrapper ${isRedSide ? 'red-side' : 'blue-side'}">
+        <div class="match-history-header-row">
+          ${isRedSide
+            ? `
+              <div class="match-history-header-item">(équipe rouge) ${title}</div>
+              <div class="match-history-header-item">KDA</div>
+              <div class="match-history-header-item">Inventaire</div>
+              <div class="match-history-header-item">Dégâts</div>
+              <div class="match-history-header-item">
+                <img src="assets/MINION.png" alt="CS" title="CS" class="header-icon" />
+              </div>
+              <div class="match-history-header-item">
+                <img src="assets/Vision.png" alt="Vision score" title="Vision score" class="header-icon" />
+              </div>`
+            : `<div class="match-history-header-item">${title} (équipe bleue)</div>
+              <div class="match-history-header-item">KDA</div>
+              <div class="match-history-header-item">Inventaire</div>
+              <div class="match-history-header-item">Dégâts</div>
+              <div class="match-history-header-item">
+                <img src="assets/MINION.png" alt="CS" title="CS" class="header-icon" />
+              </div>
+              <div class="match-history-header-item">
+                <img src="assets/Vision.png" alt="Vision score" title="Vision score" class="header-icon" />
+              </div>`
+          }
+        </div>
+      </div>
+    `;
+  }
+
+  const blueTeamClass = blueTeamWon ? 'victory' : 'defeat';
+  const redTeamClass = redTeamWon ? 'victory' : 'defeat';
+  const blueObjectiveColor = blueTeamWon ? 'blue' : 'red';
+  const redObjectiveColor = redTeamWon ? 'blue' : 'red';
+
+  return `
+      <div class="match-history-details">
+        <div class="match-details-container">
+          <div class="team-column blue-side ${blueTeamClass}">
+            ${generateHeaderHTML(false, blueTeamWon)}
+            ${blueSide.map(p => generatePlayerRow(p, false)).join('')}
+            ${generateTeamObjectivesHTML(match.objectives.blue, blueObjectiveColor)}
+          </div>
+          <div class="team-column red-side ${redTeamClass}">
+            ${generateHeaderHTML(true, redTeamWon)}
+            ${redSide.map(p => generatePlayerRow(p, true)).join('')}
+            ${generateTeamObjectivesHTML(match.objectives.red, redObjectiveColor)}
+          </div>
+        </div>
+      </div>
+    `;
 }
 
 

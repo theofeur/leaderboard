@@ -241,4 +241,93 @@ function switchTab(tabId) {
         });
       }
 
-export { timeSince, switchTab, displayLeaderboard, waitForImagesToLoad };
+      function getSummonerIconUrl(spellId) {
+        const summonerSpellMap = {
+          1: "SummonerBoost",
+          3: "SummonerExhaust",
+          4: "SummonerFlash",
+          6: "SummonerHaste",
+          7: "SummonerHeal",
+          11: "SummonerSmite",
+          12: "SummonerTeleport",
+          13: "SummonerMana",
+          14: "SummonerDot",
+          21: "SummonerBarrier",
+          32: "SummonerSnowball",
+          39: "SummonerSnowURFSnowball_Mark"
+        };
+      
+        const spellName = summonerSpellMap[spellId];
+        if (!spellName) return null;
+      
+        return `https://ddragon.leagueoflegends.com/cdn/15.1.1/img/spell/${spellName}.png`;
+      }
+
+      function getRuneIconUrl(runeId) {
+        const runeIconMap = {
+          // Precision
+          8000: "perk-images/Styles/7201_Precision.png",
+          8005: "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png",
+          8008: "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
+          8021: "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png",
+          8010: "perk-images/Styles/Precision/Conqueror/Conqueror.png",
+      
+          // Domination
+          8100: "perk-images/Styles/7200_Domination.png",
+          8112: "perk-images/Styles/Domination/Electrocute/Electrocute.png",
+          8124: "perk-images/Styles/Domination/Predator/Predator.png",
+          8128: "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+          9923: "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png",
+      
+          // Sorcery
+          8200: "perk-images/Styles/7202_Sorcery.png",
+          8214: "perk-images/Styles/Sorcery/SummonAery/SummonAery.png",
+          8229: "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png",
+          8230: "perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png",
+      
+          // Resolve
+          8400: "perk-images/Styles/7204_Resolve.png",
+          8437: "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
+          8439: "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+          8465: "perk-images/Styles/Resolve/Guardian/Guardian.png",
+      
+          // Inspiration
+          8300: "perk-images/Styles/7203_Whimsy.png",
+          8351: "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png",
+          8360: "perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png",
+          8369: "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png",
+        };
+      
+        const path = runeIconMap[runeId];
+        if (!path) return null;
+      
+        return `https://ddragon.leagueoflegends.com/cdn/img/${path}`;
+      }
+
+      function getItemIconUrl(itemId) {
+        if (itemId === 0) return ""; // Aucun item
+        return `https://ddragon.leagueoflegends.com/cdn/15.1.1/img/item/${itemId}.png`;
+      }
+
+      
+      function generateTeamObjectivesHTML(obj, color) {
+        const icon = (src, label, count) => `
+          <div class="objective-item" title="${label}">
+            <img src="${src}" alt="${label}" class="objective-icon">
+            <span>${count}</span>
+          </div>
+        `;
+      
+        return `
+          <div class="team-objectives">
+            ${icon(`assets/objectives/grub-${color}.png`, 'Grubs tués', obj.grubs)}
+            ${icon(`assets/objectives/dragon-${color}.png`, 'Dragons tués', obj.dragons)}
+            ${icon(`assets/objectives/tower-${color}.png`, 'Tourelles détruites', obj.towers)}
+            ${icon(`assets/objectives/herald-${color}.png`, 'Herald tué', obj.heralds)}
+            ${icon(`assets/objectives/atakhan-${color}.png`, 'Atakhan tué', obj.atakhans)}
+            ${icon(`assets/objectives/baron-${color}.png`, 'Barons tués', obj.barons)}
+          </div>
+        `;
+      }
+
+export { timeSince, switchTab, displayLeaderboard, waitForImagesToLoad, getSummonerIconUrl ,getRuneIconUrl, getItemIconUrl, generateTeamObjectivesHTML};

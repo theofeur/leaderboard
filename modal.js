@@ -1,7 +1,7 @@
 import { getStreakValue } from './streak.js';
 import { getRoleIcon } from './roleIcon.js';
 import { getKdaClass } from './kdaClass.js';
-import { timeSince } from './utils.js';
+import { timeSince, getRuneIconUrl, getSummonerIconUrl, getItemIconUrl } from './utils.js';
 
 function showPlayerModal(player,allMatches) {
     const playerMatches = [];
@@ -294,7 +294,7 @@ function showPlayerModal(player,allMatches) {
 
       statsContainer.innerHTML += `
         <div class="champion-row">
-          <img src="https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${champion}.png" class="champion-icon" alt="${champion}">
+          <img src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/${champion}.png" class="champion-icon" alt="${champion}">
           <div class="champion-info">
             <div><strong>${champion}</strong> (${data.games} game${data.games > 1 ? 's' : ''})</div>
             <div>Winrate: ${winrate}% (${data.wins}W ${losses}L)</div>
@@ -310,13 +310,15 @@ function showPlayerModal(player,allMatches) {
 
     // === Historique des matchs ===
     const tbody = modalStats.querySelector("#playerHistoryBody");
+    const EMPTY_ITEM_ICON_URL = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/gp_ui_placeholder.png";
+
     if (playerMatches.length > 0) {
       playerMatches
         .sort((a, b) => b.timestamp - a.timestamp)
         .forEach(match => {
           const row = document.createElement("tr");
           row.className = match.win ? "win-row" : "lose-row";
-
+    
           const date = timeSince(match.timestamp);
           const duration = match.duration || 1;
           const csPerMin = ((match.cs || 0) / duration * 60).toFixed(1);
@@ -329,17 +331,46 @@ function showPlayerModal(player,allMatches) {
           const resultBadge = match.win
             ? `<span class="badge win">Victoire</span>`
             : `<span class="badge lose">Défaite</span>`;
+    
+          // Génération des 6 slots d'items (avec image grise si 0)
+          const sortedItems = match.items
+          .slice(0, 6)
+          .sort((a, b) => (a === 0) - (b === 0)); // Les 0 à la fin
+        
+        const itemIcons = sortedItems
+          .map(id => {
+            const src = id !== 0 ? getItemIconUrl(id) : EMPTY_ITEM_ICON_URL;
+            const alt = id !== 0 ? `Item ${id}` : "";
+            return `<img src="${src}" class="item-icon" alt="${alt}">`;
+          })
+          .join('');
 
+        const trinketId = match.items[6];
+        const trinketIcon = trinketId !== 0
+          ? `<img src="${getItemIconUrl(trinketId)}" class="item-icon trinket-icon" alt="Trinket ${trinketId}">`
+          : `<img src="${EMPTY_ITEM_ICON_URL}" class="item-icon trinket-icon" alt="">`;
+    
           row.innerHTML = `
             <td>
               <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span>
+                <div style="display: flex; align-items: center;">
                   <img 
-                    src="https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/${match.champion}.png" 
+                    src="https://ddragon.leagueoflegends.com/cdn/15.1.1/img/champion/${match.champion}.png" 
                     class="champion-icon" 
                     alt="${match.champion}">
-                  ${match.champion}
-                </span>
+                  
+                  <div class="champion-spell-wrapper">
+                    <img src="${getSummonerIconUrl(match.summoners[0])}" alt="Spell 1">
+                    <img src="${getSummonerIconUrl(match.summoners[1])}" alt="Spell 2">
+                  </div>
+          
+                  <div class="champion-rune-wrapper">
+                    <img src="${getRuneIconUrl(match.runes.keystone)}" class="keystone-rune" alt="Keystone">
+                    <img src="${getRuneIconUrl(match.runes.secondary)}" class="secondary-rune" alt="Secondary Rune">
+                  </div>
+          
+                  <div class="item-list">${itemIcons}${trinketIcon}</div>
+                </div>
                 ${excellentBadge}
               </div>
             </td>
@@ -356,6 +387,8 @@ function showPlayerModal(player,allMatches) {
       tbody.innerHTML = `<tr><td colspan="7">Aucune partie récente.</td></tr>`;
     }
     modal.classList.remove("hidden");
+    modal.classList.remove("modal-zoom-in", "modal-slide-right", "modal-bounce", "modal-fade-out");
+    modal.classList.add("modal-fade-up");
     
         // Ajout de la fermeture via la croix native HTML
         const closeModalBtn = document.getElementById("closeModal");

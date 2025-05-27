@@ -138,14 +138,6 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
         team_kills = sum(p.get("kills", 0) for p in participants if p["teamId"] == team_id)
 
         players_info = []
-        main_player = next((p for p in participants if p["puuid"] == puuid), None)
-        if not main_player:
-            continue
-
-        team_id = main_player["teamId"]
-        team_kills = sum(p.get("kills", 0) for p in participants if p["teamId"] == team_id)
-
-        players_info = []
         for p in participants:
             players_info.append({
                 "name": f"{p['riotIdGameName']}#{p['riotIdTagline']}" if 'riotIdGameName' in p and 'riotIdTagline' in p else "Unknown",
@@ -157,6 +149,7 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
                 "cs": p.get("totalMinionsKilled", 0) + p.get("neutralMinionsKilled", 0),
                 "damage": p.get("totalDamageDealtToChampions"),
                 "role": p.get("teamPosition"),
+                "visionScore": p.get("visionScore", 0),
                 "items": [p.get(f"item{i}") for i in range(7)],
                 "summoners": [p.get("summoner1Id"), p.get("summoner2Id")],
                 "runes": {
@@ -166,6 +159,27 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
                 }
             })
 
+        # Récupération des objectifs par équipe
+        teams = match_data.get("info", {}).get("teams", [])
+        objectives = {"blue": {}, "red": {}}
+
+        for team in teams:
+            team_key = "blue" if team["teamId"] == 100 else "red"
+            team_obj = team.get("objectives", {})
+            team_feats = team.get("feats", {})
+
+            objectives[team_key] = {
+                "towers": team_obj.get("tower", {}).get("kills", 0),
+                "dragons": team_obj.get("dragon", {}).get("kills", 0),
+                "barons": team_obj.get("baron", {}).get("kills", 0),
+                "heralds": team_obj.get("riftHerald", {}).get("kills", 0),
+                "grubs": team_obj.get("horde", {}).get("kills", 0),
+                "atakhans": team_obj.get("atakhan", {}).get("kills", 0),
+                "firstBlood": team_feats.get("FIRST_BLOOD", {}).get("featState", 0),
+                "firstTurret": team_feats.get("FIRST_TURRET", {}).get("featState", 0),
+                "epicMonsterKill": team_feats.get("EPIC_MONSTER_KILL", {}).get("featState", 0)
+            }
+
         ranked_history.append({
             "match_id": match_id,
             "timestamp": game_start,
@@ -174,6 +188,7 @@ def get_ranked_solo_match_history(puuid, player_name, platform_routing="europe",
             "team_kills": team_kills,
             "players": players_info,
             "duration": info.get("gameDuration"),
+            "objectives": objectives
         })
 
     return ranked_history
