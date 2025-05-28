@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "\u6d66\u539f \u559c\u52a9#BKAI",
-      "winrate": 57.08502024291498,
-      "wins": 141,
+      "winrate": 57.25806451612903,
+      "wins": 142,
       "losses": 106,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 660,
+      "lp": 680,
       "profileIconId": 3494,
-      "lastGameTimestamp": 1748379969677
+      "lastGameTimestamp": 1748446609143
     },
     {
       "name": "Depression#LIFE",
@@ -14514,6 +14514,340 @@
           "atakhans": 1,
           "firstBlood": 3,
           "firstTurret": 1,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7414897333",
+      "timestamp": 1748446609143,
+      "player": "\u6d66\u539f \u559c\u52a9#BKAI",
+      "win": true,
+      "team_kills": 20,
+      "players": [
+        {
+          "name": "Mundo#PIGGY",
+          "champion": "DrMundo",
+          "kills": 2,
+          "deaths": 1,
+          "assists": 0,
+          "gold": 7051,
+          "cs": 163,
+          "damage": 9585,
+          "role": "TOP",
+          "visionScore": 8,
+          "items": [
+            1054,
+            3083,
+            3009,
+            1011,
+            1011,
+            0,
+            3340
+          ],
+          "summoners": [
+            6,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Feels real again#JGGAP",
+          "champion": "Naafiri",
+          "kills": 13,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 9065,
+          "cs": 80,
+          "damage": 17311,
+          "role": "JUNGLE",
+          "visionScore": 7,
+          "items": [
+            1101,
+            6697,
+            3158,
+            6701,
+            3035,
+            2022,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Eternal Grey#cloud",
+          "champion": "Sylas",
+          "kills": 4,
+          "deaths": 2,
+          "assists": 6,
+          "gold": 6338,
+          "cs": 102,
+          "damage": 9422,
+          "role": "MIDDLE",
+          "visionScore": 7,
+          "items": [
+            3152,
+            1056,
+            1082,
+            3158,
+            3147,
+            0,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "RabarbarPL1#EUW",
+          "champion": "Varus",
+          "kills": 1,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 5569,
+          "cs": 117,
+          "damage": 8589,
+          "role": "BOTTOM",
+          "visionScore": 9,
+          "items": [
+            3142,
+            1055,
+            1037,
+            1036,
+            2422,
+            1036,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "\u6d66\u539f \u559c\u52a9#BKAI",
+          "champion": "Nami",
+          "kills": 0,
+          "deaths": 1,
+          "assists": 16,
+          "gold": 4700,
+          "cs": 14,
+          "damage": 5782,
+          "role": "UTILITY",
+          "visionScore": 25,
+          "items": [
+            3158,
+            2055,
+            3870,
+            4005,
+            1028,
+            2022,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Goruo#EUW",
+          "champion": "Zac",
+          "kills": 2,
+          "deaths": 4,
+          "assists": 2,
+          "gold": 5645,
+          "cs": 125,
+          "damage": 12130,
+          "role": "TOP",
+          "visionScore": 6,
+          "items": [
+            1054,
+            3047,
+            6664,
+            3076,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Spiderlair#EUW",
+          "champion": "Olaf",
+          "kills": 1,
+          "deaths": 5,
+          "assists": 0,
+          "gold": 5317,
+          "cs": 95,
+          "damage": 7316,
+          "role": "JUNGLE",
+          "visionScore": 6,
+          "items": [
+            6610,
+            2422,
+            2055,
+            1102,
+            3044,
+            1042,
+            3364
+          ],
+          "summoners": [
+            11,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Xico#CrZz",
+          "champion": "Ryze",
+          "kills": 1,
+          "deaths": 5,
+          "assists": 2,
+          "gold": 5092,
+          "cs": 110,
+          "damage": 10503,
+          "role": "MIDDLE",
+          "visionScore": 6,
+          "items": [
+            1056,
+            1052,
+            6657,
+            3070,
+            1001,
+            1027,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "roi des tacos#akha",
+          "champion": "MissFortune",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 0,
+          "gold": 5144,
+          "cs": 108,
+          "damage": 8363,
+          "role": "BOTTOM",
+          "visionScore": 4,
+          "items": [
+            1055,
+            3072,
+            3009,
+            0,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "IHEBIC#0000",
+          "champion": "Yuumi",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 4263,
+          "cs": 15,
+          "damage": 2850,
+          "role": "UTILITY",
+          "visionScore": 17,
+          "items": [
+            3866,
+            6617,
+            4642,
+            1052,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            3,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        }
+      ],
+      "duration": 913,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 0,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 1,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
           "epicMonsterKill": 1
         }
       }
