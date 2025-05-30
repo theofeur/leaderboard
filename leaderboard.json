@@ -57,14 +57,14 @@
     },
     {
       "name": "Waldox#XXX",
-      "winrate": 60.74766355140187,
+      "winrate": 60.18518518518518,
       "wins": 65,
-      "losses": 42,
+      "losses": 43,
       "tier": "DIAMOND",
       "rank": "I",
-      "lp": 26,
+      "lp": 7,
       "profileIconId": 5561,
-      "lastGameTimestamp": 1748431886522
+      "lastGameTimestamp": 1748597887574
     },
     {
       "name": "twtv koen#ily",
@@ -141,7 +141,7 @@
       "rank": "IV",
       "lp": 5,
       "profileIconId": 6860,
-      "lastGameTimestamp": 1748367757075
+      "lastGameTimestamp": null
     },
     {
       "name": "\u9a6c\u514b\u6851\u5fb7#1457",
@@ -12845,6 +12845,340 @@
           "firstBlood": 1001,
           "firstTurret": 1001,
           "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7416724849",
+      "timestamp": 1748597887574,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 21,
+      "players": [
+        {
+          "name": "MasterOwn#EUW",
+          "champion": "Chogath",
+          "kills": 6,
+          "deaths": 1,
+          "assists": 7,
+          "gold": 14115,
+          "cs": 261,
+          "damage": 21186,
+          "role": "TOP",
+          "visionScore": 15,
+          "items": [
+            3041,
+            3742,
+            3009,
+            1056,
+            4633,
+            2502,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Sidean#EUW",
+          "champion": "Naafiri",
+          "kills": 13,
+          "deaths": 2,
+          "assists": 4,
+          "gold": 14426,
+          "cs": 230,
+          "damage": 19874,
+          "role": "JUNGLE",
+          "visionScore": 20,
+          "items": [
+            2021,
+            3161,
+            3158,
+            6333,
+            3071,
+            3134,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Nayeshi#5271",
+          "champion": "Mel",
+          "kills": 8,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 12124,
+          "cs": 219,
+          "damage": 16162,
+          "role": "MIDDLE",
+          "visionScore": 29,
+          "items": [
+            1052,
+            6655,
+            3009,
+            4628,
+            3089,
+            1052,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "ApLyK57#EUW",
+          "champion": "MissFortune",
+          "kills": 10,
+          "deaths": 8,
+          "assists": 15,
+          "gold": 15564,
+          "cs": 208,
+          "damage": 34215,
+          "role": "BOTTOM",
+          "visionScore": 19,
+          "items": [
+            6676,
+            3142,
+            3036,
+            3009,
+            3031,
+            0,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "ToTikloT#EUW",
+          "champion": "Velkoz",
+          "kills": 8,
+          "deaths": 5,
+          "assists": 16,
+          "gold": 10768,
+          "cs": 45,
+          "damage": 24133,
+          "role": "UTILITY",
+          "visionScore": 70,
+          "items": [
+            3871,
+            6655,
+            2055,
+            4628,
+            3802,
+            3020,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "mariohans1#EUW",
+          "champion": "Gnar",
+          "kills": 2,
+          "deaths": 6,
+          "assists": 4,
+          "gold": 11336,
+          "cs": 235,
+          "damage": 19768,
+          "role": "TOP",
+          "visionScore": 15,
+          "items": [
+            3053,
+            3078,
+            3071,
+            3009,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Cracot#Pixel",
+          "champion": "Kayn",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 4,
+          "gold": 9865,
+          "cs": 164,
+          "damage": 13814,
+          "role": "JUNGLE",
+          "visionScore": 17,
+          "items": [
+            3142,
+            3133,
+            1036,
+            1036,
+            3171,
+            6697,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 10,
+          "deaths": 7,
+          "assists": 3,
+          "gold": 13870,
+          "cs": 199,
+          "damage": 26749,
+          "role": "MIDDLE",
+          "visionScore": 29,
+          "items": [
+            3157,
+            6655,
+            1058,
+            4646,
+            3175,
+            1058,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "AXR Destydy#EUW",
+          "champion": "Jinx",
+          "kills": 5,
+          "deaths": 13,
+          "assists": 6,
+          "gold": 10763,
+          "cs": 192,
+          "damage": 16934,
+          "role": "BOTTOM",
+          "visionScore": 10,
+          "items": [
+            3032,
+            3031,
+            3006,
+            1055,
+            3144,
+            1018,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Neko Nami#COIN",
+          "champion": "Nami",
+          "kills": 1,
+          "deaths": 11,
+          "assists": 13,
+          "gold": 7731,
+          "cs": 17,
+          "damage": 10404,
+          "role": "UTILITY",
+          "visionScore": 72,
+          "items": [
+            3870,
+            3158,
+            6617,
+            6620,
+            3067,
+            1004,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1716,
+      "objectives": {
+        "blue": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 1001
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 3
         }
       }
     },
