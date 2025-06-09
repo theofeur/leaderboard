@@ -112,14 +112,14 @@
     },
     {
       "name": "Double fantasy#zzzz",
-      "winrate": 49.438202247191015,
-      "wins": 44,
+      "winrate": 50.0,
+      "wins": 45,
       "losses": 45,
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 29,
+      "lp": 47,
       "profileIconId": 4108,
-      "lastGameTimestamp": 1749469600821
+      "lastGameTimestamp": 1749476047377
     },
     {
       "name": "Plop c Izy#2525",
@@ -40553,6 +40553,340 @@
           "heralds": 0,
           "grubs": 0,
           "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7426948008",
+      "timestamp": 1749476047377,
+      "player": "Double fantasy#zzzz",
+      "win": true,
+      "team_kills": 44,
+      "players": [
+        {
+          "name": "Kc Kalysma#EUW",
+          "champion": "Poppy",
+          "kills": 5,
+          "deaths": 9,
+          "assists": 9,
+          "gold": 10386,
+          "cs": 129,
+          "damage": 22817,
+          "role": "TOP",
+          "visionScore": 7,
+          "items": [
+            6610,
+            3070,
+            3047,
+            3075,
+            3143,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "PALENO#EUW",
+          "champion": "Kayn",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 2,
+          "gold": 9025,
+          "cs": 133,
+          "damage": 11075,
+          "role": "JUNGLE",
+          "visionScore": 9,
+          "items": [
+            3047,
+            3161,
+            6692,
+            2019,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "hippopotamuSSS#ken",
+          "champion": "Azir",
+          "kills": 4,
+          "deaths": 11,
+          "assists": 4,
+          "gold": 8357,
+          "cs": 140,
+          "damage": 18389,
+          "role": "MIDDLE",
+          "visionScore": 6,
+          "items": [
+            1052,
+            1029,
+            0,
+            6653,
+            3115,
+            3020,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "The Red Clad One#EUW",
+          "champion": "Jhin",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 2,
+          "gold": 8957,
+          "cs": 178,
+          "damage": 16035,
+          "role": "BOTTOM",
+          "visionScore": 13,
+          "items": [
+            1055,
+            6676,
+            3031,
+            3009,
+            1036,
+            1036,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Tom D\u00fcbel#EUW",
+          "champion": "Alistar",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 9,
+          "gold": 6872,
+          "cs": 18,
+          "damage": 9243,
+          "role": "UTILITY",
+          "visionScore": 41,
+          "items": [
+            2055,
+            3190,
+            3869,
+            3013,
+            3109,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Blood Lord#NJK",
+          "champion": "Yone",
+          "kills": 10,
+          "deaths": 5,
+          "assists": 8,
+          "gold": 14070,
+          "cs": 206,
+          "damage": 28311,
+          "role": "TOP",
+          "visionScore": 11,
+          "items": [
+            1055,
+            3031,
+            3153,
+            3172,
+            6673,
+            2019,
+            3364
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "\u4f60\u662f\u50bb\u74dc\u5417#talon",
+          "champion": "Talon",
+          "kills": 12,
+          "deaths": 5,
+          "assists": 10,
+          "gold": 13446,
+          "cs": 189,
+          "damage": 23832,
+          "role": "JUNGLE",
+          "visionScore": 11,
+          "items": [
+            3142,
+            6694,
+            3134,
+            0,
+            3158,
+            6701,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "WEDGIE Taker#EUW",
+          "champion": "Sylas",
+          "kills": 10,
+          "deaths": 2,
+          "assists": 9,
+          "gold": 13116,
+          "cs": 208,
+          "damage": 24920,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            3152,
+            3171,
+            3157,
+            1082,
+            4633,
+            3108,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "LobbyAdmin#1997",
+          "champion": "Lucian",
+          "kills": 11,
+          "deaths": 5,
+          "assists": 11,
+          "gold": 12628,
+          "cs": 143,
+          "damage": 30197,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            3508,
+            3171,
+            3031,
+            2031,
+            6675,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Double fantasy#zzzz",
+          "champion": "Janna",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 24,
+          "gold": 8107,
+          "cs": 14,
+          "damage": 7449,
+          "role": "UTILITY",
+          "visionScore": 62,
+          "items": [
+            3870,
+            6617,
+            6620,
+            3114,
+            3176,
+            2055,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1508,
+      "objectives": {
+        "blue": {
+          "towers": 0,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 10,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 1,
           "firstBlood": 3,
           "firstTurret": 1,
           "epicMonsterKill": 1
