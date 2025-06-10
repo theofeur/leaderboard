@@ -35,14 +35,14 @@
     },
     {
       "name": "Vegetation94#EUW",
-      "winrate": 52.84974093264249,
+      "winrate": 52.577319587628864,
       "wins": 102,
-      "losses": 91,
+      "losses": 92,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 171,
+      "lp": 153,
       "profileIconId": 23,
-      "lastGameTimestamp": 1749573090980
+      "lastGameTimestamp": 1749575982853
     },
     {
       "name": "Waldox#XXX",
@@ -24521,6 +24521,340 @@
           "heralds": 1,
           "grubs": 1,
           "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7428180726",
+      "timestamp": 1749575982853,
+      "player": "Vegetation94#EUW",
+      "win": false,
+      "team_kills": 8,
+      "players": [
+        {
+          "name": "gg bittemiv#EUW",
+          "champion": "Irelia",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 1,
+          "gold": 8025,
+          "cs": 180,
+          "damage": 17327,
+          "role": "TOP",
+          "visionScore": 8,
+          "items": [
+            1055,
+            3153,
+            3111,
+            3181,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Sylvester#DKK",
+          "champion": "Nidalee",
+          "kills": 2,
+          "deaths": 8,
+          "assists": 1,
+          "gold": 6051,
+          "cs": 102,
+          "damage": 6902,
+          "role": "JUNGLE",
+          "visionScore": 9,
+          "items": [
+            1101,
+            3100,
+            1001,
+            1082,
+            2421,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "OoS NoLanePls#EUW",
+          "champion": "Anivia",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 6672,
+          "cs": 156,
+          "damage": 5460,
+          "role": "MIDDLE",
+          "visionScore": 11,
+          "items": [
+            1056,
+            3070,
+            6657,
+            3108,
+            1001,
+            1052,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "fmjdm#EUWWW",
+          "champion": "Mel",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 2,
+          "gold": 6375,
+          "cs": 122,
+          "damage": 8727,
+          "role": "BOTTOM",
+          "visionScore": 6,
+          "items": [
+            1056,
+            3040,
+            3020,
+            2508,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Vegetation94#EUW",
+          "champion": "Nautilus",
+          "kills": 0,
+          "deaths": 8,
+          "assists": 5,
+          "gold": 4449,
+          "cs": 13,
+          "damage": 5499,
+          "role": "UTILITY",
+          "visionScore": 22,
+          "items": [
+            3190,
+            3869,
+            2055,
+            3111,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Chaein#0006",
+          "champion": "Sion",
+          "kills": 4,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 7868,
+          "cs": 150,
+          "damage": 9873,
+          "role": "TOP",
+          "visionScore": 11,
+          "items": [
+            1054,
+            2502,
+            3068,
+            1033,
+            1001,
+            0,
+            3364
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "south of heaven#KRiC",
+          "champion": "Naafiri",
+          "kills": 10,
+          "deaths": 0,
+          "assists": 8,
+          "gold": 9228,
+          "cs": 133,
+          "damage": 12115,
+          "role": "JUNGLE",
+          "visionScore": 13,
+          "items": [
+            3161,
+            6692,
+            3111,
+            1036,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Znipe#59327",
+          "champion": "Syndra",
+          "kills": 6,
+          "deaths": 0,
+          "assists": 6,
+          "gold": 8797,
+          "cs": 172,
+          "damage": 10240,
+          "role": "MIDDLE",
+          "visionScore": 4,
+          "items": [
+            1056,
+            6655,
+            3170,
+            4645,
+            0,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "STN H\u00e0rd#2115",
+          "champion": "Varus",
+          "kills": 6,
+          "deaths": 3,
+          "assists": 11,
+          "gold": 7744,
+          "cs": 124,
+          "damage": 18249,
+          "role": "BOTTOM",
+          "visionScore": 8,
+          "items": [
+            3124,
+            3006,
+            3153,
+            0,
+            0,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Niki \u51ef\u7279#kate",
+          "champion": "Thresh",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 20,
+          "gold": 5947,
+          "cs": 15,
+          "damage": 6588,
+          "role": "UTILITY",
+          "visionScore": 36,
+          "items": [
+            0,
+            3190,
+            3869,
+            3111,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1091,
+      "objectives": {
+        "blue": {
+          "towers": 1,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 0,
+          "atakhans": 0,
           "firstBlood": 3,
           "firstTurret": 1,
           "epicMonsterKill": 1
