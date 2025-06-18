@@ -1,17 +1,6 @@
 {
   "players": [
     {
-      "name": "Vegetation94#EUW",
-      "winrate": 55.6910569105691,
-      "wins": 137,
-      "losses": 109,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 611,
-      "profileIconId": 23,
-      "lastGameTimestamp": 1750241134643
-    },
-    {
       "name": "\u6d66\u539f \u559c\u52a9#BKAI",
       "winrate": 56.13382899628253,
       "wins": 151,
@@ -23,15 +12,26 @@
       "lastGameTimestamp": 1750190339213
     },
     {
+      "name": "Vegetation94#EUW",
+      "winrate": 55.465587044534416,
+      "wins": 137,
+      "losses": 110,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 592,
+      "profileIconId": 23,
+      "lastGameTimestamp": 1750242644003
+    },
+    {
       "name": "Girl feet addict#FEET",
-      "winrate": 52.993348115299334,
-      "wins": 239,
+      "winrate": 53.097345132743364,
+      "wins": 240,
       "losses": 212,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 536,
+      "lp": 556,
       "profileIconId": 6570,
-      "lastGameTimestamp": 1750241134643
+      "lastGameTimestamp": 1750242481513
     },
     {
       "name": "Neik#EUW02",
@@ -35550,6 +35550,340 @@
       }
     },
     {
+      "match_id": "EUW1_7435843960",
+      "timestamp": 1750242481513,
+      "player": "Girl feet addict#FEET",
+      "win": true,
+      "team_kills": 48,
+      "players": [
+        {
+          "name": "Dangerous Dork#Lick",
+          "champion": "Ambessa",
+          "kills": 6,
+          "deaths": 13,
+          "assists": 6,
+          "gold": 16276,
+          "cs": 299,
+          "damage": 31971,
+          "role": "TOP",
+          "visionScore": 30,
+          "items": [
+            6333,
+            6697,
+            6699,
+            3814,
+            3047,
+            3134,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Venkyu#EUW2",
+          "champion": "Nidalee",
+          "kills": 11,
+          "deaths": 10,
+          "assists": 13,
+          "gold": 16812,
+          "cs": 195,
+          "damage": 21383,
+          "role": "JUNGLE",
+          "visionScore": 50,
+          "items": [
+            3089,
+            3135,
+            3175,
+            4645,
+            1052,
+            3100,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "baby#doll",
+          "champion": "Annie",
+          "kills": 5,
+          "deaths": 7,
+          "assists": 18,
+          "gold": 12604,
+          "cs": 173,
+          "damage": 23970,
+          "role": "MIDDLE",
+          "visionScore": 44,
+          "items": [
+            3145,
+            2055,
+            3116,
+            3171,
+            8010,
+            3118,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "GGrubas#CWL",
+          "champion": "Jinx",
+          "kills": 11,
+          "deaths": 8,
+          "assists": 6,
+          "gold": 18578,
+          "cs": 295,
+          "damage": 33052,
+          "role": "BOTTOM",
+          "visionScore": 18,
+          "items": [
+            3046,
+            6673,
+            3032,
+            3172,
+            3031,
+            3072,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Pawe\u0142ekOffRole#EUW",
+          "champion": "Nautilus",
+          "kills": 3,
+          "deaths": 10,
+          "assists": 19,
+          "gold": 10260,
+          "cs": 23,
+          "damage": 17238,
+          "role": "UTILITY",
+          "visionScore": 93,
+          "items": [
+            3190,
+            3869,
+            3109,
+            3050,
+            1028,
+            3174,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "PatxiElPirata#TOP",
+          "champion": "Jayce",
+          "kills": 7,
+          "deaths": 10,
+          "assists": 19,
+          "gold": 14639,
+          "cs": 231,
+          "damage": 27782,
+          "role": "TOP",
+          "visionScore": 30,
+          "items": [
+            6692,
+            3042,
+            3814,
+            3155,
+            3111,
+            1037,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "WorldDestroyer#29 02",
+          "champion": "Viego",
+          "kills": 10,
+          "deaths": 9,
+          "assists": 18,
+          "gold": 16193,
+          "cs": 178,
+          "damage": 19312,
+          "role": "JUNGLE",
+          "visionScore": 39,
+          "items": [
+            3078,
+            6676,
+            2055,
+            6673,
+            3111,
+            3036,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "KazunaSan#GRAG",
+          "champion": "Gragas",
+          "kills": 10,
+          "deaths": 4,
+          "assists": 12,
+          "gold": 17301,
+          "cs": 273,
+          "damage": 33948,
+          "role": "MIDDLE",
+          "visionScore": 26,
+          "items": [
+            4646,
+            3152,
+            1058,
+            4645,
+            3020,
+            3102,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Girl feet addict#FEET",
+          "champion": "Zeri",
+          "kills": 18,
+          "deaths": 8,
+          "assists": 9,
+          "gold": 20515,
+          "cs": 296,
+          "damage": 34947,
+          "role": "BOTTOM",
+          "visionScore": 32,
+          "items": [
+            3072,
+            3006,
+            3032,
+            3085,
+            3031,
+            3036,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Ado fan#EUW",
+          "champion": "Bard",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 27,
+          "gold": 11424,
+          "cs": 16,
+          "damage": 17773,
+          "role": "UTILITY",
+          "visionScore": 114,
+          "items": [
+            3877,
+            2504,
+            0,
+            6653,
+            3009,
+            3742,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 2155,
+      "objectives": {
+        "blue": {
+          "towers": 5,
+          "dragons": 1,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 12,
+          "dragons": 4,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
       "match_id": "EUW1_7435830027",
       "timestamp": 1750241134643,
       "player": "Girl feet addict#FEET",
@@ -41892,340 +42226,6 @@
           "firstBlood": 3,
           "firstTurret": 1001,
           "epicMonsterKill": 1001
-        }
-      }
-    },
-    {
-      "match_id": "EUW1_7434438248",
-      "timestamp": 1750103972943,
-      "player": "Girl feet addict#FEET",
-      "win": true,
-      "team_kills": 39,
-      "players": [
-        {
-          "name": "Hodenkrebs#WCD",
-          "champion": "Yasuo",
-          "kills": 10,
-          "deaths": 7,
-          "assists": 3,
-          "gold": 18728,
-          "cs": 298,
-          "damage": 45119,
-          "role": "TOP",
-          "visionScore": 15,
-          "items": [
-            3036,
-            6672,
-            3172,
-            6673,
-            3031,
-            6333,
-            3363
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "fiske handleren#EUW",
-          "champion": "Lillia",
-          "kills": 7,
-          "deaths": 6,
-          "assists": 13,
-          "gold": 13524,
-          "cs": 210,
-          "damage": 41397,
-          "role": "JUNGLE",
-          "visionScore": 18,
-          "items": [
-            3157,
-            6653,
-            1082,
-            3170,
-            3147,
-            4633,
-            3364
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "TheD\u00d6NER#KEBAB",
-          "champion": "TwistedFate",
-          "kills": 7,
-          "deaths": 10,
-          "assists": 11,
-          "gold": 12374,
-          "cs": 175,
-          "damage": 29234,
-          "role": "MIDDLE",
-          "visionScore": 19,
-          "items": [
-            3094,
-            3152,
-            2420,
-            3100,
-            1082,
-            3158,
-            3363
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8360,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Sorizu#EUW",
-          "champion": "Xayah",
-          "kills": 12,
-          "deaths": 8,
-          "assists": 6,
-          "gold": 15356,
-          "cs": 272,
-          "damage": 36474,
-          "role": "BOTTOM",
-          "visionScore": 33,
-          "items": [
-            3033,
-            3006,
-            3032,
-            3031,
-            6675,
-            1038,
-            3363
-          ],
-          "summoners": [
-            4,
-            21
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "tiefengespannt#Drip",
-          "champion": "Alistar",
-          "kills": 0,
-          "deaths": 8,
-          "assists": 20,
-          "gold": 8649,
-          "cs": 30,
-          "damage": 9827,
-          "role": "UTILITY",
-          "visionScore": 93,
-          "items": [
-            3876,
-            3190,
-            3009,
-            3050,
-            0,
-            1031,
-            3364
-          ],
-          "summoners": [
-            4,
-            7
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8230,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "HaytemGP#EUGP",
-          "champion": "Gangplank",
-          "kills": 8,
-          "deaths": 6,
-          "assists": 14,
-          "gold": 19109,
-          "cs": 267,
-          "damage": 41577,
-          "role": "TOP",
-          "visionScore": 15,
-          "items": [
-            3078,
-            3161,
-            6676,
-            3031,
-            6673,
-            3047,
-            3364
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8369,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "Thicc Zac#EUW",
-          "champion": "Zac",
-          "kills": 6,
-          "deaths": 9,
-          "assists": 24,
-          "gold": 14041,
-          "cs": 163,
-          "damage": 31350,
-          "role": "JUNGLE",
-          "visionScore": 31,
-          "items": [
-            2502,
-            3109,
-            1082,
-            3065,
-            6653,
-            3158,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "DIFFERENC#LOL",
-          "champion": "Sylas",
-          "kills": 10,
-          "deaths": 7,
-          "assists": 13,
-          "gold": 14435,
-          "cs": 223,
-          "damage": 27126,
-          "role": "MIDDLE",
-          "visionScore": 15,
-          "items": [
-            3152,
-            3157,
-            3111,
-            4633,
-            3100,
-            0,
-            3363
-          ],
-          "summoners": [
-            4,
-            12
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Girl feet addict#FEET",
-          "champion": "Vayne",
-          "kills": 13,
-          "deaths": 4,
-          "assists": 5,
-          "gold": 17319,
-          "cs": 220,
-          "damage": 32752,
-          "role": "BOTTOM",
-          "visionScore": 9,
-          "items": [
-            3006,
-            3153,
-            3143,
-            3302,
-            3091,
-            3124,
-            3363
-          ],
-          "summoners": [
-            1,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Vegetation94#EUW",
-          "champion": "Bard",
-          "kills": 2,
-          "deaths": 10,
-          "assists": 20,
-          "gold": 9573,
-          "cs": 38,
-          "damage": 13983,
-          "role": "UTILITY",
-          "visionScore": 106,
-          "items": [
-            2055,
-            3876,
-            3222,
-            3067,
-            3742,
-            3013,
-            3364
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8465,
-            "secondary": 8100
-          }
-        }
-      ],
-      "duration": 1988,
-      "objectives": {
-        "blue": {
-          "towers": 7,
-          "dragons": 3,
-          "barons": 0,
-          "heralds": 1,
-          "grubs": 2,
-          "atakhans": 1,
-          "firstBlood": 3,
-          "firstTurret": 1,
-          "epicMonsterKill": 2
-        },
-        "red": {
-          "towers": 11,
-          "dragons": 1,
-          "barons": 1,
-          "heralds": 0,
-          "grubs": 1,
-          "atakhans": 0,
-          "firstBlood": 1001,
-          "firstTurret": 1001,
-          "epicMonsterKill": 0
         }
       }
     },
