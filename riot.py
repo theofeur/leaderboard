@@ -236,7 +236,7 @@ for riot_id in riot_ids:
         continue
 
     summoner_data = r2.json()
-    summoner_id = summoner_data["id"]
+    summoner_id = summoner_data["puuid"]
 
     # Obtenir les stats classées
     url_ranked = f"https://{PLATFORM_ROUTING}.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_id}"
