@@ -236,13 +236,10 @@ for riot_id in riot_ids:
         continue
 
     summoner_data = r2.json()
-    if "id" not in summoner_data:
-        print(f"[❌] Données incomplètes pour {riot_id}. Réponse: {json.dumps(summoner_data, indent=2)}")
-        continue
-    summoner_id = summoner_data["id"]
+    summoner_id = summoner_data["puuid"]
 
     # Obtenir les stats classées
-    url_ranked = f"https://{PLATFORM_ROUTING}.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_id}"
+    url_ranked = f"https://{PLATFORM_ROUTING}.api.riotgames.com/lol/league/v4/entries/by-puuid/{summoner_id}"
     r3 = rate_limited_request(url_ranked, headers=headers)
     if r3.status_code != 200:
         print(f"Erreur pour {riot_id} (ranked stats): {r3.status_code}")
