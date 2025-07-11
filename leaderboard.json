@@ -34,6 +34,17 @@
       "lastGameTimestamp": 1752013145065
     },
     {
+      "name": "Waldox#XXX",
+      "winrate": 56.666666666666664,
+      "wins": 85,
+      "losses": 65,
+      "tier": "DIAMOND",
+      "rank": "I",
+      "lp": 15,
+      "profileIconId": 5561,
+      "lastGameTimestamp": 1752221586719
+    },
+    {
       "name": "silent requiem#zzz",
       "winrate": 51.37614678899082,
       "wins": 224,
@@ -43,17 +54,6 @@
       "lp": 75,
       "profileIconId": 1151,
       "lastGameTimestamp": null
-    },
-    {
-      "name": "Waldox#XXX",
-      "winrate": 56.375838926174495,
-      "wins": 84,
-      "losses": 65,
-      "tier": "DIAMOND",
-      "rank": "II",
-      "lp": 94,
-      "profileIconId": 5561,
-      "lastGameTimestamp": 1752219427537
     },
     {
       "name": "Dhalianoir#EUW",
@@ -2446,6 +2446,340 @@
           "atakhans": 1,
           "firstBlood": 1001,
           "firstTurret": 1001,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7457987294",
+      "timestamp": 1752221586719,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 37,
+      "players": [
+        {
+          "name": "Alielhan#EUW",
+          "champion": "Pantheon",
+          "kills": 3,
+          "deaths": 9,
+          "assists": 3,
+          "gold": 9543,
+          "cs": 155,
+          "damage": 17710,
+          "role": "TOP",
+          "visionScore": 15,
+          "items": [
+            1055,
+            3071,
+            3111,
+            6692,
+            2022,
+            1037,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Ferocity Bola#2558",
+          "champion": "Khazix",
+          "kills": 6,
+          "deaths": 9,
+          "assists": 4,
+          "gold": 11794,
+          "cs": 167,
+          "damage": 17943,
+          "role": "JUNGLE",
+          "visionScore": 19,
+          "items": [
+            1053,
+            3111,
+            3142,
+            3071,
+            3156,
+            1036,
+            3363
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "nrtz#zzz",
+          "champion": "Taliyah",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 8,
+          "gold": 12521,
+          "cs": 225,
+          "damage": 29844,
+          "role": "MIDDLE",
+          "visionScore": 23,
+          "items": [
+            3089,
+            4645,
+            3020,
+            6655,
+            4630,
+            1056,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "1337 ad#ttt",
+          "champion": "Mel",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 4,
+          "gold": 11818,
+          "cs": 210,
+          "damage": 16478,
+          "role": "BOTTOM",
+          "visionScore": 16,
+          "items": [
+            2503,
+            4645,
+            3158,
+            1082,
+            8010,
+            1056,
+            3340
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Stay With Me#Aries",
+          "champion": "Janna",
+          "kills": 1,
+          "deaths": 4,
+          "assists": 10,
+          "gold": 7279,
+          "cs": 37,
+          "damage": 3806,
+          "role": "UTILITY",
+          "visionScore": 57,
+          "items": [
+            3870,
+            3107,
+            1082,
+            3009,
+            6617,
+            3114,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "EPT Bloody#EUW",
+          "champion": "Malphite",
+          "kills": 2,
+          "deaths": 6,
+          "assists": 9,
+          "gold": 12847,
+          "cs": 232,
+          "damage": 15248,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            2055,
+            6664,
+            3174,
+            2502,
+            2504,
+            0,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "PARKOUR GO BRR#EUW",
+          "champion": "Nidalee",
+          "kills": 15,
+          "deaths": 5,
+          "assists": 6,
+          "gold": 16377,
+          "cs": 204,
+          "damage": 21318,
+          "role": "JUNGLE",
+          "visionScore": 12,
+          "items": [
+            4645,
+            3041,
+            3100,
+            3020,
+            3089,
+            4630,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 9,
+          "deaths": 2,
+          "assists": 4,
+          "gold": 12598,
+          "cs": 179,
+          "damage": 19511,
+          "role": "MIDDLE",
+          "visionScore": 17,
+          "items": [
+            3157,
+            3041,
+            1052,
+            6655,
+            3175,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Cody Maverick#FATTY",
+          "champion": "Jhin",
+          "kills": 5,
+          "deaths": 2,
+          "assists": 10,
+          "gold": 13923,
+          "cs": 250,
+          "damage": 23147,
+          "role": "BOTTOM",
+          "visionScore": 9,
+          "items": [
+            2031,
+            6676,
+            3170,
+            3031,
+            3094,
+            1018,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "BROSSE GlTE#EUW",
+          "champion": "Zoe",
+          "kills": 6,
+          "deaths": 4,
+          "assists": 16,
+          "gold": 11361,
+          "cs": 47,
+          "damage": 24812,
+          "role": "UTILITY",
+          "visionScore": 80,
+          "items": [
+            6655,
+            4628,
+            3869,
+            3175,
+            3145,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 1766,
+      "objectives": {
+        "blue": {
+          "towers": 1,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 11,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 1,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
           "epicMonsterKill": 1
         }
       }
