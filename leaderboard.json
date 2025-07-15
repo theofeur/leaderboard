@@ -34,6 +34,17 @@
       "lastGameTimestamp": 1752515197113
     },
     {
+      "name": "Waldox#XXX",
+      "winrate": 56.12903225806452,
+      "wins": 87,
+      "losses": 68,
+      "tier": "DIAMOND",
+      "rank": "I",
+      "lp": 6,
+      "profileIconId": 5561,
+      "lastGameTimestamp": 1752538670745
+    },
+    {
       "name": "silent requiem#zzz",
       "winrate": 51.37614678899082,
       "wins": 224,
@@ -54,17 +65,6 @@
       "lp": 62,
       "profileIconId": 5489,
       "lastGameTimestamp": 1752535243088
-    },
-    {
-      "name": "Waldox#XXX",
-      "winrate": 55.84415584415584,
-      "wins": 86,
-      "losses": 68,
-      "tier": "DIAMOND",
-      "rank": "II",
-      "lp": 85,
-      "profileIconId": 5561,
-      "lastGameTimestamp": 1752531762938
     },
     {
       "name": "Dhalianoir#EUW",
@@ -7127,211 +7127,61 @@
       }
     },
     {
-      "match_id": "EUW1_7460050425",
-      "timestamp": 1752409683197,
-      "player": "Rodrygoes#999",
-      "win": false,
-      "team_kills": 13,
+      "match_id": "EUW1_7461815799",
+      "timestamp": 1752538670745,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 36,
       "players": [
         {
-          "name": "Hannibal Barca#1033",
-          "champion": "Ambessa",
-          "kills": 1,
-          "deaths": 5,
-          "assists": 3,
-          "gold": 8190,
-          "cs": 175,
-          "damage": 15775,
+          "name": "Riku#Drip",
+          "champion": "DrMundo",
+          "kills": 5,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 12779,
+          "cs": 209,
+          "damage": 26285,
           "role": "TOP",
-          "visionScore": 7,
+          "visionScore": 10,
           "items": [
-            1054,
-            6692,
-            1029,
-            3161,
-            1036,
-            1001,
-            3363
+            3170,
+            3083,
+            3084,
+            3742,
+            3211,
+            1028,
+            3340
           ],
           "summoners": [
-            12,
-            14
+            6,
+            12
           ],
           "runes": {
             "primary": 8400,
             "keystone": 8437,
-            "secondary": 8100
+            "secondary": 8300
           }
         },
         {
-          "name": "Charlemagne8378#iii",
-          "champion": "Nunu",
-          "kills": 2,
-          "deaths": 2,
-          "assists": 12,
-          "gold": 9803,
-          "cs": 176,
-          "damage": 11461,
-          "role": "JUNGLE",
-          "visionScore": 14,
-          "items": [
-            8020,
-            1082,
-            3111,
-            6653,
-            3076,
-            0,
-            3340
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8230,
-            "secondary": 8000
-          }
-        },
-        {
-          "name": "Lord Squidward#90562",
-          "champion": "Fizz",
-          "kills": 14,
-          "deaths": 5,
-          "assists": 0,
-          "gold": 12470,
-          "cs": 163,
-          "damage": 21132,
-          "role": "MIDDLE",
-          "visionScore": 15,
-          "items": [
-            1056,
-            2031,
-            3175,
-            3100,
-            3157,
-            3089,
-            3340
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Fuze#chovy",
-          "champion": "Senna",
+          "name": "Khaleesi#Miri",
+          "champion": "Evelynn",
           "kills": 6,
-          "deaths": 1,
-          "assists": 13,
-          "gold": 12129,
-          "cs": 201,
-          "damage": 13343,
-          "role": "BOTTOM",
-          "visionScore": 6,
-          "items": [
-            1055,
-            3087,
-            3170,
-            3071,
-            3144,
-            3086,
-            3363
-          ],
-          "summoners": [
-            4,
-            21
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8021,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "BLG ON#000",
-          "champion": "Braum",
-          "kills": 1,
-          "deaths": 0,
-          "assists": 18,
-          "gold": 6969,
-          "cs": 21,
-          "damage": 5468,
-          "role": "UTILITY",
-          "visionScore": 62,
-          "items": [
-            3190,
-            3876,
-            3067,
-            0,
-            1031,
-            3047,
-            3364
-          ],
-          "summoners": [
-            7,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8360,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "PERSONANONGRATA#666",
-          "champion": "Riven",
-          "kills": 3,
-          "deaths": 2,
-          "assists": 0,
-          "gold": 8975,
-          "cs": 200,
-          "damage": 13349,
-          "role": "TOP",
-          "visionScore": 11,
-          "items": [
-            2031,
-            3158,
-            6610,
-            1055,
-            6694,
-            2019,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Rodrygoes#999",
-          "champion": "Elise",
-          "kills": 4,
-          "deaths": 5,
+          "deaths": 3,
           "assists": 4,
-          "gold": 8457,
-          "cs": 135,
-          "damage": 11380,
+          "gold": 11423,
+          "cs": 193,
+          "damage": 8547,
           "role": "JUNGLE",
-          "visionScore": 17,
+          "visionScore": 19,
           "items": [
-            4645,
-            0,
-            4646,
             3020,
+            3041,
+            3089,
+            3100,
             0,
             0,
-            3364
+            3340
           ],
           "summoners": [
             4,
@@ -7340,27 +7190,177 @@
           "runes": {
             "primary": 8100,
             "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 13,
+          "deaths": 5,
+          "assists": 5,
+          "gold": 14531,
+          "cs": 182,
+          "damage": 27775,
+          "role": "MIDDLE",
+          "visionScore": 11,
+          "items": [
+            3157,
+            3041,
+            1058,
+            6655,
+            3175,
+            1058,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "ygc#EUW",
+          "champion": "Yasuo",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 8,
+          "gold": 13295,
+          "cs": 208,
+          "damage": 20948,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            3172,
+            3031,
+            3153,
+            6673,
+            0,
+            1055,
+            3363
+          ],
+          "summoners": [
+            3,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Thunder Knight 9#EUW",
+          "champion": "Nautilus",
+          "kills": 4,
+          "deaths": 6,
+          "assists": 14,
+          "gold": 9167,
+          "cs": 22,
+          "damage": 12203,
+          "role": "UTILITY",
+          "visionScore": 58,
+          "items": [
+            1057,
+            3877,
+            3190,
+            3742,
+            3067,
+            3171,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "ComicPanda#EUW",
+          "champion": "Vladimir",
+          "kills": 2,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 10048,
+          "cs": 231,
+          "damage": 28587,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            4629,
+            4633,
+            3009,
+            3916,
+            1058,
+            1056,
+            3340
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
             "secondary": 8000
           }
         },
         {
-          "name": "WORSHIPTHEDEVIL#EUW",
-          "champion": "Akali",
-          "kills": 3,
+          "name": "qweq45dfsdeu22qq#loser",
+          "champion": "Karthus",
+          "kills": 6,
           "deaths": 8,
-          "assists": 2,
-          "gold": 7258,
-          "cs": 135,
-          "damage": 13581,
+          "assists": 13,
+          "gold": 11773,
+          "cs": 202,
+          "damage": 27586,
+          "role": "JUNGLE",
+          "visionScore": 7,
+          "items": [
+            4645,
+            1082,
+            2503,
+            3020,
+            4646,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            3
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "nervous#saveu",
+          "champion": "Qiyana",
+          "kills": 7,
+          "deaths": 9,
+          "assists": 4,
+          "gold": 10878,
+          "cs": 140,
+          "damage": 22291,
           "role": "MIDDLE",
           "visionScore": 10,
           "items": [
-            3152,
-            1082,
-            1052,
-            3020,
-            3113,
-            1056,
+            3142,
+            6701,
+            3158,
+            1033,
+            6694,
+            1036,
             3340
           ],
           "summoners": [
@@ -7370,27 +7370,27 @@
           "runes": {
             "primary": 8100,
             "keystone": 8112,
-            "secondary": 8400
+            "secondary": 8000
           }
         },
         {
-          "name": "isolated mind#EUW",
-          "champion": "Jinx",
-          "kills": 1,
-          "deaths": 5,
-          "assists": 2,
-          "gold": 7847,
-          "cs": 183,
-          "damage": 7678,
+          "name": "Nameless King#Rei",
+          "champion": "Senna",
+          "kills": 6,
+          "deaths": 9,
+          "assists": 10,
+          "gold": 11434,
+          "cs": 163,
+          "damage": 24095,
           "role": "BOTTOM",
-          "visionScore": 10,
+          "visionScore": 14,
           "items": [
             1055,
-            3032,
-            3006,
-            1038,
-            1037,
-            1018,
+            3009,
+            3087,
+            3071,
+            3031,
+            1036,
             3363
           ],
           "summoners": [
@@ -7398,48 +7398,48 @@
             21
           ],
           "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8200
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8000
           }
         },
         {
-          "name": "rina#sushi",
-          "champion": "Nami",
-          "kills": 2,
-          "deaths": 4,
-          "assists": 3,
-          "gold": 6689,
-          "cs": 25,
-          "damage": 4731,
+          "name": "2annoying4me#EUW",
+          "champion": "Thresh",
+          "kills": 5,
+          "deaths": 6,
+          "assists": 10,
+          "gold": 7793,
+          "cs": 30,
+          "damage": 11016,
           "role": "UTILITY",
-          "visionScore": 43,
+          "visionScore": 60,
           "items": [
-            2055,
-            4005,
-            3067,
-            4642,
-            3158,
+            3075,
+            3190,
             3869,
+            3158,
+            3067,
+            0,
             3364
           ],
           "summoners": [
-            7,
+            14,
             4
           ],
           "runes": {
-            "primary": 8200,
-            "keystone": 8214,
-            "secondary": 8300
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8400
           }
         }
       ],
-      "duration": 1393,
+      "duration": 1596,
       "objectives": {
         "blue": {
-          "towers": 8,
-          "dragons": 2,
-          "barons": 0,
+          "towers": 11,
+          "dragons": 3,
+          "barons": 1,
           "heralds": 1,
           "grubs": 3,
           "atakhans": 1,
