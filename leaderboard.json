@@ -1,17 +1,6 @@
 {
   "players": [
     {
-      "name": "Girl feet addict#FEET",
-      "winrate": 52.04460966542751,
-      "wins": 280,
-      "losses": 258,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 481,
-      "profileIconId": 6570,
-      "lastGameTimestamp": 1752763862376
-    },
-    {
       "name": "Vegetation94#EUW",
       "winrate": 54.67625899280576,
       "wins": 152,
@@ -21,6 +10,17 @@
       "lp": 460,
       "profileIconId": 23,
       "lastGameTimestamp": 1752752159747
+    },
+    {
+      "name": "Girl feet addict#FEET",
+      "winrate": 51.94805194805195,
+      "wins": 280,
+      "losses": 259,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 460,
+      "profileIconId": 6570,
+      "lastGameTimestamp": 1752781097336
     },
     {
       "name": "Neik#EUW02",
@@ -108,7 +108,7 @@
       "rank": "III",
       "lp": 81,
       "profileIconId": 6894,
-      "lastGameTimestamp": 1752410043497
+      "lastGameTimestamp": null
     }
   ],
   "global_match_history": [
@@ -14809,6 +14809,340 @@
       }
     },
     {
+      "match_id": "EUW1_7464590855",
+      "timestamp": 1752781097336,
+      "player": "Girl feet addict#FEET",
+      "win": false,
+      "team_kills": 17,
+      "players": [
+        {
+          "name": "Vallheim#KING",
+          "champion": "Jax",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 3,
+          "gold": 6236,
+          "cs": 102,
+          "damage": 18780,
+          "role": "TOP",
+          "visionScore": 11,
+          "items": [
+            1055,
+            3078,
+            1028,
+            3009,
+            2055,
+            1036,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "I miss Q#EUWE",
+          "champion": "LeeSin",
+          "kills": 5,
+          "deaths": 5,
+          "assists": 9,
+          "gold": 9534,
+          "cs": 106,
+          "damage": 12224,
+          "role": "JUNGLE",
+          "visionScore": 19,
+          "items": [
+            6610,
+            6692,
+            2055,
+            1037,
+            3111,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "TheMythicSlayer#EUW",
+          "champion": "Katarina",
+          "kills": 6,
+          "deaths": 4,
+          "assists": 8,
+          "gold": 9930,
+          "cs": 154,
+          "damage": 14307,
+          "role": "MIDDLE",
+          "visionScore": 7,
+          "items": [
+            1082,
+            3100,
+            3175,
+            4645,
+            1058,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Saajaa#EUW",
+          "champion": "Kaisa",
+          "kills": 13,
+          "deaths": 1,
+          "assists": 4,
+          "gold": 12136,
+          "cs": 193,
+          "damage": 22701,
+          "role": "BOTTOM",
+          "visionScore": 7,
+          "items": [
+            1055,
+            3115,
+            3006,
+            3124,
+            6672,
+            3051,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Hydromel Abuser#EUW",
+          "champion": "Thresh",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 20,
+          "gold": 7139,
+          "cs": 21,
+          "damage": 6714,
+          "role": "UTILITY",
+          "visionScore": 46,
+          "items": [
+            3876,
+            3190,
+            0,
+            3171,
+            1031,
+            3067,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Xeanny#EUW",
+          "champion": "Aatrox",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 1,
+          "gold": 6853,
+          "cs": 136,
+          "damage": 12432,
+          "role": "TOP",
+          "visionScore": 16,
+          "items": [
+            1054,
+            2031,
+            6610,
+            1028,
+            1037,
+            3047,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Crystal Phoenix#ARK22",
+          "champion": "Udyr",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 3,
+          "gold": 8364,
+          "cs": 180,
+          "damage": 7490,
+          "role": "JUNGLE",
+          "visionScore": 12,
+          "items": [
+            4401,
+            6653,
+            3047,
+            1029,
+            0,
+            1082,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Emilliant#Cass",
+          "champion": "Mel",
+          "kills": 7,
+          "deaths": 7,
+          "assists": 3,
+          "gold": 8525,
+          "cs": 139,
+          "damage": 14676,
+          "role": "MIDDLE",
+          "visionScore": 10,
+          "items": [
+            3020,
+            2503,
+            3157,
+            1052,
+            1082,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Girl feet addict#FEET",
+          "champion": "Corki",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 4,
+          "gold": 7869,
+          "cs": 141,
+          "damage": 8512,
+          "role": "BOTTOM",
+          "visionScore": 18,
+          "items": [
+            1055,
+            3078,
+            3047,
+            3070,
+            3133,
+            1036,
+            3340
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "ZinogreDrip#MHW",
+          "champion": "Bard",
+          "kills": 2,
+          "deaths": 10,
+          "assists": 10,
+          "gold": 6130,
+          "cs": 8,
+          "damage": 10469,
+          "role": "UTILITY",
+          "visionScore": 36,
+          "items": [
+            3111,
+            3877,
+            1028,
+            3742,
+            1052,
+            1052,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1260,
+      "objectives": {
+        "blue": {
+          "towers": 5,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 3
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 1,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1001
+        }
+      }
+    },
+    {
       "match_id": "EUW1_7464252080",
       "timestamp": 1752763862376,
       "player": "Girl feet addict#FEET",
@@ -20817,340 +21151,6 @@
           "firstBlood": 1001,
           "firstTurret": 1,
           "epicMonsterKill": 1001
-        }
-      }
-    },
-    {
-      "match_id": "EUW1_7449556359",
-      "timestamp": 1751456253031,
-      "player": "Girl feet addict#FEET",
-      "win": true,
-      "team_kills": 41,
-      "players": [
-        {
-          "name": "Double D\u00e9 PIP\u00c9#DDDD",
-          "champion": "KSante",
-          "kills": 6,
-          "deaths": 3,
-          "assists": 7,
-          "gold": 14666,
-          "cs": 266,
-          "damage": 19157,
-          "role": "TOP",
-          "visionScore": 23,
-          "items": [
-            2504,
-            6662,
-            3143,
-            3076,
-            3047,
-            1011,
-            3340
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8437,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "NerfRengar#QQQ",
-          "champion": "Rengar",
-          "kills": 11,
-          "deaths": 3,
-          "assists": 12,
-          "gold": 16400,
-          "cs": 256,
-          "damage": 34945,
-          "role": "JUNGLE",
-          "visionScore": 37,
-          "items": [
-            6701,
-            3077,
-            6695,
-            3158,
-            3036,
-            6699,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "\u795e\u5723\u7684\u591a\u6d1b\u514b\u7687\u5e1d#\u5409\u535c\u529b\u5de5\u4f5c",
-          "champion": "Syndra",
-          "kills": 7,
-          "deaths": 8,
-          "assists": 6,
-          "gold": 12025,
-          "cs": 183,
-          "damage": 19273,
-          "role": "MIDDLE",
-          "visionScore": 19,
-          "items": [
-            1056,
-            4629,
-            2503,
-            3158,
-            3137,
-            3145,
-            3340
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8369,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Girl feet addict#FEET",
-          "champion": "Zeri",
-          "kills": 15,
-          "deaths": 3,
-          "assists": 9,
-          "gold": 18827,
-          "cs": 303,
-          "damage": 35259,
-          "role": "BOTTOM",
-          "visionScore": 15,
-          "items": [
-            6673,
-            3032,
-            3031,
-            3085,
-            3006,
-            3026,
-            3363
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Negimas#EUW",
-          "champion": "Bard",
-          "kills": 2,
-          "deaths": 4,
-          "assists": 26,
-          "gold": 11259,
-          "cs": 23,
-          "damage": 18654,
-          "role": "UTILITY",
-          "visionScore": 92,
-          "items": [
-            3877,
-            3742,
-            3190,
-            3087,
-            3158,
-            1029,
-            3364
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8360,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "Tea0r#GOAT",
-          "champion": "Yone",
-          "kills": 7,
-          "deaths": 9,
-          "assists": 2,
-          "gold": 13971,
-          "cs": 276,
-          "damage": 33686,
-          "role": "TOP",
-          "visionScore": 21,
-          "items": [
-            1038,
-            3153,
-            3172,
-            6673,
-            3033,
-            1037,
-            3340
-          ],
-          "summoners": [
-            4,
-            12
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Next Blue Star#GOAT",
-          "champion": "MonkeyKing",
-          "kills": 1,
-          "deaths": 5,
-          "assists": 6,
-          "gold": 11026,
-          "cs": 197,
-          "damage": 15834,
-          "role": "JUNGLE",
-          "visionScore": 22,
-          "items": [
-            6610,
-            3078,
-            1037,
-            3067,
-            3047,
-            1028,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Xeltop#GRIND",
-          "champion": "Yasuo",
-          "kills": 7,
-          "deaths": 7,
-          "assists": 3,
-          "gold": 15248,
-          "cs": 274,
-          "damage": 22982,
-          "role": "MIDDLE",
-          "visionScore": 16,
-          "items": [
-            6673,
-            3153,
-            3006,
-            3031,
-            3026,
-            0,
-            3363
-          ],
-          "summoners": [
-            4,
-            3
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Semir Gerkhan#COBRA",
-          "champion": "Ziggs",
-          "kills": 4,
-          "deaths": 6,
-          "assists": 2,
-          "gold": 12821,
-          "cs": 221,
-          "damage": 22298,
-          "role": "BOTTOM",
-          "visionScore": 23,
-          "items": [
-            2055,
-            3020,
-            3157,
-            3040,
-            3089,
-            1052,
-            3363
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8229,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Out of Time#WEKND",
-          "champion": "Elise",
-          "kills": 1,
-          "deaths": 14,
-          "assists": 4,
-          "gold": 7510,
-          "cs": 46,
-          "damage": 19519,
-          "role": "UTILITY",
-          "visionScore": 70,
-          "items": [
-            3877,
-            3013,
-            4646,
-            1058,
-            3145,
-            0,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8000
-          }
-        }
-      ],
-      "duration": 1900,
-      "objectives": {
-        "blue": {
-          "towers": 10,
-          "dragons": 2,
-          "barons": 1,
-          "heralds": 1,
-          "grubs": 0,
-          "atakhans": 1,
-          "firstBlood": 3,
-          "firstTurret": 1001,
-          "epicMonsterKill": 1001
-        },
-        "red": {
-          "towers": 7,
-          "dragons": 2,
-          "barons": 0,
-          "heralds": 0,
-          "grubs": 3,
-          "atakhans": 0,
-          "firstBlood": 1001,
-          "firstTurret": 1,
-          "epicMonsterKill": 3
         }
       }
     },
