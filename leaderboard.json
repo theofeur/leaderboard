@@ -24,14 +24,14 @@
     },
     {
       "name": "Waldox#XXX",
-      "winrate": 56.72514619883041,
+      "winrate": 56.395348837209305,
       "wins": 97,
-      "losses": 74,
+      "losses": 75,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 41,
+      "lp": 20,
       "profileIconId": 5561,
-      "lastGameTimestamp": 1753265699518
+      "lastGameTimestamp": 1753280521483
     },
     {
       "name": "Neik#EUW02",
@@ -9115,6 +9115,340 @@
           "atakhans": 0,
           "firstBlood": 1001,
           "firstTurret": 1001,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7470401920",
+      "timestamp": 1753280521483,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 25,
+      "players": [
+        {
+          "name": "RAR#EUW3",
+          "champion": "Vayne",
+          "kills": 4,
+          "deaths": 8,
+          "assists": 4,
+          "gold": 11953,
+          "cs": 185,
+          "damage": 11517,
+          "role": "TOP",
+          "visionScore": 16,
+          "items": [
+            1054,
+            3124,
+            3006,
+            3153,
+            3051,
+            1036,
+            3363
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "midazakeu#3333",
+          "champion": "Khazix",
+          "kills": 20,
+          "deaths": 2,
+          "assists": 6,
+          "gold": 18238,
+          "cs": 247,
+          "damage": 44269,
+          "role": "JUNGLE",
+          "visionScore": 25,
+          "items": [
+            3814,
+            3142,
+            6695,
+            3158,
+            6697,
+            6701,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "SC Takostar#UwU",
+          "champion": "Taliyah",
+          "kills": 1,
+          "deaths": 6,
+          "assists": 8,
+          "gold": 10406,
+          "cs": 180,
+          "damage": 27301,
+          "role": "MIDDLE",
+          "visionScore": 17,
+          "items": [
+            1056,
+            2031,
+            3147,
+            3040,
+            4645,
+            3020,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "BRR BRR PATAPIM#BRR69",
+          "champion": "Jhin",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 6,
+          "gold": 11156,
+          "cs": 221,
+          "damage": 14564,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            3142,
+            3009,
+            3036,
+            1055,
+            3094,
+            1037,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "overdose on lean#code",
+          "champion": "Milio",
+          "kills": 0,
+          "deaths": 4,
+          "assists": 19,
+          "gold": 8711,
+          "cs": 29,
+          "damage": 5800,
+          "role": "UTILITY",
+          "visionScore": 85,
+          "items": [
+            3870,
+            3158,
+            2055,
+            6620,
+            6617,
+            3067,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "dalavius#EUW",
+          "champion": "Malphite",
+          "kills": 6,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 10932,
+          "cs": 176,
+          "damage": 16613,
+          "role": "TOP",
+          "visionScore": 20,
+          "items": [
+            1056,
+            3118,
+            3143,
+            3171,
+            6665,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "BEN FERO#3496",
+          "champion": "Viego",
+          "kills": 6,
+          "deaths": 9,
+          "assists": 4,
+          "gold": 11407,
+          "cs": 193,
+          "damage": 14617,
+          "role": "JUNGLE",
+          "visionScore": 17,
+          "items": [
+            6676,
+            3078,
+            3123,
+            3174,
+            3035,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 7,
+          "deaths": 5,
+          "assists": 2,
+          "gold": 11024,
+          "cs": 191,
+          "damage": 21291,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            3157,
+            3041,
+            3145,
+            6655,
+            3175,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Wakz#EUW",
+          "champion": "Yunara",
+          "kills": 4,
+          "deaths": 5,
+          "assists": 10,
+          "gold": 13610,
+          "cs": 244,
+          "damage": 21925,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            3031,
+            3172,
+            1018,
+            3032,
+            3046,
+            3035,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "MRG longstafff#EUW",
+          "champion": "Lulu",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 14,
+          "gold": 7809,
+          "cs": 22,
+          "damage": 7394,
+          "role": "UTILITY",
+          "visionScore": 54,
+          "items": [
+            3107,
+            3171,
+            2055,
+            3870,
+            3504,
+            0,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1840,
+      "objectives": {
+        "blue": {
+          "towers": 8,
+          "dragons": 1,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 3,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
           "epicMonsterKill": 0
         }
       }
