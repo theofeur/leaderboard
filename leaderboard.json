@@ -90,14 +90,14 @@
     },
     {
       "name": "Plop c Izy#2525",
-      "winrate": 48.99135446685879,
+      "winrate": 48.85057471264368,
       "wins": 170,
-      "losses": 177,
+      "losses": 178,
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 6,
+      "lp": 0,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1752937515831
+      "lastGameTimestamp": 1753465642232
     }
   ],
   "global_match_history": [
@@ -26813,6 +26813,340 @@
           "dragons": 3,
           "barons": 0,
           "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 1001
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7472479701",
+      "timestamp": 1753465642232,
+      "player": "Plop c Izy#2525",
+      "win": false,
+      "team_kills": 26,
+      "players": [
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Fiora",
+          "kills": 10,
+          "deaths": 8,
+          "assists": 2,
+          "gold": 13548,
+          "cs": 191,
+          "damage": 25343,
+          "role": "TOP",
+          "visionScore": 7,
+          "items": [
+            1055,
+            3074,
+            3078,
+            3047,
+            3181,
+            3155,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Shaxao#EUW",
+          "champion": "Rengar",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 4,
+          "gold": 11853,
+          "cs": 204,
+          "damage": 16567,
+          "role": "JUNGLE",
+          "visionScore": 15,
+          "items": [
+            3814,
+            3077,
+            1001,
+            6699,
+            3033,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "middiff#VEX",
+          "champion": "TwistedFate",
+          "kills": 4,
+          "deaths": 8,
+          "assists": 8,
+          "gold": 11334,
+          "cs": 177,
+          "damage": 14858,
+          "role": "MIDDLE",
+          "visionScore": 17,
+          "items": [
+            6657,
+            3100,
+            3094,
+            1052,
+            1056,
+            3020,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8360,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Dxsh#alt",
+          "champion": "Yunara",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 5,
+          "gold": 12216,
+          "cs": 243,
+          "damage": 19915,
+          "role": "BOTTOM",
+          "visionScore": 11,
+          "items": [
+            1055,
+            3032,
+            3172,
+            3031,
+            3085,
+            3123,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "BBL sam#yeye",
+          "champion": "Lulu",
+          "kills": 0,
+          "deaths": 6,
+          "assists": 10,
+          "gold": 6739,
+          "cs": 28,
+          "damage": 7401,
+          "role": "UTILITY",
+          "visionScore": 60,
+          "items": [
+            3171,
+            3504,
+            4642,
+            3870,
+            2055,
+            3113,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Snipzy#Alone",
+          "champion": "Gwen",
+          "kills": 6,
+          "deaths": 12,
+          "assists": 3,
+          "gold": 12012,
+          "cs": 167,
+          "damage": 26155,
+          "role": "TOP",
+          "visionScore": 16,
+          "items": [
+            3115,
+            4628,
+            3145,
+            1056,
+            0,
+            3089,
+            3363
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "GIGA BAGARRE#EUW",
+          "champion": "XinZhao",
+          "kills": 5,
+          "deaths": 5,
+          "assists": 9,
+          "gold": 11275,
+          "cs": 131,
+          "damage": 19463,
+          "role": "JUNGLE",
+          "visionScore": 31,
+          "items": [
+            6610,
+            3110,
+            3047,
+            6692,
+            1028,
+            1042,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Smallwiik#EUW",
+          "champion": "Velkoz",
+          "kills": 13,
+          "deaths": 2,
+          "assists": 6,
+          "gold": 15557,
+          "cs": 235,
+          "damage": 26422,
+          "role": "MIDDLE",
+          "visionScore": 24,
+          "items": [
+            4646,
+            3157,
+            6655,
+            4628,
+            3158,
+            1058,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "kam0#6969",
+          "champion": "Aphelios",
+          "kills": 11,
+          "deaths": 4,
+          "assists": 8,
+          "gold": 14925,
+          "cs": 222,
+          "damage": 35290,
+          "role": "BOTTOM",
+          "visionScore": 11,
+          "items": [
+            3144,
+            3032,
+            3031,
+            3086,
+            3036,
+            3006,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "CHEF DE TRIBUS#Byron",
+          "champion": "Thresh",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 12,
+          "gold": 8634,
+          "cs": 38,
+          "damage": 9771,
+          "role": "UTILITY",
+          "visionScore": 74,
+          "items": [
+            3869,
+            3190,
+            2055,
+            3109,
+            3009,
+            3076,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1745,
+      "objectives": {
+        "blue": {
+          "towers": 5,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 3
+        },
+        "red": {
+          "towers": 8,
+          "dragons": 2,
+          "barons": 1,
+          "heralds": 1,
           "grubs": 0,
           "atakhans": 0,
           "firstBlood": 1001,
