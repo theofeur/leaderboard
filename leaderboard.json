@@ -79,14 +79,14 @@
     },
     {
       "name": "Plop c Izy#2525",
-      "winrate": 48.710601719197705,
+      "winrate": 48.57142857142857,
       "wins": 170,
-      "losses": 179,
+      "losses": 180,
       "tier": "PLATINUM",
       "rank": "I",
-      "lp": 75,
+      "lp": 48,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1753813894274
+      "lastGameTimestamp": 1754149429017
     }
   ],
   "global_match_history": [
@@ -15114,6 +15114,340 @@
           "heralds": 0,
           "grubs": 3,
           "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7481011813",
+      "timestamp": 1754149429017,
+      "player": "Plop c Izy#2525",
+      "win": false,
+      "team_kills": 44,
+      "players": [
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Malphite",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 7,
+          "gold": 11925,
+          "cs": 163,
+          "damage": 32190,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            3082,
+            3047,
+            3075,
+            3068,
+            3110,
+            1011,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Ayoub El Kaabi#EUWE",
+          "champion": "Viego",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 12,
+          "gold": 13801,
+          "cs": 183,
+          "damage": 26001,
+          "role": "JUNGLE",
+          "visionScore": 34,
+          "items": [
+            3036,
+            3078,
+            6673,
+            3047,
+            1038,
+            1037,
+            3340
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "NASUS ASMR#EUW",
+          "champion": "Nasus",
+          "kills": 10,
+          "deaths": 5,
+          "assists": 7,
+          "gold": 18786,
+          "cs": 299,
+          "damage": 42029,
+          "role": "MIDDLE",
+          "visionScore": 21,
+          "items": [
+            3078,
+            3143,
+            3047,
+            3181,
+            3110,
+            3742,
+            3340
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Tory Flames#EUW",
+          "champion": "Samira",
+          "kills": 18,
+          "deaths": 9,
+          "assists": 7,
+          "gold": 19393,
+          "cs": 247,
+          "damage": 48226,
+          "role": "BOTTOM",
+          "visionScore": 20,
+          "items": [
+            3072,
+            3033,
+            3047,
+            6676,
+            3031,
+            3026,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Cookiedog23421#ARS",
+          "champion": "Bard",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 18,
+          "gold": 10950,
+          "cs": 42,
+          "damage": 20571,
+          "role": "UTILITY",
+          "visionScore": 69,
+          "items": [
+            3876,
+            3107,
+            6653,
+            3009,
+            3742,
+            3067,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "KRAKEN#Tntcl",
+          "champion": "Illaoi",
+          "kills": 7,
+          "deaths": 9,
+          "assists": 3,
+          "gold": 17025,
+          "cs": 284,
+          "damage": 53182,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            3071,
+            6610,
+            3047,
+            3053,
+            6662,
+            2021,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Boo Hoo#xer",
+          "champion": "Naafiri",
+          "kills": 7,
+          "deaths": 9,
+          "assists": 9,
+          "gold": 13884,
+          "cs": 176,
+          "damage": 31626,
+          "role": "JUNGLE",
+          "visionScore": 34,
+          "items": [
+            3174,
+            6692,
+            3082,
+            3161,
+            3071,
+            1029,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "ANIME PSIH#UA1",
+          "champion": "Yone",
+          "kills": 4,
+          "deaths": 9,
+          "assists": 7,
+          "gold": 15258,
+          "cs": 282,
+          "damage": 44864,
+          "role": "MIDDLE",
+          "visionScore": 7,
+          "items": [
+            3140,
+            3006,
+            3153,
+            3033,
+            3031,
+            1031,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "CTPAXA HET#z4b1v",
+          "champion": "Aphelios",
+          "kills": 12,
+          "deaths": 7,
+          "assists": 10,
+          "gold": 18115,
+          "cs": 247,
+          "damage": 45209,
+          "role": "BOTTOM",
+          "visionScore": 25,
+          "items": [
+            3031,
+            3032,
+            3172,
+            3033,
+            6670,
+            3153,
+            3340
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Akira Sakaii#EUW",
+          "champion": "Thresh",
+          "kills": 7,
+          "deaths": 10,
+          "assists": 17,
+          "gold": 11473,
+          "cs": 32,
+          "damage": 16911,
+          "role": "UTILITY",
+          "visionScore": 87,
+          "items": [
+            3869,
+            3190,
+            3110,
+            3170,
+            3075,
+            1031,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 2102,
+      "objectives": {
+        "blue": {
+          "towers": 8,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1001
+        },
+        "red": {
+          "towers": 8,
+          "dragons": 2,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 1,
+          "atakhans": 1,
           "firstBlood": 1001,
           "firstTurret": 1,
           "epicMonsterKill": 3
