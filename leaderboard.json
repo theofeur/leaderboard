@@ -23,6 +23,17 @@
       "lastGameTimestamp": 1754426048712
     },
     {
+      "name": "Waldox#XXX",
+      "winrate": 56.613756613756614,
+      "wins": 107,
+      "losses": 82,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 79,
+      "profileIconId": 5561,
+      "lastGameTimestamp": 1754653006492
+    },
+    {
       "name": "Neik#EUW02",
       "winrate": 51.86500888099467,
       "wins": 292,
@@ -32,17 +43,6 @@
       "lp": 73,
       "profileIconId": 6079,
       "lastGameTimestamp": 1754601039198
-    },
-    {
-      "name": "Waldox#XXX",
-      "winrate": 56.38297872340426,
-      "wins": 106,
-      "losses": 82,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 59,
-      "profileIconId": 5561,
-      "lastGameTimestamp": 1754651509624
     },
     {
       "name": "silent requiem#zzz",
@@ -2759,6 +2759,340 @@
           "firstBlood": 1001,
           "firstTurret": 1001,
           "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7487793270",
+      "timestamp": 1754653006492,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 32,
+      "players": [
+        {
+          "name": "Nilloo el Patr\u00f3n#EUW",
+          "champion": "Gragas",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 5,
+          "gold": 10568,
+          "cs": 191,
+          "damage": 19887,
+          "role": "TOP",
+          "visionScore": 25,
+          "items": [
+            4646,
+            3802,
+            4630,
+            3020,
+            6653,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "coconut banana#CRACK",
+          "champion": "Shaco",
+          "kills": 11,
+          "deaths": 7,
+          "assists": 6,
+          "gold": 13213,
+          "cs": 171,
+          "damage": 24867,
+          "role": "JUNGLE",
+          "visionScore": 22,
+          "items": [
+            3142,
+            3036,
+            6695,
+            3031,
+            2422,
+            1042,
+            3363
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Maars#VEX",
+          "champion": "Vex",
+          "kills": 8,
+          "deaths": 6,
+          "assists": 1,
+          "gold": 11845,
+          "cs": 182,
+          "damage": 25947,
+          "role": "MIDDLE",
+          "visionScore": 10,
+          "items": [
+            1056,
+            6655,
+            3157,
+            4646,
+            1052,
+            3020,
+            3363
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Papua Goodenough#EUW",
+          "champion": "Ashe",
+          "kills": 1,
+          "deaths": 4,
+          "assists": 9,
+          "gold": 8880,
+          "cs": 176,
+          "damage": 16760,
+          "role": "BOTTOM",
+          "visionScore": 22,
+          "items": [
+            6697,
+            3133,
+            1036,
+            1055,
+            6696,
+            3158,
+            3363
+          ],
+          "summoners": [
+            1,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "JARGAR#2505",
+          "champion": "Lulu",
+          "kills": 0,
+          "deaths": 8,
+          "assists": 9,
+          "gold": 6487,
+          "cs": 23,
+          "damage": 6456,
+          "role": "UTILITY",
+          "visionScore": 78,
+          "items": [
+            6617,
+            3870,
+            0,
+            3067,
+            3114,
+            3158,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Franky22#69420",
+          "champion": "Ambessa",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 6,
+          "gold": 12672,
+          "cs": 200,
+          "damage": 28063,
+          "role": "TOP",
+          "visionScore": 19,
+          "items": [
+            6701,
+            3156,
+            3134,
+            3111,
+            6692,
+            2021,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Seyster#EUW",
+          "champion": "Ekko",
+          "kills": 9,
+          "deaths": 3,
+          "assists": 5,
+          "gold": 14782,
+          "cs": 241,
+          "damage": 24617,
+          "role": "JUNGLE",
+          "visionScore": 26,
+          "items": [
+            3089,
+            3100,
+            2422,
+            2420,
+            3041,
+            3152,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 11,
+          "deaths": 4,
+          "assists": 7,
+          "gold": 13588,
+          "cs": 166,
+          "damage": 26433,
+          "role": "MIDDLE",
+          "visionScore": 33,
+          "items": [
+            3157,
+            3041,
+            1056,
+            1058,
+            6655,
+            3175,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "never fade away#pisca",
+          "champion": "Varus",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 5,
+          "gold": 10454,
+          "cs": 187,
+          "damage": 15126,
+          "role": "BOTTOM",
+          "visionScore": 13,
+          "items": [
+            6695,
+            3142,
+            3042,
+            3170,
+            1036,
+            1036,
+            3363
+          ],
+          "summoners": [
+            4,
+            1
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Shazzaam#EUW",
+          "champion": "Sona",
+          "kills": 4,
+          "deaths": 4,
+          "assists": 13,
+          "gold": 9124,
+          "cs": 33,
+          "damage": 15072,
+          "role": "UTILITY",
+          "visionScore": 63,
+          "items": [
+            6617,
+            6620,
+            3877,
+            2055,
+            6616,
+            3009,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        }
+      ],
+      "duration": 1749,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1001
+        },
+        "red": {
+          "towers": 11,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 3
         }
       }
     },
