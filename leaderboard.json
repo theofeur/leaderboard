@@ -23,17 +23,6 @@
       "lastGameTimestamp": 1754426048712
     },
     {
-      "name": "Waldox#XXX",
-      "winrate": 56.544502617801044,
-      "wins": 108,
-      "losses": 83,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 80,
-      "profileIconId": 5561,
-      "lastGameTimestamp": 1754744476666
-    },
-    {
       "name": "Neik#EUW02",
       "winrate": 51.86500888099467,
       "wins": 292,
@@ -43,6 +32,17 @@
       "lp": 73,
       "profileIconId": 6079,
       "lastGameTimestamp": 1754601039198
+    },
+    {
+      "name": "Waldox#XXX",
+      "winrate": 56.25,
+      "wins": 108,
+      "losses": 84,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 60,
+      "profileIconId": 5561,
+      "lastGameTimestamp": 1754746856261
     },
     {
       "name": "silent requiem#zzz",
@@ -2759,6 +2759,340 @@
           "firstBlood": 1001,
           "firstTurret": 1001,
           "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7489020130",
+      "timestamp": 1754746856261,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 24,
+      "players": [
+        {
+          "name": "abaabai#EUW",
+          "champion": "Irelia",
+          "kills": 10,
+          "deaths": 4,
+          "assists": 7,
+          "gold": 15399,
+          "cs": 244,
+          "damage": 26794,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            0,
+            3111,
+            3072,
+            3153,
+            6672,
+            2504,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Acrozo#EUW",
+          "champion": "Sejuani",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 12,
+          "gold": 9906,
+          "cs": 165,
+          "damage": 11540,
+          "role": "JUNGLE",
+          "visionScore": 16,
+          "items": [
+            3111,
+            3068,
+            2504,
+            1011,
+            1029,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "astroalkus#peewo",
+          "champion": "Smolder",
+          "kills": 3,
+          "deaths": 7,
+          "assists": 3,
+          "gold": 10582,
+          "cs": 201,
+          "damage": 19784,
+          "role": "MIDDLE",
+          "visionScore": 13,
+          "items": [
+            3070,
+            1036,
+            1082,
+            3111,
+            3084,
+            6697,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "\u591a\u53ef\u7b11#OVO",
+          "champion": "Kaisa",
+          "kills": 14,
+          "deaths": 7,
+          "assists": 3,
+          "gold": 13885,
+          "cs": 165,
+          "damage": 26313,
+          "role": "BOTTOM",
+          "visionScore": 8,
+          "items": [
+            1055,
+            6672,
+            3916,
+            3006,
+            3124,
+            3115,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "in bloom#777",
+          "champion": "Milio",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 21,
+          "gold": 8049,
+          "cs": 27,
+          "damage": 6706,
+          "role": "UTILITY",
+          "visionScore": 86,
+          "items": [
+            3870,
+            2055,
+            3113,
+            6620,
+            6617,
+            3158,
+            3364
+          ],
+          "summoners": [
+            3,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Flexyzoo#LAG",
+          "champion": "Warwick",
+          "kills": 3,
+          "deaths": 10,
+          "assists": 4,
+          "gold": 10025,
+          "cs": 200,
+          "damage": 21120,
+          "role": "TOP",
+          "visionScore": 12,
+          "items": [
+            3153,
+            6672,
+            2019,
+            0,
+            1037,
+            3047,
+            3364
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "\u00c6 DreadCarrot#SUS",
+          "champion": "Elise",
+          "kills": 6,
+          "deaths": 4,
+          "assists": 8,
+          "gold": 12251,
+          "cs": 146,
+          "damage": 15681,
+          "role": "JUNGLE",
+          "visionScore": 25,
+          "items": [
+            4645,
+            4646,
+            2055,
+            1082,
+            3175,
+            8010,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 7,
+          "deaths": 4,
+          "assists": 3,
+          "gold": 10899,
+          "cs": 187,
+          "damage": 19651,
+          "role": "MIDDLE",
+          "visionScore": 9,
+          "items": [
+            2420,
+            6655,
+            1056,
+            3135,
+            3175,
+            1082,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "William Shockley#NERD",
+          "champion": "Zeri",
+          "kills": 7,
+          "deaths": 8,
+          "assists": 4,
+          "gold": 13193,
+          "cs": 234,
+          "damage": 26043,
+          "role": "BOTTOM",
+          "visionScore": 25,
+          "items": [
+            1018,
+            3031,
+            3123,
+            3085,
+            3087,
+            3172,
+            3363
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Danya#7707",
+          "champion": "Shaco",
+          "kills": 1,
+          "deaths": 5,
+          "assists": 10,
+          "gold": 7076,
+          "cs": 24,
+          "damage": 15112,
+          "role": "UTILITY",
+          "visionScore": 60,
+          "items": [
+            3871,
+            2503,
+            3171,
+            3916,
+            4630,
+            1052,
+            3364
+          ],
+          "summoners": [
+            3,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        }
+      ],
+      "duration": 1579,
+      "objectives": {
+        "blue": {
+          "towers": 8,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 5,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
         }
       }
     },
