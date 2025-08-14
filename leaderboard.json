@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 55.39906103286385,
+      "winrate": 55.14018691588785,
       "wins": 118,
-      "losses": 95,
+      "losses": 96,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 75,
+      "lp": 54,
       "profileIconId": 5561,
-      "lastGameTimestamp": 1755186902529
+      "lastGameTimestamp": 1755189413984
     },
     {
       "name": "Neik#EUW02",
@@ -3065,6 +3065,340 @@
           "towers": 2,
           "dragons": 0,
           "barons": 1,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7494766805",
+      "timestamp": 1755189413984,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 7,
+      "players": [
+        {
+          "name": "Oletankhehe#EUW",
+          "champion": "Udyr",
+          "kills": 5,
+          "deaths": 1,
+          "assists": 7,
+          "gold": 10500,
+          "cs": 171,
+          "damage": 10492,
+          "role": "TOP",
+          "visionScore": 8,
+          "items": [
+            1056,
+            4633,
+            6665,
+            1082,
+            0,
+            3009,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "500mg amphetamin#EUW",
+          "champion": "RekSai",
+          "kills": 7,
+          "deaths": 1,
+          "assists": 9,
+          "gold": 8570,
+          "cs": 117,
+          "damage": 11140,
+          "role": "JUNGLE",
+          "visionScore": 13,
+          "items": [
+            0,
+            3748,
+            3161,
+            1036,
+            2422,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "AshenTreesSon#Yggdl",
+          "champion": "Mel",
+          "kills": 12,
+          "deaths": 1,
+          "assists": 6,
+          "gold": 10007,
+          "cs": 154,
+          "damage": 21515,
+          "role": "MIDDLE",
+          "visionScore": 8,
+          "items": [
+            3041,
+            1056,
+            3175,
+            6655,
+            3145,
+            0,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "sinner#nenni",
+          "champion": "Yunara",
+          "kills": 9,
+          "deaths": 3,
+          "assists": 11,
+          "gold": 10436,
+          "cs": 146,
+          "damage": 17857,
+          "role": "BOTTOM",
+          "visionScore": 10,
+          "items": [
+            3006,
+            3085,
+            6672,
+            0,
+            0,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "DerStecher#MASTA",
+          "champion": "Lulu",
+          "kills": 2,
+          "deaths": 1,
+          "assists": 24,
+          "gold": 7441,
+          "cs": 9,
+          "damage": 6834,
+          "role": "UTILITY",
+          "visionScore": 34,
+          "items": [
+            3870,
+            6617,
+            3158,
+            0,
+            3504,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Doxy#KIKO",
+          "champion": "Rumble",
+          "kills": 2,
+          "deaths": 9,
+          "assists": 2,
+          "gold": 4545,
+          "cs": 49,
+          "damage": 9815,
+          "role": "TOP",
+          "visionScore": 7,
+          "items": [
+            1056,
+            3020,
+            2031,
+            1082,
+            2508,
+            1052,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "daleste#00000",
+          "champion": "Graves",
+          "kills": 1,
+          "deaths": 5,
+          "assists": 2,
+          "gold": 6928,
+          "cs": 130,
+          "damage": 5204,
+          "role": "JUNGLE",
+          "visionScore": 13,
+          "items": [
+            1037,
+            3179,
+            3009,
+            3134,
+            1102,
+            1018,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 1,
+          "deaths": 5,
+          "assists": 1,
+          "gold": 5258,
+          "cs": 104,
+          "damage": 4803,
+          "role": "MIDDLE",
+          "visionScore": 4,
+          "items": [
+            1056,
+            1082,
+            6655,
+            3020,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "PvP Magnet#EUW",
+          "champion": "Samira",
+          "kills": 2,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 6169,
+          "cs": 116,
+          "damage": 8467,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            1055,
+            6676,
+            3047,
+            1018,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Eskuns#GGWP",
+          "champion": "Nautilus",
+          "kills": 1,
+          "deaths": 8,
+          "assists": 4,
+          "gold": 4484,
+          "cs": 18,
+          "damage": 4581,
+          "role": "UTILITY",
+          "visionScore": 42,
+          "items": [
+            3869,
+            1001,
+            3190,
+            3067,
+            0,
+            1029,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1114,
+      "objectives": {
+        "blue": {
+          "towers": 11,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 0,
+          "dragons": 1,
+          "barons": 0,
           "heralds": 0,
           "grubs": 0,
           "atakhans": 0,
