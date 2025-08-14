@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 55.714285714285715,
-      "wins": 117,
+      "winrate": 55.92417061611374,
+      "wins": 118,
       "losses": 93,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 96,
+      "lp": 116,
       "profileIconId": 5561,
-      "lastGameTimestamp": 1755178329748
+      "lastGameTimestamp": 1755181368493
     },
     {
       "name": "Neik#EUW02",
@@ -3071,6 +3071,340 @@
           "firstBlood": 1001,
           "firstTurret": 1001,
           "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7494616395",
+      "timestamp": 1755181368493,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 52,
+      "players": [
+        {
+          "name": "Svendemand#EUW",
+          "champion": "Sett",
+          "kills": 9,
+          "deaths": 9,
+          "assists": 7,
+          "gold": 19773,
+          "cs": 310,
+          "damage": 50618,
+          "role": "TOP",
+          "visionScore": 19,
+          "items": [
+            3053,
+            6631,
+            3047,
+            6609,
+            3071,
+            2501,
+            3363
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Milde#WeWa",
+          "champion": "Zed",
+          "kills": 11,
+          "deaths": 13,
+          "assists": 11,
+          "gold": 18028,
+          "cs": 276,
+          "damage": 39921,
+          "role": "JUNGLE",
+          "visionScore": 18,
+          "items": [
+            3161,
+            6692,
+            6694,
+            3158,
+            3814,
+            6609,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "K405 Student#Fizz",
+          "champion": "Fizz",
+          "kills": 9,
+          "deaths": 9,
+          "assists": 12,
+          "gold": 17768,
+          "cs": 248,
+          "damage": 38275,
+          "role": "MIDDLE",
+          "visionScore": 28,
+          "items": [
+            4630,
+            3157,
+            3100,
+            3158,
+            3089,
+            4645,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Ziath#EUW",
+          "champion": "Kaisa",
+          "kills": 12,
+          "deaths": 9,
+          "assists": 10,
+          "gold": 19145,
+          "cs": 237,
+          "damage": 52400,
+          "role": "BOTTOM",
+          "visionScore": 20,
+          "items": [
+            3157,
+            6672,
+            3115,
+            3006,
+            3124,
+            3089,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Den tavse#EUW",
+          "champion": "Rell",
+          "kills": 3,
+          "deaths": 12,
+          "assists": 25,
+          "gold": 13325,
+          "cs": 53,
+          "damage": 20103,
+          "role": "UTILITY",
+          "visionScore": 112,
+          "items": [
+            3876,
+            3190,
+            3110,
+            3109,
+            3047,
+            3075,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Nils Gr\u00f6nberg#Einar",
+          "champion": "Viego",
+          "kills": 3,
+          "deaths": 12,
+          "assists": 12,
+          "gold": 14704,
+          "cs": 250,
+          "damage": 30478,
+          "role": "TOP",
+          "visionScore": 29,
+          "items": [
+            3153,
+            2055,
+            3078,
+            3174,
+            3748,
+            2019,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Targa#GTS",
+          "champion": "Hecarim",
+          "kills": 22,
+          "deaths": 8,
+          "assists": 19,
+          "gold": 24821,
+          "cs": 359,
+          "damage": 69047,
+          "role": "JUNGLE",
+          "visionScore": 27,
+          "items": [
+            6333,
+            3171,
+            3161,
+            6694,
+            6692,
+            3156,
+            3364
+          ],
+          "summoners": [
+            11,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 8,
+          "deaths": 11,
+          "assists": 17,
+          "gold": 16622,
+          "cs": 233,
+          "damage": 41193,
+          "role": "MIDDLE",
+          "visionScore": 42,
+          "items": [
+            3157,
+            3089,
+            1033,
+            6655,
+            3135,
+            3175,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Oshi#4444",
+          "champion": "Jhin",
+          "kills": 12,
+          "deaths": 7,
+          "assists": 21,
+          "gold": 20732,
+          "cs": 291,
+          "damage": 51021,
+          "role": "BOTTOM",
+          "visionScore": 24,
+          "items": [
+            3142,
+            3170,
+            3031,
+            3072,
+            3036,
+            3094,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Senso304#ttv",
+          "champion": "Rakan",
+          "kills": 7,
+          "deaths": 6,
+          "assists": 29,
+          "gold": 14389,
+          "cs": 44,
+          "damage": 15484,
+          "role": "UTILITY",
+          "visionScore": 125,
+          "items": [
+            3190,
+            3107,
+            3869,
+            4643,
+            3171,
+            3109,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8360,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 2436,
+      "objectives": {
+        "blue": {
+          "towers": 9,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 0,
+          "epicMonsterKill": 1001
+        },
+        "red": {
+          "towers": 10,
+          "dragons": 4,
+          "barons": 3,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 0,
+          "epicMonsterKill": 3
         }
       }
     },
