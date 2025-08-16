@@ -57,14 +57,14 @@
     },
     {
       "name": "Plop c Izy#2525",
-      "winrate": 48.199445983379505,
-      "wins": 174,
+      "winrate": 48.34254143646409,
+      "wins": 175,
       "losses": 187,
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 60,
+      "lp": 86,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1755337849009
+      "lastGameTimestamp": 1755340455555
     }
   ],
   "global_match_history": [
@@ -13421,6 +13421,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7496636962",
+      "timestamp": 1755340455555,
+      "player": "Plop c Izy#2525",
+      "win": true,
+      "team_kills": 37,
+      "players": [
+        {
+          "name": "CROUSTYBATS#EUW",
+          "champion": "Trundle",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 9602,
+          "cs": 144,
+          "damage": 8497,
+          "role": "TOP",
+          "visionScore": 4,
+          "items": [
+            1055,
+            3074,
+            3033,
+            3174,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "TheCursedOne#3377",
+          "champion": "Viego",
+          "kills": 7,
+          "deaths": 3,
+          "assists": 8,
+          "gold": 9639,
+          "cs": 136,
+          "damage": 9246,
+          "role": "JUNGLE",
+          "visionScore": 8,
+          "items": [
+            6676,
+            3111,
+            2055,
+            3078,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Vincent Vega#8690",
+          "champion": "Lux",
+          "kills": 8,
+          "deaths": 4,
+          "assists": 12,
+          "gold": 9259,
+          "cs": 104,
+          "damage": 21192,
+          "role": "MIDDLE",
+          "visionScore": 13,
+          "items": [
+            1056,
+            6655,
+            3175,
+            4646,
+            0,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Woldek#EUW",
+          "champion": "MissFortune",
+          "kills": 17,
+          "deaths": 4,
+          "assists": 12,
+          "gold": 13529,
+          "cs": 173,
+          "damage": 34943,
+          "role": "BOTTOM",
+          "visionScore": 11,
+          "items": [
+            3170,
+            3072,
+            3508,
+            1038,
+            1037,
+            1018,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Thresh",
+          "kills": 3,
+          "deaths": 7,
+          "assists": 22,
+          "gold": 7467,
+          "cs": 20,
+          "damage": 9837,
+          "role": "UTILITY",
+          "visionScore": 8,
+          "items": [
+            3869,
+            3190,
+            3158,
+            3050,
+            3067,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "bananekopf2003#EUW",
+          "champion": "Fiora",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 4,
+          "gold": 7241,
+          "cs": 119,
+          "damage": 8290,
+          "role": "TOP",
+          "visionScore": 4,
+          "items": [
+            3074,
+            1054,
+            3047,
+            3123,
+            2019,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Radkveriss#6050",
+          "champion": "Nautilus",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 6,
+          "gold": 7520,
+          "cs": 109,
+          "damage": 10595,
+          "role": "JUNGLE",
+          "visionScore": 12,
+          "items": [
+            6660,
+            6653,
+            3020,
+            3076,
+            1031,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "oldturtle#123",
+          "champion": "Kassadin",
+          "kills": 5,
+          "deaths": 6,
+          "assists": 1,
+          "gold": 7341,
+          "cs": 117,
+          "damage": 13306,
+          "role": "MIDDLE",
+          "visionScore": 6,
+          "items": [
+            1082,
+            3040,
+            0,
+            3118,
+            3020,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Inva\u00ecn#EUW",
+          "champion": "Vayne",
+          "kills": 5,
+          "deaths": 10,
+          "assists": 6,
+          "gold": 6956,
+          "cs": 58,
+          "damage": 11229,
+          "role": "BOTTOM",
+          "visionScore": 7,
+          "items": [
+            3153,
+            1055,
+            3006,
+            1043,
+            1052,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Ivanmoyaa#EUW",
+          "champion": "Poppy",
+          "kills": 5,
+          "deaths": 11,
+          "assists": 5,
+          "gold": 7664,
+          "cs": 35,
+          "damage": 10223,
+          "role": "UTILITY",
+          "visionScore": 16,
+          "items": [
+            3877,
+            3742,
+            3013,
+            3133,
+            2021,
+            1028,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1199,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 0,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 1001,
           "firstTurret": 1001,
