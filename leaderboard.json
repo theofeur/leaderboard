@@ -46,14 +46,14 @@
     },
     {
       "name": "Plop c Izy#2525",
-      "winrate": 48.75,
-      "wins": 195,
+      "winrate": 48.87780548628429,
+      "wins": 196,
       "losses": 205,
       "tier": "PLATINUM",
       "rank": "I",
-      "lp": 75,
+      "lp": 97,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1756051116458
+      "lastGameTimestamp": 1756054846280
     }
   ],
   "global_match_history": [
@@ -5050,6 +5050,340 @@
           "heralds": 1,
           "grubs": 0,
           "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7505927197",
+      "timestamp": 1756054846280,
+      "player": "Plop c Izy#2525",
+      "win": true,
+      "team_kills": 28,
+      "players": [
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Riven",
+          "kills": 7,
+          "deaths": 7,
+          "assists": 1,
+          "gold": 8981,
+          "cs": 135,
+          "damage": 17324,
+          "role": "TOP",
+          "visionScore": 3,
+          "items": [
+            1055,
+            6692,
+            1001,
+            6610,
+            1036,
+            0,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Kenpachi#OKK",
+          "champion": "Volibear",
+          "kills": 0,
+          "deaths": 0,
+          "assists": 7,
+          "gold": 7560,
+          "cs": 146,
+          "damage": 6786,
+          "role": "JUNGLE",
+          "visionScore": 12,
+          "items": [
+            0,
+            4629,
+            3111,
+            1028,
+            1029,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "chewy blades#diano",
+          "champion": "Irelia",
+          "kills": 18,
+          "deaths": 3,
+          "assists": 0,
+          "gold": 15519,
+          "cs": 192,
+          "damage": 28443,
+          "role": "MIDDLE",
+          "visionScore": 11,
+          "items": [
+            0,
+            3153,
+            3174,
+            6672,
+            3091,
+            1055,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Ejds v2#EUW",
+          "champion": "Vayne",
+          "kills": 3,
+          "deaths": 2,
+          "assists": 2,
+          "gold": 8673,
+          "cs": 166,
+          "damage": 9985,
+          "role": "BOTTOM",
+          "visionScore": 8,
+          "items": [
+            1055,
+            3006,
+            3032,
+            3086,
+            1042,
+            1042,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Discipline#EUW",
+          "champion": "Lulu",
+          "kills": 0,
+          "deaths": 3,
+          "assists": 5,
+          "gold": 5604,
+          "cs": 30,
+          "damage": 3526,
+          "role": "UTILITY",
+          "visionScore": 41,
+          "items": [
+            3870,
+            3504,
+            3171,
+            0,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "oussa46#EUW",
+          "champion": "Renekton",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 1,
+          "gold": 7482,
+          "cs": 143,
+          "damage": 11708,
+          "role": "TOP",
+          "visionScore": 8,
+          "items": [
+            1055,
+            2031,
+            6692,
+            3047,
+            3044,
+            3067,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Whit\u00e8 Lion#EUW",
+          "champion": "Elise",
+          "kills": 6,
+          "deaths": 5,
+          "assists": 2,
+          "gold": 8022,
+          "cs": 106,
+          "damage": 10231,
+          "role": "JUNGLE",
+          "visionScore": 13,
+          "items": [
+            3020,
+            1058,
+            3145,
+            4646,
+            1082,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "osnofA#7235",
+          "champion": "Yone",
+          "kills": 3,
+          "deaths": 10,
+          "assists": 1,
+          "gold": 6420,
+          "cs": 115,
+          "damage": 11457,
+          "role": "MIDDLE",
+          "visionScore": 5,
+          "items": [
+            3153,
+            1055,
+            3006,
+            1038,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "I GuRu I#307",
+          "champion": "Jinx",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 2,
+          "gold": 7500,
+          "cs": 160,
+          "damage": 11145,
+          "role": "BOTTOM",
+          "visionScore": 5,
+          "items": [
+            1083,
+            1055,
+            3086,
+            3144,
+            3032,
+            3006,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Nanardinamouk#EUW",
+          "champion": "Milio",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 4881,
+          "cs": 26,
+          "damage": 2890,
+          "role": "UTILITY",
+          "visionScore": 28,
+          "items": [
+            3870,
+            3158,
+            6620,
+            2022,
+            1004,
+            1052,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1220,
+      "objectives": {
+        "blue": {
+          "towers": 11,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 0,
+          "atakhans": 0,
           "firstBlood": 3,
           "firstTurret": 1,
           "epicMonsterKill": 1
@@ -11076,340 +11410,6 @@
           "firstBlood": 3,
           "firstTurret": 1,
           "epicMonsterKill": 2
-        }
-      }
-    },
-    {
-      "match_id": "EUW1_7499123613",
-      "timestamp": 1755526759799,
-      "player": "Plop c Izy#2525",
-      "win": true,
-      "team_kills": 44,
-      "players": [
-        {
-          "name": "Plop c Izy#2525",
-          "champion": "Riven",
-          "kills": 16,
-          "deaths": 7,
-          "assists": 5,
-          "gold": 19825,
-          "cs": 237,
-          "damage": 36247,
-          "role": "TOP",
-          "visionScore": 14,
-          "items": [
-            2021,
-            6610,
-            6333,
-            3171,
-            6694,
-            3026,
-            3340
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "BaShYx#EUW",
-          "champion": "Amumu",
-          "kills": 9,
-          "deaths": 8,
-          "assists": 17,
-          "gold": 14767,
-          "cs": 196,
-          "damage": 32475,
-          "role": "JUNGLE",
-          "visionScore": 36,
-          "items": [
-            6653,
-            3075,
-            3068,
-            3174,
-            3110,
-            0,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "Olov#0139",
-          "champion": "Zoe",
-          "kills": 7,
-          "deaths": 10,
-          "assists": 11,
-          "gold": 12881,
-          "cs": 174,
-          "damage": 20792,
-          "role": "MIDDLE",
-          "visionScore": 16,
-          "items": [
-            1056,
-            3157,
-            6655,
-            3020,
-            1058,
-            3100,
-            3363
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "for my eyes#123",
-          "champion": "Twitch",
-          "kills": 9,
-          "deaths": 5,
-          "assists": 12,
-          "gold": 14260,
-          "cs": 227,
-          "damage": 34769,
-          "role": "BOTTOM",
-          "visionScore": 18,
-          "items": [
-            3051,
-            3032,
-            3031,
-            3174,
-            6673,
-            1043,
-            3340
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "latte c\u03c3ffee#f\u00e9lix",
-          "champion": "Lulu",
-          "kills": 3,
-          "deaths": 5,
-          "assists": 24,
-          "gold": 10743,
-          "cs": 32,
-          "damage": 6866,
-          "role": "UTILITY",
-          "visionScore": 50,
-          "items": [
-            3870,
-            3222,
-            4642,
-            3504,
-            6617,
-            3171,
-            3364
-          ],
-          "summoners": [
-            7,
-            4
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8214,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "SnowGames#EUW",
-          "champion": "Quinn",
-          "kills": 4,
-          "deaths": 11,
-          "assists": 6,
-          "gold": 12019,
-          "cs": 175,
-          "damage": 24147,
-          "role": "TOP",
-          "visionScore": 20,
-          "items": [
-            3814,
-            3087,
-            3013,
-            3036,
-            3123,
-            1018,
-            3340
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8005,
-            "secondary": 8100
-          }
-        },
-        {
-          "name": "Masahiko#2115",
-          "champion": "Rengar",
-          "kills": 9,
-          "deaths": 10,
-          "assists": 10,
-          "gold": 14894,
-          "cs": 192,
-          "damage": 25760,
-          "role": "JUNGLE",
-          "visionScore": 17,
-          "items": [
-            6699,
-            6698,
-            3031,
-            0,
-            3158,
-            3036,
-            3364
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8000
-          }
-        },
-        {
-          "name": "DrChilla#EUW",
-          "champion": "Akshan",
-          "kills": 11,
-          "deaths": 10,
-          "assists": 10,
-          "gold": 14659,
-          "cs": 199,
-          "damage": 26636,
-          "role": "MIDDLE",
-          "visionScore": 27,
-          "items": [
-            3036,
-            3087,
-            3009,
-            6676,
-            3094,
-            1037,
-            3364
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8005,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Quwalle#EUW",
-          "champion": "Xayah",
-          "kills": 9,
-          "deaths": 5,
-          "assists": 7,
-          "gold": 14615,
-          "cs": 254,
-          "damage": 23292,
-          "role": "BOTTOM",
-          "visionScore": 23,
-          "items": [
-            3036,
-            3508,
-            3006,
-            6675,
-            3031,
-            1053,
-            3340
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Quahercha#4058",
-          "champion": "Thresh",
-          "kills": 2,
-          "deaths": 8,
-          "assists": 17,
-          "gold": 9018,
-          "cs": 34,
-          "damage": 15878,
-          "role": "UTILITY",
-          "visionScore": 85,
-          "items": [
-            3190,
-            3107,
-            3869,
-            0,
-            3111,
-            3067,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8300
-          }
-        }
-      ],
-      "duration": 2006,
-      "objectives": {
-        "blue": {
-          "towers": 7,
-          "dragons": 3,
-          "barons": 1,
-          "heralds": 1,
-          "grubs": 3,
-          "atakhans": 1,
-          "firstBlood": 1001,
-          "firstTurret": 1,
-          "epicMonsterKill": 3
-        },
-        "red": {
-          "towers": 6,
-          "dragons": 2,
-          "barons": 0,
-          "heralds": 0,
-          "grubs": 0,
-          "atakhans": 0,
-          "firstBlood": 3,
-          "firstTurret": 1001,
-          "epicMonsterKill": 1001
         }
       }
     }
