@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 52.24913494809689,
-      "wins": 302,
+      "winrate": 52.33160621761658,
+      "wins": 303,
       "losses": 276,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 138,
+      "lp": 163,
       "profileIconId": 6079,
-      "lastGameTimestamp": 1756559973904
+      "lastGameTimestamp": 1756561955199
     },
     {
       "name": "Waldox#XXX",
@@ -2392,6 +2392,340 @@
           "firstBlood": 3,
           "firstTurret": 1,
           "epicMonsterKill": 2
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7512842390",
+      "timestamp": 1756561955199,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 56,
+      "players": [
+        {
+          "name": "Strong Warrior#mog",
+          "champion": "KSante",
+          "kills": 5,
+          "deaths": 12,
+          "assists": 5,
+          "gold": 12052,
+          "cs": 209,
+          "damage": 32158,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            6662,
+            6664,
+            3047,
+            2504,
+            3082,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "I Saber#EUW",
+          "champion": "Evelynn",
+          "kills": 11,
+          "deaths": 9,
+          "assists": 13,
+          "gold": 15677,
+          "cs": 151,
+          "damage": 33570,
+          "role": "JUNGLE",
+          "visionScore": 15,
+          "items": [
+            3089,
+            1058,
+            3100,
+            3020,
+            3135,
+            4645,
+            3363
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Noro\u03c7#EUW",
+          "champion": "Qiyana",
+          "kills": 14,
+          "deaths": 11,
+          "assists": 7,
+          "gold": 15029,
+          "cs": 180,
+          "damage": 37892,
+          "role": "MIDDLE",
+          "visionScore": 29,
+          "items": [
+            6701,
+            3158,
+            3142,
+            3814,
+            6694,
+            2019,
+            3363
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "JV Strong37#Kaisa",
+          "champion": "Jhin",
+          "kills": 5,
+          "deaths": 14,
+          "assists": 7,
+          "gold": 12221,
+          "cs": 180,
+          "damage": 17435,
+          "role": "BOTTOM",
+          "visionScore": 11,
+          "items": [
+            1055,
+            3142,
+            3009,
+            6676,
+            3031,
+            3086,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Garth Fitzgerald#EUW",
+          "champion": "Morgana",
+          "kills": 2,
+          "deaths": 10,
+          "assists": 16,
+          "gold": 9338,
+          "cs": 69,
+          "damage": 20099,
+          "role": "UTILITY",
+          "visionScore": 72,
+          "items": [
+            3158,
+            3871,
+            3157,
+            2055,
+            4005,
+            3041,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "PablitoElsou#EUW",
+          "champion": "Akali",
+          "kills": 15,
+          "deaths": 8,
+          "assists": 6,
+          "gold": 15362,
+          "cs": 206,
+          "damage": 45363,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            4646,
+            6653,
+            3175,
+            2420,
+            4645,
+            0,
+            3364
+          ],
+          "summoners": [
+            12,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 18,
+          "deaths": 9,
+          "assists": 12,
+          "gold": 17187,
+          "cs": 243,
+          "damage": 42373,
+          "role": "JUNGLE",
+          "visionScore": 22,
+          "items": [
+            3814,
+            3142,
+            6696,
+            6701,
+            3170,
+            6694,
+            3364
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Aokigahara#blood",
+          "champion": "Sylas",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 15,
+          "gold": 13722,
+          "cs": 194,
+          "damage": 24931,
+          "role": "MIDDLE",
+          "visionScore": 20,
+          "items": [
+            3152,
+            4633,
+            3157,
+            1082,
+            3171,
+            1058,
+            3364
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Albam31#TT1XN",
+          "champion": "Draven",
+          "kills": 15,
+          "deaths": 7,
+          "assists": 10,
+          "gold": 18586,
+          "cs": 220,
+          "damage": 41025,
+          "role": "BOTTOM",
+          "visionScore": 20,
+          "items": [
+            3036,
+            3072,
+            3508,
+            3172,
+            3094,
+            3031,
+            3363
+          ],
+          "summoners": [
+            4,
+            1
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "DRX Teddy#GOAT",
+          "champion": "Nautilus",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 27,
+          "gold": 10727,
+          "cs": 26,
+          "damage": 15819,
+          "role": "UTILITY",
+          "visionScore": 112,
+          "items": [
+            3869,
+            3190,
+            3107,
+            3109,
+            3171,
+            2055,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8360,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1967,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 1,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 11,
+          "dragons": 3,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 2,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
         }
       }
     },
