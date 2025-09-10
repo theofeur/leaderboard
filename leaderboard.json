@@ -46,14 +46,14 @@
     },
     {
       "name": "Plop c Izy#2525",
-      "winrate": 49.220489977728285,
-      "wins": 221,
+      "winrate": 49.333333333333336,
+      "wins": 222,
       "losses": 228,
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 42,
+      "lp": 55,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1757455513653
+      "lastGameTimestamp": 1757504338992
     }
   ],
   "global_match_history": [
@@ -4058,6 +4058,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7524179106",
+      "timestamp": 1757504338992,
+      "player": "Plop c Izy#2525",
+      "win": true,
+      "team_kills": 45,
+      "players": [
+        {
+          "name": "Plop c Izy#2525",
+          "champion": "Riven",
+          "kills": 7,
+          "deaths": 9,
+          "assists": 10,
+          "gold": 12252,
+          "cs": 171,
+          "damage": 24437,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            1054,
+            6610,
+            6694,
+            3171,
+            3133,
+            2019,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "All Might#UAMHA",
+          "champion": "MasterYi",
+          "kills": 14,
+          "deaths": 5,
+          "assists": 8,
+          "gold": 15386,
+          "cs": 215,
+          "damage": 39128,
+          "role": "JUNGLE",
+          "visionScore": 32,
+          "items": [
+            3006,
+            2055,
+            3124,
+            3302,
+            3153,
+            3053,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Le Bon Golem#EUW",
+          "champion": "Galio",
+          "kills": 10,
+          "deaths": 6,
+          "assists": 14,
+          "gold": 13619,
+          "cs": 209,
+          "damage": 24798,
+          "role": "MIDDLE",
+          "visionScore": 20,
+          "items": [
+            3067,
+            6664,
+            1031,
+            4633,
+            3047,
+            3157,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Gottlose#EUW",
+          "champion": "Smolder",
+          "kills": 10,
+          "deaths": 4,
+          "assists": 8,
+          "gold": 14438,
+          "cs": 238,
+          "damage": 33687,
+          "role": "BOTTOM",
+          "visionScore": 19,
+          "items": [
+            3161,
+            3508,
+            3170,
+            3094,
+            3035,
+            3123,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "LASsSALL op#EUW",
+          "champion": "Lux",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 16,
+          "gold": 9718,
+          "cs": 34,
+          "damage": 17357,
+          "role": "UTILITY",
+          "visionScore": 61,
+          "items": [
+            3871,
+            3118,
+            3171,
+            4646,
+            1058,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Loki#dex",
+          "champion": "Pantheon",
+          "kills": 10,
+          "deaths": 8,
+          "assists": 5,
+          "gold": 13947,
+          "cs": 188,
+          "damage": 27086,
+          "role": "TOP",
+          "visionScore": 14,
+          "items": [
+            3071,
+            3156,
+            6610,
+            3111,
+            6662,
+            0,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "GIGACHAD SKALMAN#EUW",
+          "champion": "DrMundo",
+          "kills": 4,
+          "deaths": 4,
+          "assists": 14,
+          "gold": 14031,
+          "cs": 234,
+          "damage": 28651,
+          "role": "JUNGLE",
+          "visionScore": 22,
+          "items": [
+            3742,
+            3084,
+            3047,
+            3065,
+            3075,
+            3082,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "SCadder#EUW",
+          "champion": "Diana",
+          "kills": 5,
+          "deaths": 14,
+          "assists": 6,
+          "gold": 13164,
+          "cs": 216,
+          "damage": 24826,
+          "role": "MIDDLE",
+          "visionScore": 25,
+          "items": [
+            3089,
+            4646,
+            3020,
+            4645,
+            3147,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Shinmen Takezo#1337",
+          "champion": "Yunara",
+          "kills": 3,
+          "deaths": 10,
+          "assists": 8,
+          "gold": 11265,
+          "cs": 196,
+          "damage": 17301,
+          "role": "BOTTOM",
+          "visionScore": 17,
+          "items": [
+            3153,
+            1055,
+            3046,
+            3006,
+            3031,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Whats Mid#EUW",
+          "champion": "Quinn",
+          "kills": 9,
+          "deaths": 9,
+          "assists": 5,
+          "gold": 11116,
+          "cs": 52,
+          "damage": 33370,
+          "role": "UTILITY",
+          "visionScore": 53,
+          "items": [
+            3877,
+            6698,
+            3013,
+            3036,
+            6676,
+            1018,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 1890,
+      "objectives": {
+        "blue": {
+          "towers": 7,
+          "dragons": 3,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 2
+        },
+        "red": {
+          "towers": 5,
+          "dragons": 2,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 1001,
           "firstTurret": 1001,
