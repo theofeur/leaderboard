@@ -13,14 +13,14 @@
     },
     {
       "name": "Neik#EUW02",
-      "winrate": 51.74129353233831,
-      "wins": 312,
+      "winrate": 51.82119205298013,
+      "wins": 313,
       "losses": 291,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 27,
+      "lp": 52,
       "profileIconId": 6079,
-      "lastGameTimestamp": 1759537164138
+      "lastGameTimestamp": 1759571514961
     },
     {
       "name": "Waldox#XXX",
@@ -6734,6 +6734,340 @@
           "firstBlood": 1001,
           "firstTurret": 1,
           "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7555060403",
+      "timestamp": 1759571514961,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 47,
+      "players": [
+        {
+          "name": "xWhiteMagicx#EUW",
+          "champion": "Yone",
+          "kills": 16,
+          "deaths": 4,
+          "assists": 7,
+          "gold": 22797,
+          "cs": 349,
+          "damage": 56559,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            3006,
+            6333,
+            3139,
+            3153,
+            3031,
+            6673,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 16,
+          "deaths": 10,
+          "assists": 14,
+          "gold": 20924,
+          "cs": 284,
+          "damage": 49622,
+          "role": "JUNGLE",
+          "visionScore": 20,
+          "items": [
+            3814,
+            3142,
+            3009,
+            6701,
+            6694,
+            3156,
+            3364
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Melufria#Mel",
+          "champion": "Mel",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 6,
+          "gold": 14629,
+          "cs": 262,
+          "damage": 15723,
+          "role": "MIDDLE",
+          "visionScore": 22,
+          "items": [
+            4629,
+            2503,
+            3111,
+            4645,
+            3089,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "timmy203#EUW",
+          "champion": "Veigar",
+          "kills": 6,
+          "deaths": 9,
+          "assists": 6,
+          "gold": 15774,
+          "cs": 259,
+          "damage": 22087,
+          "role": "BOTTOM",
+          "visionScore": 26,
+          "items": [
+            3157,
+            3020,
+            6657,
+            3089,
+            3137,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Le\u015bniczy Zab\u00f3jca#EUW",
+          "champion": "Elise",
+          "kills": 6,
+          "deaths": 6,
+          "assists": 15,
+          "gold": 12329,
+          "cs": 28,
+          "damage": 22970,
+          "role": "UTILITY",
+          "visionScore": 97,
+          "items": [
+            3877,
+            3152,
+            2055,
+            3020,
+            4646,
+            3102,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "5 D\u00d8GS 1 T\u00c9AM#EUW",
+          "champion": "Gwen",
+          "kills": 4,
+          "deaths": 13,
+          "assists": 3,
+          "gold": 11790,
+          "cs": 199,
+          "damage": 17459,
+          "role": "TOP",
+          "visionScore": 11,
+          "items": [
+            4645,
+            1058,
+            4633,
+            2420,
+            3020,
+            1026,
+            3340
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Verdal#2552",
+          "champion": "Hecarim",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 13,
+          "gold": 17004,
+          "cs": 289,
+          "damage": 34245,
+          "role": "JUNGLE",
+          "visionScore": 34,
+          "items": [
+            3071,
+            3156,
+            2021,
+            6333,
+            3111,
+            3161,
+            3364
+          ],
+          "summoners": [
+            6,
+            11
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Makima#\u30de\u30ad\u30de\u3055\u3093",
+          "champion": "Ahri",
+          "kills": 16,
+          "deaths": 8,
+          "assists": 7,
+          "gold": 19717,
+          "cs": 287,
+          "damage": 42409,
+          "role": "MIDDLE",
+          "visionScore": 14,
+          "items": [
+            3102,
+            3137,
+            3089,
+            3118,
+            4628,
+            4629,
+            3364
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Tonirel#000",
+          "champion": "Jinx",
+          "kills": 5,
+          "deaths": 7,
+          "assists": 6,
+          "gold": 17348,
+          "cs": 343,
+          "damage": 25980,
+          "role": "BOTTOM",
+          "visionScore": 18,
+          "items": [
+            1038,
+            3032,
+            3031,
+            3172,
+            3036,
+            3094,
+            3363
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "BrandKingTWTV#TWTV",
+          "champion": "Brand",
+          "kills": 4,
+          "deaths": 11,
+          "assists": 15,
+          "gold": 11571,
+          "cs": 74,
+          "damage": 17253,
+          "role": "UTILITY",
+          "visionScore": 87,
+          "items": [
+            3869,
+            3013,
+            3102,
+            1058,
+            3916,
+            3116,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 2225,
+      "objectives": {
+        "blue": {
+          "towers": 12,
+          "dragons": 2,
+          "barons": 2,
+          "heralds": 1,
+          "grubs": 0,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 4,
+          "dragons": 3,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 2
         }
       }
     },
