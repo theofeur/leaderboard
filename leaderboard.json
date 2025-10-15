@@ -24,14 +24,14 @@
     },
     {
       "name": "Waldox#XXX",
-      "winrate": 51.566265060240966,
+      "winrate": 51.44230769230769,
       "wins": 214,
-      "losses": 201,
+      "losses": 202,
       "tier": "DIAMOND",
       "rank": "I",
-      "lp": 88,
+      "lp": 67,
       "profileIconId": 6274,
-      "lastGameTimestamp": 1760535279847
+      "lastGameTimestamp": 1760537386404
     },
     {
       "name": "Apog#4705",
@@ -5402,6 +5402,340 @@
         "red": {
           "towers": 11,
           "dragons": 3,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 0,
+          "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7568938692",
+      "timestamp": 1760537386404,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 26,
+      "players": [
+        {
+          "name": "Edge236#EUW",
+          "champion": "Gragas",
+          "kills": 4,
+          "deaths": 4,
+          "assists": 14,
+          "gold": 12035,
+          "cs": 209,
+          "damage": 24389,
+          "role": "TOP",
+          "visionScore": 21,
+          "items": [
+            3916,
+            3040,
+            3157,
+            3158,
+            4629,
+            2022,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "camps before obj#bait",
+          "champion": "Rengar",
+          "kills": 5,
+          "deaths": 7,
+          "assists": 10,
+          "gold": 11992,
+          "cs": 212,
+          "damage": 25321,
+          "role": "JUNGLE",
+          "visionScore": 27,
+          "items": [
+            6698,
+            3142,
+            3158,
+            3814,
+            3035,
+            1036,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 9,
+          "gold": 10513,
+          "cs": 152,
+          "damage": 23855,
+          "role": "MIDDLE",
+          "visionScore": 10,
+          "items": [
+            6655,
+            1082,
+            1058,
+            4628,
+            3020,
+            1058,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Ma\u00eetre dog#EUW",
+          "champion": "Ezreal",
+          "kills": 9,
+          "deaths": 2,
+          "assists": 8,
+          "gold": 13940,
+          "cs": 243,
+          "damage": 43933,
+          "role": "BOTTOM",
+          "visionScore": 8,
+          "items": [
+            3161,
+            1036,
+            3042,
+            3078,
+            3158,
+            6694,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "CrazyTurk#5858",
+          "champion": "Shen",
+          "kills": 2,
+          "deaths": 10,
+          "assists": 16,
+          "gold": 7820,
+          "cs": 26,
+          "damage": 6762,
+          "role": "UTILITY",
+          "visionScore": 77,
+          "items": [
+            3869,
+            3190,
+            3107,
+            3076,
+            3047,
+            1028,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8360,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "GULAG LIFESTYLE#XCX",
+          "champion": "Urgot",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 7,
+          "gold": 13500,
+          "cs": 200,
+          "damage": 27602,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            6665,
+            3173,
+            1083,
+            3071,
+            3053,
+            2021,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "ompa lumpa#9999",
+          "champion": "Nocturne",
+          "kills": 7,
+          "deaths": 5,
+          "assists": 14,
+          "gold": 13625,
+          "cs": 216,
+          "damage": 28142,
+          "role": "JUNGLE",
+          "visionScore": 18,
+          "items": [
+            3073,
+            3174,
+            3026,
+            6631,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Duggle#EUW",
+          "champion": "Galio",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 18,
+          "gold": 11672,
+          "cs": 198,
+          "damage": 21371,
+          "role": "MIDDLE",
+          "visionScore": 25,
+          "items": [
+            6664,
+            2420,
+            4633,
+            1056,
+            1082,
+            3111,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Sunnnyboy#EUW",
+          "champion": "Twitch",
+          "kills": 15,
+          "deaths": 5,
+          "assists": 5,
+          "gold": 15257,
+          "cs": 227,
+          "damage": 37122,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            1055,
+            3032,
+            3006,
+            3031,
+            3085,
+            2019,
+            3340
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "memi   \u8336\u5305\u59b9\u59b9#memi",
+          "champion": "Soraka",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 18,
+          "gold": 8196,
+          "cs": 29,
+          "damage": 3356,
+          "role": "UTILITY",
+          "visionScore": 85,
+          "items": [
+            3869,
+            6617,
+            3158,
+            0,
+            6621,
+            0,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1879,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 0,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 0,
+          "epicMonsterKill": 1001
+        },
+        "red": {
+          "towers": 9,
+          "dragons": 4,
           "barons": 1,
           "heralds": 0,
           "grubs": 3,
