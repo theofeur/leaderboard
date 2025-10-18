@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 52.46153846153846,
-      "wins": 341,
+      "winrate": 52.534562211981566,
+      "wins": 342,
       "losses": 309,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 333,
+      "lp": 354,
       "profileIconId": 6079,
-      "lastGameTimestamp": 1760652858235
+      "lastGameTimestamp": 1760792064620
     },
     {
       "name": "Vegetation94#EUW",
@@ -12757,6 +12757,340 @@
           "firstBlood": 3,
           "firstTurret": 1001,
           "epicMonsterKill": 1001
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7572203340",
+      "timestamp": 1760792064620,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 43,
+      "players": [
+        {
+          "name": "kiin#OnTop",
+          "champion": "Nocturne",
+          "kills": 11,
+          "deaths": 6,
+          "assists": 10,
+          "gold": 12345,
+          "cs": 185,
+          "damage": 27976,
+          "role": "TOP",
+          "visionScore": 9,
+          "items": [
+            1055,
+            6631,
+            3073,
+            3071,
+            1033,
+            3158,
+            3363
+          ],
+          "summoners": [
+            12,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 22,
+          "deaths": 1,
+          "assists": 6,
+          "gold": 17224,
+          "cs": 239,
+          "damage": 35409,
+          "role": "JUNGLE",
+          "visionScore": 24,
+          "items": [
+            3814,
+            3142,
+            6701,
+            3170,
+            6694,
+            6695,
+            3364
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "xI Freezer#EUW",
+          "champion": "Syndra",
+          "kills": 7,
+          "deaths": 6,
+          "assists": 8,
+          "gold": 12186,
+          "cs": 204,
+          "damage": 20274,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            2503,
+            4629,
+            3089,
+            1056,
+            0,
+            3009,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "lana del rey#caly",
+          "champion": "Corki",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 8,
+          "gold": 10821,
+          "cs": 195,
+          "damage": 13815,
+          "role": "BOTTOM",
+          "visionScore": 10,
+          "items": [
+            1055,
+            3042,
+            3078,
+            3174,
+            1037,
+            3134,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "zTMona#EUWAD",
+          "champion": "Seraphine",
+          "kills": 0,
+          "deaths": 3,
+          "assists": 26,
+          "gold": 9138,
+          "cs": 24,
+          "damage": 12329,
+          "role": "UTILITY",
+          "visionScore": 50,
+          "items": [
+            3870,
+            6620,
+            6617,
+            3171,
+            1026,
+            3114,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Captain Knucklez#EUW",
+          "champion": "Volibear",
+          "kills": 0,
+          "deaths": 12,
+          "assists": 5,
+          "gold": 7765,
+          "cs": 163,
+          "damage": 10198,
+          "role": "TOP",
+          "visionScore": 10,
+          "items": [
+            6657,
+            2031,
+            0,
+            1031,
+            3047,
+            3057,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Krun#Jaab",
+          "champion": "Warwick",
+          "kills": 8,
+          "deaths": 11,
+          "assists": 3,
+          "gold": 11074,
+          "cs": 144,
+          "damage": 17787,
+          "role": "JUNGLE",
+          "visionScore": 15,
+          "items": [
+            3047,
+            3053,
+            3748,
+            2021,
+            2021,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Boromir1#AZT",
+          "champion": "Xerath",
+          "kills": 6,
+          "deaths": 5,
+          "assists": 5,
+          "gold": 12327,
+          "cs": 216,
+          "damage": 21988,
+          "role": "MIDDLE",
+          "visionScore": 26,
+          "items": [
+            4628,
+            6655,
+            3089,
+            1082,
+            4630,
+            1001,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Kritox#EUW",
+          "champion": "Smolder",
+          "kills": 5,
+          "deaths": 9,
+          "assists": 6,
+          "gold": 11581,
+          "cs": 231,
+          "damage": 25645,
+          "role": "BOTTOM",
+          "visionScore": 17,
+          "items": [
+            1055,
+            3508,
+            3031,
+            3158,
+            3094,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "angwy janna#purr",
+          "champion": "Sona",
+          "kills": 0,
+          "deaths": 6,
+          "assists": 7,
+          "gold": 6369,
+          "cs": 24,
+          "damage": 11841,
+          "role": "UTILITY",
+          "visionScore": 58,
+          "items": [
+            3877,
+            3013,
+            3040,
+            3108,
+            3114,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        }
+      ],
+      "duration": 1585,
+      "objectives": {
+        "blue": {
+          "towers": 8,
+          "dragons": 3,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 2,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 1,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
         }
       }
     },
