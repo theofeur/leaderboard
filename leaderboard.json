@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 52.344931921331316,
-      "wins": 346,
+      "winrate": 52.41691842900302,
+      "wins": 347,
       "losses": 315,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 326,
+      "lp": 346,
       "profileIconId": 6079,
-      "lastGameTimestamp": 1760888961560
+      "lastGameTimestamp": 1760890935414
     },
     {
       "name": "Vegetation94#EUW",
@@ -12422,6 +12422,340 @@
           "atakhans": 0,
           "firstBlood": 3,
           "firstTurret": 1001,
+          "epicMonsterKill": 1001
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7573783422",
+      "timestamp": 1760890935414,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 47,
+      "players": [
+        {
+          "name": "FKE#EUW",
+          "champion": "Akali",
+          "kills": 15,
+          "deaths": 3,
+          "assists": 6,
+          "gold": 16224,
+          "cs": 226,
+          "damage": 35093,
+          "role": "TOP",
+          "visionScore": 18,
+          "items": [
+            3152,
+            4645,
+            3157,
+            4646,
+            3041,
+            3175,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 18,
+          "gold": 14820,
+          "cs": 247,
+          "damage": 27601,
+          "role": "JUNGLE",
+          "visionScore": 17,
+          "items": [
+            3142,
+            6694,
+            3171,
+            6695,
+            1036,
+            6701,
+            3364
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "1111111111111112#4186",
+          "champion": "Corki",
+          "kills": 5,
+          "deaths": 3,
+          "assists": 20,
+          "gold": 14189,
+          "cs": 226,
+          "damage": 47767,
+          "role": "MIDDLE",
+          "visionScore": 12,
+          "items": [
+            3078,
+            3042,
+            6670,
+            3094,
+            3111,
+            3035,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "KappaChunguito#PSOE",
+          "champion": "Tristana",
+          "kills": 8,
+          "deaths": 9,
+          "assists": 6,
+          "gold": 13340,
+          "cs": 185,
+          "damage": 27444,
+          "role": "BOTTOM",
+          "visionScore": 10,
+          "items": [
+            1055,
+            3032,
+            3006,
+            3031,
+            6675,
+            6670,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Le\u015bniczy Zab\u00f3jca#EUW",
+          "champion": "Elise",
+          "kills": 13,
+          "deaths": 8,
+          "assists": 15,
+          "gold": 13552,
+          "cs": 49,
+          "damage": 27287,
+          "role": "UTILITY",
+          "visionScore": 81,
+          "items": [
+            3877,
+            4645,
+            2055,
+            3175,
+            4646,
+            6653,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "beboy1#EUW",
+          "champion": "Garen",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 12105,
+          "cs": 236,
+          "damage": 17787,
+          "role": "TOP",
+          "visionScore": 14,
+          "items": [
+            3046,
+            6631,
+            3006,
+            3031,
+            3123,
+            1036,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Drakenyx#DKX",
+          "champion": "Viego",
+          "kills": 9,
+          "deaths": 13,
+          "assists": 10,
+          "gold": 12703,
+          "cs": 150,
+          "damage": 20677,
+          "role": "JUNGLE",
+          "visionScore": 20,
+          "items": [
+            3036,
+            6672,
+            3047,
+            6676,
+            6670,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Alex o Rei Le\u00e3o#EUW",
+          "champion": "Vladimir",
+          "kills": 5,
+          "deaths": 7,
+          "assists": 7,
+          "gold": 11419,
+          "cs": 226,
+          "damage": 30876,
+          "role": "MIDDLE",
+          "visionScore": 17,
+          "items": [
+            3089,
+            4628,
+            3158,
+            4646,
+            1082,
+            1052,
+            3340
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "BleKz#DFG",
+          "champion": "Kaisa",
+          "kills": 9,
+          "deaths": 9,
+          "assists": 11,
+          "gold": 15066,
+          "cs": 233,
+          "damage": 28086,
+          "role": "BOTTOM",
+          "visionScore": 18,
+          "items": [
+            1058,
+            3087,
+            3020,
+            3157,
+            3115,
+            3124,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Chatbanned#Supp",
+          "champion": "Rakan",
+          "kills": 4,
+          "deaths": 10,
+          "assists": 20,
+          "gold": 10442,
+          "cs": 30,
+          "damage": 11498,
+          "role": "UTILITY",
+          "visionScore": 92,
+          "items": [
+            4643,
+            3190,
+            3869,
+            3105,
+            3107,
+            3158,
+            3364
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1822,
+      "objectives": {
+        "blue": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 1,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 3
+        },
+        "red": {
+          "towers": 5,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1,
           "epicMonsterKill": 1001
         }
       }
