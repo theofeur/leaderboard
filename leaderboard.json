@@ -24,14 +24,14 @@
     },
     {
       "name": "Waldox#XXX",
-      "winrate": 51.47392290249433,
+      "winrate": 51.35746606334842,
       "wins": 227,
-      "losses": 214,
-      "tier": "MASTER",
+      "losses": 215,
+      "tier": "DIAMOND",
       "rank": "I",
-      "lp": 0,
+      "lp": 75,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1761837076171
+      "lastGameTimestamp": 1761854363425
     },
     {
       "name": "Apog#4705",
@@ -6410,6 +6410,340 @@
           "atakhans": 1,
           "firstBlood": 1001,
           "firstTurret": 1,
+          "epicMonsterKill": 1001
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7586914812",
+      "timestamp": 1761854363425,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 21,
+      "players": [
+        {
+          "name": "oili1#EUW",
+          "champion": "Kled",
+          "kills": 11,
+          "deaths": 3,
+          "assists": 5,
+          "gold": 13123,
+          "cs": 189,
+          "damage": 24288,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            3047,
+            3748,
+            2501,
+            3181,
+            3123,
+            1018,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "im not normally#0000",
+          "champion": "Nunu",
+          "kills": 5,
+          "deaths": 2,
+          "assists": 16,
+          "gold": 10811,
+          "cs": 172,
+          "damage": 17358,
+          "role": "JUNGLE",
+          "visionScore": 14,
+          "items": [
+            4401,
+            3173,
+            3152,
+            3076,
+            1028,
+            1029,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "McShrekt#EUW",
+          "champion": "Malzahar",
+          "kills": 5,
+          "deaths": 6,
+          "assists": 5,
+          "gold": 10965,
+          "cs": 195,
+          "damage": 16455,
+          "role": "MIDDLE",
+          "visionScore": 23,
+          "items": [
+            1056,
+            2503,
+            6653,
+            3171,
+            1026,
+            2055,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Quento#EUW",
+          "champion": "Varus",
+          "kills": 12,
+          "deaths": 5,
+          "assists": 5,
+          "gold": 12083,
+          "cs": 193,
+          "damage": 35942,
+          "role": "BOTTOM",
+          "visionScore": 17,
+          "items": [
+            3153,
+            3006,
+            0,
+            3302,
+            3124,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Frozen Microwave#EUW",
+          "champion": "Alistar",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 19,
+          "gold": 7541,
+          "cs": 5,
+          "damage": 10818,
+          "role": "UTILITY",
+          "visionScore": 52,
+          "items": [
+            3876,
+            0,
+            3107,
+            3111,
+            1057,
+            3067,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "InP Onkel Alfie#evob",
+          "champion": "Pantheon",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 1,
+          "gold": 8265,
+          "cs": 139,
+          "damage": 20398,
+          "role": "TOP",
+          "visionScore": 13,
+          "items": [
+            1055,
+            6610,
+            3053,
+            2055,
+            3047,
+            0,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "InP John#EUW",
+          "champion": "DrMundo",
+          "kills": 2,
+          "deaths": 8,
+          "assists": 9,
+          "gold": 7910,
+          "cs": 121,
+          "damage": 19510,
+          "role": "JUNGLE",
+          "visionScore": 15,
+          "items": [
+            3084,
+            3065,
+            1029,
+            3111,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 7,
+          "deaths": 2,
+          "assists": 7,
+          "gold": 10893,
+          "cs": 175,
+          "damage": 20333,
+          "role": "MIDDLE",
+          "visionScore": 26,
+          "items": [
+            4646,
+            1082,
+            1026,
+            4645,
+            3020,
+            4630,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Debuloyl#EUW",
+          "champion": "Swain",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 6,
+          "gold": 9342,
+          "cs": 164,
+          "damage": 16578,
+          "role": "BOTTOM",
+          "visionScore": 25,
+          "items": [
+            1056,
+            3020,
+            2503,
+            6653,
+            0,
+            0,
+            3363
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "SABANDIJA#PSOE",
+          "champion": "Morgana",
+          "kills": 3,
+          "deaths": 11,
+          "assists": 11,
+          "gold": 7336,
+          "cs": 38,
+          "damage": 17488,
+          "role": "UTILITY",
+          "visionScore": 40,
+          "items": [
+            2503,
+            3916,
+            3869,
+            3158,
+            3147,
+            1052,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        }
+      ],
+      "duration": 1482,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 4,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 1,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 3
+        },
+        "red": {
+          "towers": 0,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1001,
           "epicMonsterKill": 1001
         }
       }
