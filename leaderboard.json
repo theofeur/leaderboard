@@ -1,17 +1,6 @@
 {
   "players": [
     {
-      "name": "Neik#EUW02",
-      "winrate": 51.94444444444444,
-      "wins": 374,
-      "losses": 346,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 25,
-      "profileIconId": 6079,
-      "lastGameTimestamp": 1763819781925
-    },
-    {
       "name": "Waldox#XXX",
       "winrate": 51.13871635610766,
       "wins": 247,
@@ -21,6 +10,17 @@
       "lp": 19,
       "profileIconId": 3505,
       "lastGameTimestamp": 1763300035560
+    },
+    {
+      "name": "Neik#EUW02",
+      "winrate": 51.87239944521498,
+      "wins": 374,
+      "losses": 347,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 10,
+      "profileIconId": 6079,
+      "lastGameTimestamp": 1763822023603
     },
     {
       "name": "Vegetation94#EUW",
@@ -12089,6 +12089,340 @@
           "firstBlood": 3,
           "firstTurret": 0,
           "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7613083641",
+      "timestamp": 1763822023603,
+      "player": "Neik#EUW02",
+      "win": false,
+      "team_kills": 28,
+      "players": [
+        {
+          "name": "Hoo Lee Sheet#Xpp",
+          "champion": "Gwen",
+          "kills": 10,
+          "deaths": 3,
+          "assists": 4,
+          "gold": 14881,
+          "cs": 230,
+          "damage": 39574,
+          "role": "TOP",
+          "visionScore": 16,
+          "items": [
+            3089,
+            3115,
+            4645,
+            3100,
+            3174,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Cwelaci Leonardo#sad",
+          "champion": "Ambessa",
+          "kills": 7,
+          "deaths": 6,
+          "assists": 13,
+          "gold": 12548,
+          "cs": 168,
+          "damage": 16680,
+          "role": "JUNGLE",
+          "visionScore": 12,
+          "items": [
+            6692,
+            3174,
+            6699,
+            3161,
+            3155,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Crappi#Zed",
+          "champion": "Zed",
+          "kills": 13,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 16276,
+          "cs": 255,
+          "damage": 40224,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            3171,
+            6694,
+            6698,
+            6696,
+            3161,
+            2019,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Sergii\u00d8#EUW",
+          "champion": "Jhin",
+          "kills": 10,
+          "deaths": 7,
+          "assists": 13,
+          "gold": 14672,
+          "cs": 215,
+          "damage": 30259,
+          "role": "BOTTOM",
+          "visionScore": 14,
+          "items": [
+            3174,
+            6697,
+            6676,
+            3031,
+            1018,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "DoktorRaciczka#256",
+          "champion": "Neeko",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 21,
+          "gold": 10467,
+          "cs": 29,
+          "damage": 14695,
+          "role": "UTILITY",
+          "visionScore": 67,
+          "items": [
+            1082,
+            3107,
+            3869,
+            3190,
+            3174,
+            3916,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "T1 Gros Nulera#Doran",
+          "champion": "Zaahen",
+          "kills": 0,
+          "deaths": 10,
+          "assists": 2,
+          "gold": 8325,
+          "cs": 162,
+          "damage": 13001,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            2021,
+            1055,
+            3078,
+            3047,
+            3133,
+            1028,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 10,
+          "deaths": 8,
+          "assists": 9,
+          "gold": 15059,
+          "cs": 264,
+          "damage": 25423,
+          "role": "JUNGLE",
+          "visionScore": 21,
+          "items": [
+            3142,
+            6694,
+            3158,
+            6692,
+            6701,
+            3133,
+            3364
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Budinaker#Suca",
+          "champion": "Aurora",
+          "kills": 5,
+          "deaths": 5,
+          "assists": 1,
+          "gold": 11802,
+          "cs": 218,
+          "damage": 21541,
+          "role": "MIDDLE",
+          "visionScore": 15,
+          "items": [
+            4645,
+            6655,
+            1082,
+            3158,
+            3135,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "fatglobofgrease#big",
+          "champion": "Lucian",
+          "kills": 13,
+          "deaths": 13,
+          "assists": 7,
+          "gold": 14791,
+          "cs": 198,
+          "damage": 40325,
+          "role": "BOTTOM",
+          "visionScore": 23,
+          "items": [
+            3047,
+            3036,
+            0,
+            3508,
+            3031,
+            6675,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "powdered sugar#swe",
+          "champion": "Milio",
+          "kills": 0,
+          "deaths": 7,
+          "assists": 19,
+          "gold": 7951,
+          "cs": 24,
+          "damage": 5541,
+          "role": "UTILITY",
+          "visionScore": 57,
+          "items": [
+            3870,
+            3158,
+            6620,
+            6617,
+            2055,
+            3114,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1806,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 2,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 3
+        },
+        "red": {
+          "towers": 3,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 1001
         }
       }
     },
