@@ -12,17 +12,6 @@
       "lastGameTimestamp": 1766675687419
     },
     {
-      "name": "Waldox#XXX",
-      "winrate": 51.68539325842696,
-      "wins": 276,
-      "losses": 258,
-      "tier": "MASTER",
-      "rank": "I",
-      "lp": 193,
-      "profileIconId": 3505,
-      "lastGameTimestamp": 1766769583583
-    },
-    {
       "name": "Vegetation94#EUW",
       "winrate": 55.11363636363637,
       "wins": 194,
@@ -32,6 +21,17 @@
       "lp": 185,
       "profileIconId": 23,
       "lastGameTimestamp": 1766060886757
+    },
+    {
+      "name": "Waldox#XXX",
+      "winrate": 51.58878504672897,
+      "wins": 276,
+      "losses": 259,
+      "tier": "MASTER",
+      "rank": "I",
+      "lp": 172,
+      "profileIconId": 3505,
+      "lastGameTimestamp": 1766771609780
     },
     {
       "name": "Dhaliaatrox#GRIND",
@@ -7413,6 +7413,340 @@
           "firstBlood": 1001,
           "firstTurret": 1,
           "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7658786319",
+      "timestamp": 1766771609780,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 21,
+      "players": [
+        {
+          "name": "fauni1#EUW",
+          "champion": "Tryndamere",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 4,
+          "gold": 10948,
+          "cs": 175,
+          "damage": 28298,
+          "role": "TOP",
+          "visionScore": 16,
+          "items": [
+            1055,
+            6672,
+            1037,
+            3153,
+            1043,
+            3172,
+            3340
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Naiperom#9111",
+          "champion": "Volibear",
+          "kills": 8,
+          "deaths": 6,
+          "assists": 5,
+          "gold": 11731,
+          "cs": 175,
+          "damage": 23044,
+          "role": "JUNGLE",
+          "visionScore": 19,
+          "items": [
+            0,
+            6675,
+            3174,
+            3065,
+            1028,
+            3078,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Aixun#VKoz",
+          "champion": "Velkoz",
+          "kills": 12,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 14004,
+          "cs": 221,
+          "damage": 33036,
+          "role": "MIDDLE",
+          "visionScore": 20,
+          "items": [
+            1058,
+            3157,
+            3158,
+            4628,
+            6657,
+            1082,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "MENACE FANTOME#999",
+          "champion": "Yunara",
+          "kills": 5,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 11229,
+          "cs": 197,
+          "damage": 20612,
+          "role": "BOTTOM",
+          "visionScore": 14,
+          "items": [
+            1055,
+            1083,
+            6672,
+            3046,
+            3172,
+            3035,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Leon Kennedy#666",
+          "champion": "Lulu",
+          "kills": 0,
+          "deaths": 2,
+          "assists": 12,
+          "gold": 6975,
+          "cs": 24,
+          "damage": 5121,
+          "role": "UTILITY",
+          "visionScore": 61,
+          "items": [
+            3870,
+            3107,
+            6617,
+            1004,
+            0,
+            3158,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "dudulanudula#EUW",
+          "champion": "Garen",
+          "kills": 7,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 13133,
+          "cs": 208,
+          "damage": 28132,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            3044,
+            3047,
+            6631,
+            3046,
+            3742,
+            3082,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "CROSSED THE LINE#\u79c1\u3092\u6bba\u3057\u3066",
+          "champion": "Nocturne",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 7,
+          "gold": 11794,
+          "cs": 171,
+          "damage": 24170,
+          "role": "JUNGLE",
+          "visionScore": 16,
+          "items": [
+            3073,
+            6631,
+            3047,
+            2055,
+            1042,
+            3026,
+            3363
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Viktor",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 8947,
+          "cs": 180,
+          "damage": 21433,
+          "role": "MIDDLE",
+          "visionScore": 17,
+          "items": [
+            2420,
+            2503,
+            0,
+            6653,
+            3158,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Ryusei Shido#EUW2",
+          "champion": "Caitlyn",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 4,
+          "gold": 10339,
+          "cs": 194,
+          "damage": 16115,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            1055,
+            3086,
+            6676,
+            3031,
+            3006,
+            1042,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "\uc55e\uc73c\ub85c \ud074\ub9ad\ud574 \uc790\ube44\ub294 \uc5c6\uc2b5\ub2c8\ub2e4#raz",
+          "champion": "Lux",
+          "kills": 0,
+          "deaths": 5,
+          "assists": 10,
+          "gold": 7337,
+          "cs": 50,
+          "damage": 14018,
+          "role": "UTILITY",
+          "visionScore": 58,
+          "items": [
+            3009,
+            2065,
+            3916,
+            3876,
+            4632,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8100
+          }
+        }
+      ],
+      "duration": 1653,
+      "objectives": {
+        "blue": {
+          "towers": 4,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 2
+        },
+        "red": {
+          "towers": 4,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1
         }
       }
     },
