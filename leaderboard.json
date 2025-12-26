@@ -13,14 +13,14 @@
     },
     {
       "name": "Waldox#XXX",
-      "winrate": 51.78236397748593,
+      "winrate": 51.68539325842696,
       "wins": 276,
-      "losses": 257,
+      "losses": 258,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 214,
+      "lp": 193,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1766767100733
+      "lastGameTimestamp": 1766769583583
     },
     {
       "name": "Vegetation94#EUW",
@@ -7409,6 +7409,340 @@
           "barons": 1,
           "heralds": 1,
           "grubs": 0,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1,
+          "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7658739318",
+      "timestamp": 1766769583583,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 21,
+      "players": [
+        {
+          "name": "Herobayer#Metal",
+          "champion": "KSante",
+          "kills": 0,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 8634,
+          "cs": 188,
+          "damage": 16973,
+          "role": "TOP",
+          "visionScore": 8,
+          "items": [
+            2504,
+            6662,
+            1057,
+            3047,
+            1029,
+            1029,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "RAB\u0391NUS#JGAP",
+          "champion": "MasterYi",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 2,
+          "gold": 11472,
+          "cs": 169,
+          "damage": 15380,
+          "role": "JUNGLE",
+          "visionScore": 16,
+          "items": [
+            3124,
+            3111,
+            3073,
+            6672,
+            1033,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 4,
+          "deaths": 5,
+          "assists": 4,
+          "gold": 10344,
+          "cs": 198,
+          "damage": 20712,
+          "role": "MIDDLE",
+          "visionScore": 12,
+          "items": [
+            1082,
+            6655,
+            1058,
+            4628,
+            3020,
+            1058,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "StHilari Enjoyer#EUW",
+          "champion": "Xayah",
+          "kills": 4,
+          "deaths": 13,
+          "assists": 5,
+          "gold": 10486,
+          "cs": 193,
+          "damage": 20328,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            1055,
+            3508,
+            3006,
+            3031,
+            3086,
+            1042,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "P\u00d8ATAN#0000",
+          "champion": "Pyke",
+          "kills": 5,
+          "deaths": 9,
+          "assists": 4,
+          "gold": 8036,
+          "cs": 22,
+          "damage": 12851,
+          "role": "UTILITY",
+          "visionScore": 67,
+          "items": [
+            3869,
+            3142,
+            1036,
+            3009,
+            1036,
+            3179,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "RAY#4609",
+          "champion": "Akali",
+          "kills": 8,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 11353,
+          "cs": 173,
+          "damage": 20014,
+          "role": "TOP",
+          "visionScore": 18,
+          "items": [
+            1082,
+            3152,
+            2420,
+            3175,
+            4645,
+            1058,
+            3340
+          ],
+          "summoners": [
+            14,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "MISA Stricer#111",
+          "champion": "Jax",
+          "kills": 7,
+          "deaths": 6,
+          "assists": 12,
+          "gold": 12424,
+          "cs": 187,
+          "damage": 21741,
+          "role": "JUNGLE",
+          "visionScore": 20,
+          "items": [
+            6610,
+            3078,
+            2055,
+            6333,
+            3174,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "might#2210",
+          "champion": "Sylas",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 13,
+          "gold": 11139,
+          "cs": 161,
+          "damage": 23199,
+          "role": "MIDDLE",
+          "visionScore": 12,
+          "items": [
+            1058,
+            2421,
+            3152,
+            3020,
+            1082,
+            3100,
+            3364
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "FERRER#AVG",
+          "champion": "Jhin",
+          "kills": 19,
+          "deaths": 2,
+          "assists": 11,
+          "gold": 18899,
+          "cs": 271,
+          "damage": 40713,
+          "role": "BOTTOM",
+          "visionScore": 9,
+          "items": [
+            3036,
+            6676,
+            3094,
+            3009,
+            3031,
+            3026,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Ryflax#EUW",
+          "champion": "Zilean",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 27,
+          "gold": 10177,
+          "cs": 13,
+          "damage": 5849,
+          "role": "UTILITY",
+          "visionScore": 48,
+          "items": [
+            3002,
+            2065,
+            3876,
+            3190,
+            2055,
+            3009,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1707,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1001,
+          "epicMonsterKill": 1001
+        },
+        "red": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 3,
           "atakhans": 1,
           "firstBlood": 1001,
           "firstTurret": 1,
