@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 52.10466439135381,
+      "winrate": 52.04545454545455,
       "wins": 458,
-      "losses": 421,
+      "losses": 422,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 408,
+      "lp": 388,
       "profileIconId": 6079,
-      "lastGameTimestamp": 1766927093230
+      "lastGameTimestamp": 1766931752664
     },
     {
       "name": "Waldox#XXX",
@@ -13759,6 +13759,340 @@
           "firstBlood": 1001,
           "firstTurret": 1,
           "epicMonsterKill": 3
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7661209280",
+      "timestamp": 1766931752664,
+      "player": "Neik#EUW02",
+      "win": false,
+      "team_kills": 28,
+      "players": [
+        {
+          "name": "\ucd08\uae30\uc758#korea",
+          "champion": "Fiora",
+          "kills": 4,
+          "deaths": 9,
+          "assists": 1,
+          "gold": 12546,
+          "cs": 226,
+          "damage": 20253,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            3078,
+            3074,
+            6333,
+            1036,
+            1036,
+            3047,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "ravn#LDR",
+          "champion": "Warwick",
+          "kills": 9,
+          "deaths": 4,
+          "assists": 13,
+          "gold": 14586,
+          "cs": 197,
+          "damage": 20939,
+          "role": "JUNGLE",
+          "visionScore": 30,
+          "items": [
+            3153,
+            6333,
+            3026,
+            3211,
+            1028,
+            3047,
+            3363
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Im Beauty God#EUW",
+          "champion": "Leblanc",
+          "kills": 8,
+          "deaths": 4,
+          "assists": 9,
+          "gold": 12819,
+          "cs": 205,
+          "damage": 22324,
+          "role": "MIDDLE",
+          "visionScore": 20,
+          "items": [
+            4646,
+            6655,
+            3041,
+            3158,
+            4645,
+            1026,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "MuhiTRK#8254",
+          "champion": "Samira",
+          "kills": 20,
+          "deaths": 6,
+          "assists": 8,
+          "gold": 17352,
+          "cs": 184,
+          "damage": 38407,
+          "role": "BOTTOM",
+          "visionScore": 14,
+          "items": [
+            1038,
+            3139,
+            6676,
+            3031,
+            3111,
+            3036,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Kancolf#EUW",
+          "champion": "Nautilus",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 19,
+          "gold": 10192,
+          "cs": 35,
+          "damage": 11904,
+          "role": "UTILITY",
+          "visionScore": 66,
+          "items": [
+            3869,
+            3107,
+            3190,
+            3076,
+            3047,
+            1031,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Empress#8065",
+          "champion": "Talon",
+          "kills": 8,
+          "deaths": 6,
+          "assists": 3,
+          "gold": 12566,
+          "cs": 235,
+          "damage": 22502,
+          "role": "TOP",
+          "visionScore": 11,
+          "items": [
+            6698,
+            2020,
+            3142,
+            3071,
+            3171,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "JarvanIV",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 7,
+          "gold": 10854,
+          "cs": 187,
+          "damage": 10496,
+          "role": "JUNGLE",
+          "visionScore": 17,
+          "items": [
+            6698,
+            6610,
+            3171,
+            3133,
+            1037,
+            1036,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Shozuki#EUW",
+          "champion": "Lissandra",
+          "kills": 4,
+          "deaths": 8,
+          "assists": 5,
+          "gold": 10562,
+          "cs": 224,
+          "damage": 13348,
+          "role": "MIDDLE",
+          "visionScore": 13,
+          "items": [
+            1056,
+            1058,
+            3118,
+            4645,
+            1058,
+            1001,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Uakari#aki",
+          "champion": "Kaisa",
+          "kills": 12,
+          "deaths": 13,
+          "assists": 6,
+          "gold": 17150,
+          "cs": 216,
+          "damage": 37157,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            6672,
+            3157,
+            3115,
+            3137,
+            3124,
+            3172,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Capybara#Bara1",
+          "champion": "Braum",
+          "kills": 1,
+          "deaths": 10,
+          "assists": 12,
+          "gold": 6938,
+          "cs": 26,
+          "damage": 8309,
+          "role": "UTILITY",
+          "visionScore": 55,
+          "items": [
+            3876,
+            3107,
+            3190,
+            3047,
+            1029,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1728,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 1,
+          "firstBlood": 1001,
+          "firstTurret": 1001,
+          "epicMonsterKill": 2
+        },
+        "red": {
+          "towers": 4,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 3,
+          "firstTurret": 1,
+          "epicMonsterKill": 1
         }
       }
     },
