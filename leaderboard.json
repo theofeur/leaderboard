@@ -12,6 +12,17 @@
       "lastGameTimestamp": 1767895082250
     },
     {
+      "name": "Neik#EUW02",
+      "winrate": 40.0,
+      "wins": 2,
+      "losses": 3,
+      "tier": "EMERALD",
+      "rank": "I",
+      "lp": 10,
+      "profileIconId": 6079,
+      "lastGameTimestamp": 1767913744390
+    },
+    {
       "name": "Apog#4705",
       "winrate": 0,
       "wins": 0,
@@ -43,17 +54,6 @@
       "lp": 0,
       "profileIconId": 3505,
       "lastGameTimestamp": 1767477033906
-    },
-    {
-      "name": "Neik#EUW02",
-      "winrate": 0,
-      "wins": 0,
-      "losses": 0,
-      "tier": "UNRANKED",
-      "rank": "-",
-      "lp": 0,
-      "profileIconId": 6079,
-      "lastGameTimestamp": 1767899198645
     },
     {
       "name": "Plop c Izy#2525",
@@ -14093,6 +14093,340 @@
           "firstBlood": 3,
           "firstTurret": 1,
           "epicMonsterKill": 1
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7676420908",
+      "timestamp": 1767913744390,
+      "player": "Neik#EUW02",
+      "win": false,
+      "team_kills": 7,
+      "players": [
+        {
+          "name": "lil Manikin#EUW",
+          "champion": "Darius",
+          "kills": 3,
+          "deaths": 1,
+          "assists": 0,
+          "gold": 7052,
+          "cs": 161,
+          "damage": 6900,
+          "role": "TOP",
+          "visionScore": 8,
+          "items": [
+            6631,
+            1054,
+            3044,
+            0,
+            3111,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Peugeot205 Verte#EUW",
+          "champion": "Hecarim",
+          "kills": 1,
+          "deaths": 2,
+          "assists": 6,
+          "gold": 6365,
+          "cs": 119,
+          "damage": 2444,
+          "role": "JUNGLE",
+          "visionScore": 9,
+          "items": [
+            0,
+            3158,
+            0,
+            6692,
+            1028,
+            0,
+            3513
+          ],
+          "summoners": [
+            6,
+            11
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Podushhka#Noita",
+          "champion": "Katarina",
+          "kills": 7,
+          "deaths": 2,
+          "assists": 1,
+          "gold": 9082,
+          "cs": 158,
+          "damage": 14666,
+          "role": "MIDDLE",
+          "visionScore": 6,
+          "items": [
+            1082,
+            1052,
+            3115,
+            3175,
+            4645,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Clares#333",
+          "champion": "Lucian",
+          "kills": 8,
+          "deaths": 2,
+          "assists": 2,
+          "gold": 9084,
+          "cs": 149,
+          "damage": 11257,
+          "role": "BOTTOM",
+          "visionScore": 13,
+          "items": [
+            3508,
+            6675,
+            1038,
+            0,
+            0,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Loeth#low",
+          "champion": "Braum",
+          "kills": 0,
+          "deaths": 1,
+          "assists": 11,
+          "gold": 4643,
+          "cs": 17,
+          "damage": 3094,
+          "role": "UTILITY",
+          "visionScore": 36,
+          "items": [
+            1029,
+            0,
+            3869,
+            3067,
+            3047,
+            1033,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "ALEXIS#SOY",
+          "champion": "Ornn",
+          "kills": 0,
+          "deaths": 2,
+          "assists": 1,
+          "gold": 4949,
+          "cs": 124,
+          "damage": 6634,
+          "role": "TOP",
+          "visionScore": 5,
+          "items": [
+            1054,
+            3068,
+            1028,
+            3047,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Diana",
+          "kills": 1,
+          "deaths": 4,
+          "assists": 5,
+          "gold": 6788,
+          "cs": 126,
+          "damage": 6590,
+          "role": "JUNGLE",
+          "visionScore": 7,
+          "items": [
+            3152,
+            1058,
+            3020,
+            3145,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "THOUGHTFUL#WIJK",
+          "champion": "Qiyana",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 1,
+          "gold": 6132,
+          "cs": 130,
+          "damage": 7682,
+          "role": "MIDDLE",
+          "visionScore": 10,
+          "items": [
+            3134,
+            6698,
+            2031,
+            3171,
+            1055,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "aki#fiend",
+          "champion": "Aphelios",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 0,
+          "gold": 6658,
+          "cs": 122,
+          "damage": 7820,
+          "role": "BOTTOM",
+          "visionScore": 13,
+          "items": [
+            1055,
+            6676,
+            1018,
+            1037,
+            1038,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            1
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "1roNN#EUW",
+          "champion": "Thresh",
+          "kills": 0,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 3906,
+          "cs": 25,
+          "damage": 3269,
+          "role": "UTILITY",
+          "visionScore": 24,
+          "items": [
+            3877,
+            3067,
+            3009,
+            1028,
+            1033,
+            1082,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 960,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 0,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
         }
       }
     },
