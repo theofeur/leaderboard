@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 49.61832061068702,
+      "winrate": 49.24242424242424,
       "wins": 65,
-      "losses": 66,
+      "losses": 67,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 301,
+      "lp": 284,
       "profileIconId": 776,
-      "lastGameTimestamp": 1771018528973
+      "lastGameTimestamp": 1771073795696
     },
     {
       "name": "Vegetation94#EUW",
@@ -13421,6 +13421,340 @@
           "barons": 1,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7732180870",
+      "timestamp": 1771073795696,
+      "player": "Neik#EUW02",
+      "win": false,
+      "team_kills": 11,
+      "players": [
+        {
+          "name": "Pet19#EUW",
+          "champion": "Ornn",
+          "kills": 1,
+          "deaths": 5,
+          "assists": 1,
+          "gold": 8448,
+          "cs": 196,
+          "damage": 17365,
+          "role": "TOP",
+          "visionScore": 14,
+          "items": [
+            1054,
+            2504,
+            3076,
+            2502,
+            3047,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 1,
+          "deaths": 8,
+          "assists": 4,
+          "gold": 9210,
+          "cs": 194,
+          "damage": 10095,
+          "role": "JUNGLE",
+          "visionScore": 25,
+          "items": [
+            3179,
+            3142,
+            3133,
+            1036,
+            2020,
+            2422,
+            3340
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "MALITOKING#GOYIM",
+          "champion": "Ahri",
+          "kills": 0,
+          "deaths": 4,
+          "assists": 3,
+          "gold": 8476,
+          "cs": 216,
+          "damage": 18788,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            3118,
+            4645,
+            1082,
+            3175,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Kindness#00001",
+          "champion": "Varus",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 9174,
+          "cs": 187,
+          "damage": 19126,
+          "role": "BOTTOM",
+          "visionScore": 16,
+          "items": [
+            1055,
+            3073,
+            2510,
+            1029,
+            1052,
+            1052,
+            3363
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "sexyburak#dakal",
+          "champion": "Elise",
+          "kills": 6,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 9522,
+          "cs": 50,
+          "damage": 9915,
+          "role": "UTILITY",
+          "visionScore": 68,
+          "items": [
+            3020,
+            3877,
+            4646,
+            1082,
+            4645,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Joos#Bonk",
+          "champion": "Darius",
+          "kills": 3,
+          "deaths": 1,
+          "assists": 5,
+          "gold": 10387,
+          "cs": 208,
+          "damage": 22749,
+          "role": "TOP",
+          "visionScore": 20,
+          "items": [
+            6631,
+            3053,
+            3067,
+            0,
+            3009,
+            1036,
+            3340
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "HADE Hamtaro#DARK",
+          "champion": "JarvanIV",
+          "kills": 10,
+          "deaths": 6,
+          "assists": 9,
+          "gold": 14142,
+          "cs": 169,
+          "damage": 18196,
+          "role": "JUNGLE",
+          "visionScore": 17,
+          "items": [
+            6698,
+            3155,
+            1036,
+            6696,
+            6333,
+            3158,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Zaiu#EUW7",
+          "champion": "Orianna",
+          "kills": 9,
+          "deaths": 0,
+          "assists": 11,
+          "gold": 14076,
+          "cs": 241,
+          "damage": 28691,
+          "role": "MIDDLE",
+          "visionScore": 30,
+          "items": [
+            3040,
+            3157,
+            4645,
+            1082,
+            3175,
+            1056,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Sayn#GUNS",
+          "champion": "Sivir",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 10,
+          "gold": 12892,
+          "cs": 228,
+          "damage": 20750,
+          "role": "BOTTOM",
+          "visionScore": 21,
+          "items": [
+            2031,
+            3035,
+            3031,
+            6675,
+            3508,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            1
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Bel#xoxo",
+          "champion": "Seraphine",
+          "kills": 2,
+          "deaths": 1,
+          "assists": 18,
+          "gold": 8768,
+          "cs": 35,
+          "damage": 7612,
+          "role": "UTILITY",
+          "visionScore": 80,
+          "items": [
+            3876,
+            6620,
+            2530,
+            3158,
+            3067,
+            4642,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 1589,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 1,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
