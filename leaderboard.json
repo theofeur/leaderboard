@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 49.64028776978417,
+      "winrate": 49.285714285714285,
       "wins": 69,
-      "losses": 70,
+      "losses": 71,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 318,
+      "lp": 300,
       "profileIconId": 776,
-      "lastGameTimestamp": 1771178767689
+      "lastGameTimestamp": 1771192581007
     },
     {
       "name": "Vegetation94#EUW",
@@ -13421,6 +13421,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7735030578",
+      "timestamp": 1771192581007,
+      "player": "Neik#EUW02",
+      "win": false,
+      "team_kills": 22,
+      "players": [
+        {
+          "name": "FatShield#EUW",
+          "champion": "Aatrox",
+          "kills": 7,
+          "deaths": 5,
+          "assists": 12,
+          "gold": 12616,
+          "cs": 213,
+          "damage": 42020,
+          "role": "TOP",
+          "visionScore": 29,
+          "items": [
+            3161,
+            6610,
+            6699,
+            3111,
+            3133,
+            1054,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "S U N R III S E #EUW",
+          "champion": "LeeSin",
+          "kills": 11,
+          "deaths": 4,
+          "assists": 13,
+          "gold": 15353,
+          "cs": 183,
+          "damage": 21470,
+          "role": "JUNGLE",
+          "visionScore": 53,
+          "items": [
+            6692,
+            3179,
+            0,
+            3047,
+            3071,
+            2019,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Eclipze#EUW",
+          "champion": "Lissandra",
+          "kills": 11,
+          "deaths": 2,
+          "assists": 16,
+          "gold": 14532,
+          "cs": 215,
+          "damage": 30542,
+          "role": "MIDDLE",
+          "visionScore": 35,
+          "items": [
+            3118,
+            3157,
+            1058,
+            4645,
+            3175,
+            1058,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Edgar Havran Poe#Kenny",
+          "champion": "Mel",
+          "kills": 22,
+          "deaths": 6,
+          "assists": 11,
+          "gold": 19412,
+          "cs": 225,
+          "damage": 51844,
+          "role": "BOTTOM",
+          "visionScore": 16,
+          "items": [
+            3089,
+            6655,
+            1082,
+            4645,
+            3137,
+            3108,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "happy#gamin",
+          "champion": "TwistedFate",
+          "kills": 0,
+          "deaths": 5,
+          "assists": 30,
+          "gold": 10588,
+          "cs": 45,
+          "damage": 9794,
+          "role": "UTILITY",
+          "visionScore": 99,
+          "items": [
+            3876,
+            3222,
+            3094,
+            2524,
+            3009,
+            3066,
+            3364
+          ],
+          "summoners": [
+            3,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Jez#beans",
+          "champion": "Poppy",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 7,
+          "gold": 11054,
+          "cs": 196,
+          "damage": 24157,
+          "role": "TOP",
+          "visionScore": 21,
+          "items": [
+            6665,
+            3068,
+            3121,
+            1057,
+            3009,
+            1028,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 3,
+          "deaths": 13,
+          "assists": 7,
+          "gold": 12607,
+          "cs": 221,
+          "damage": 25803,
+          "role": "JUNGLE",
+          "visionScore": 38,
+          "items": [
+            3179,
+            3142,
+            3158,
+            3814,
+            3133,
+            1036,
+            3340
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Wraith#696",
+          "champion": "Ekko",
+          "kills": 10,
+          "deaths": 7,
+          "assists": 2,
+          "gold": 13940,
+          "cs": 196,
+          "damage": 30563,
+          "role": "MIDDLE",
+          "visionScore": 21,
+          "items": [
+            4630,
+            3173,
+            3089,
+            2510,
+            4645,
+            1026,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "a beta tester#EUW",
+          "champion": "Samira",
+          "kills": 5,
+          "deaths": 11,
+          "assists": 2,
+          "gold": 12887,
+          "cs": 206,
+          "damage": 18568,
+          "role": "BOTTOM",
+          "visionScore": 23,
+          "items": [
+            1055,
+            6676,
+            1053,
+            3031,
+            4401,
+            1036,
+            3340
+          ],
+          "summoners": [
+            3,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Kaotas#EUW",
+          "champion": "Nautilus",
+          "kills": 1,
+          "deaths": 15,
+          "assists": 8,
+          "gold": 7999,
+          "cs": 27,
+          "damage": 11056,
+          "role": "UTILITY",
+          "visionScore": 57,
+          "items": [
+            3877,
+            3109,
+            3009,
+            2524,
+            3067,
+            1033,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1904,
+      "objectives": {
+        "blue": {
+          "towers": 9,
+          "dragons": 4,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
