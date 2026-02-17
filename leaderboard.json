@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 50.0,
-      "wins": 72,
+      "winrate": 50.3448275862069,
+      "wins": 73,
       "losses": 72,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 348,
+      "lp": 370,
       "profileIconId": 776,
-      "lastGameTimestamp": 1771365772282
+      "lastGameTimestamp": 1771368045918
     },
     {
       "name": "Waldox#XXX",
@@ -13421,6 +13421,340 @@
           "barons": 0,
           "heralds": 1,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7738469646",
+      "timestamp": 1771368045918,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 34,
+      "players": [
+        {
+          "name": "VIKEN#000",
+          "champion": "Ambessa",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 7,
+          "gold": 9897,
+          "cs": 201,
+          "damage": 22268,
+          "role": "TOP",
+          "visionScore": 25,
+          "items": [
+            1054,
+            6692,
+            3071,
+            3047,
+            2022,
+            1029,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 22,
+          "deaths": 3,
+          "assists": 7,
+          "gold": 18593,
+          "cs": 221,
+          "damage": 37500,
+          "role": "JUNGLE",
+          "visionScore": 39,
+          "items": [
+            6696,
+            3142,
+            3179,
+            3111,
+            6694,
+            3134,
+            3340
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Fip#OTF",
+          "champion": "Sylas",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 7,
+          "gold": 10248,
+          "cs": 181,
+          "damage": 18921,
+          "role": "MIDDLE",
+          "visionScore": 14,
+          "items": [
+            3152,
+            4645,
+            1058,
+            1056,
+            1082,
+            3171,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Yasha#2021",
+          "champion": "MissFortune",
+          "kills": 7,
+          "deaths": 4,
+          "assists": 6,
+          "gold": 12690,
+          "cs": 200,
+          "damage": 22165,
+          "role": "BOTTOM",
+          "visionScore": 31,
+          "items": [
+            1055,
+            3072,
+            3036,
+            1038,
+            2055,
+            1037,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Aqua Simulacra#EUW",
+          "champion": "Sona",
+          "kills": 0,
+          "deaths": 1,
+          "assists": 20,
+          "gold": 8579,
+          "cs": 24,
+          "damage": 6763,
+          "role": "UTILITY",
+          "visionScore": 63,
+          "items": [
+            3870,
+            3222,
+            6620,
+            3070,
+            3114,
+            3009,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "MasterVicti#EUW",
+          "champion": "Urgot",
+          "kills": 4,
+          "deaths": 6,
+          "assists": 0,
+          "gold": 10930,
+          "cs": 214,
+          "damage": 16472,
+          "role": "TOP",
+          "visionScore": 20,
+          "items": [
+            1055,
+            3047,
+            2021,
+            3071,
+            3053,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "N\u03acrci\u0219\u0219i\u0219t#ego",
+          "champion": "Hecarim",
+          "kills": 3,
+          "deaths": 3,
+          "assists": 0,
+          "gold": 9633,
+          "cs": 180,
+          "damage": 9411,
+          "role": "JUNGLE",
+          "visionScore": 12,
+          "items": [
+            3161,
+            3158,
+            6333,
+            1036,
+            1036,
+            0,
+            3364
+          ],
+          "summoners": [
+            6,
+            11
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "BartiDominator#1v9",
+          "champion": "Fizz",
+          "kills": 6,
+          "deaths": 8,
+          "assists": 1,
+          "gold": 11633,
+          "cs": 179,
+          "damage": 22617,
+          "role": "MIDDLE",
+          "visionScore": 12,
+          "items": [
+            4645,
+            3089,
+            3100,
+            3175,
+            1056,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "AshtagFreeElo#EUW",
+          "champion": "Ezreal",
+          "kills": 2,
+          "deaths": 9,
+          "assists": 5,
+          "gold": 10443,
+          "cs": 181,
+          "damage": 26067,
+          "role": "BOTTOM",
+          "visionScore": 6,
+          "items": [
+            1055,
+            3042,
+            1083,
+            3508,
+            2021,
+            1037,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "LaTaSziet#1245",
+          "champion": "Leona",
+          "kills": 1,
+          "deaths": 8,
+          "assists": 4,
+          "gold": 6406,
+          "cs": 26,
+          "damage": 6471,
+          "role": "UTILITY",
+          "visionScore": 64,
+          "items": [
+            3047,
+            3050,
+            3869,
+            3067,
+            1029,
+            1033,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 1519,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 2,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
