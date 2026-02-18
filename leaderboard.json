@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 50.3448275862069,
-      "wins": 73,
+      "winrate": 50.68493150684932,
+      "wins": 74,
       "losses": 72,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 370,
+      "lp": 392,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1771368045918
+      "lastGameTimestamp": 1771452016496
     },
     {
       "name": "Waldox#XXX",
@@ -13421,6 +13421,340 @@
           "barons": 1,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7740136623",
+      "timestamp": 1771452016496,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 44,
+      "players": [
+        {
+          "name": "Robot Voices#Zhao",
+          "champion": "XinZhao",
+          "kills": 7,
+          "deaths": 7,
+          "assists": 1,
+          "gold": 10887,
+          "cs": 215,
+          "damage": 21604,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            1055,
+            3078,
+            3748,
+            1001,
+            3071,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "time wiII tell#EUW",
+          "champion": "Hecarim",
+          "kills": 4,
+          "deaths": 10,
+          "assists": 5,
+          "gold": 9769,
+          "cs": 162,
+          "damage": 12136,
+          "role": "JUNGLE",
+          "visionScore": 14,
+          "items": [
+            3071,
+            3158,
+            2019,
+            3161,
+            1036,
+            2022,
+            3364
+          ],
+          "summoners": [
+            11,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "SWAIGMA#RAGE",
+          "champion": "Swain",
+          "kills": 3,
+          "deaths": 10,
+          "assists": 1,
+          "gold": 9307,
+          "cs": 174,
+          "damage": 14521,
+          "role": "MIDDLE",
+          "visionScore": 10,
+          "items": [
+            8010,
+            2503,
+            1052,
+            1056,
+            3057,
+            3175,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "\uc6d0\ub51c\ub9cc\ud558\ub294\uc0ac\ub78c#007",
+          "champion": "Ezreal",
+          "kills": 2,
+          "deaths": 6,
+          "assists": 4,
+          "gold": 8552,
+          "cs": 169,
+          "damage": 12476,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            1055,
+            3042,
+            3078,
+            1036,
+            0,
+            0,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "kye#vril",
+          "champion": "Nautilus",
+          "kills": 1,
+          "deaths": 12,
+          "assists": 7,
+          "gold": 6212,
+          "cs": 14,
+          "damage": 7811,
+          "role": "UTILITY",
+          "visionScore": 43,
+          "items": [
+            3876,
+            3047,
+            2524,
+            1031,
+            3067,
+            1006,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Im Just Duck#Duck",
+          "champion": "Irelia",
+          "kills": 4,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 11450,
+          "cs": 199,
+          "damage": 15632,
+          "role": "TOP",
+          "visionScore": 21,
+          "items": [
+            3153,
+            3181,
+            3110,
+            1055,
+            1036,
+            3047,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 21,
+          "deaths": 2,
+          "assists": 11,
+          "gold": 17542,
+          "cs": 243,
+          "damage": 43878,
+          "role": "JUNGLE",
+          "visionScore": 35,
+          "items": [
+            3142,
+            6696,
+            3179,
+            3047,
+            6694,
+            1037,
+            3340
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Makima#\u30de\u30ad\u30de\u3055\u3093",
+          "champion": "Ahri",
+          "kills": 10,
+          "deaths": 3,
+          "assists": 9,
+          "gold": 11201,
+          "cs": 191,
+          "damage": 35039,
+          "role": "MIDDLE",
+          "visionScore": 21,
+          "items": [
+            1056,
+            4645,
+            3118,
+            3175,
+            3145,
+            3041,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Veilshift#32257",
+          "champion": "Jhin",
+          "kills": 8,
+          "deaths": 1,
+          "assists": 11,
+          "gold": 13381,
+          "cs": 232,
+          "damage": 13791,
+          "role": "BOTTOM",
+          "visionScore": 10,
+          "items": [
+            1055,
+            3097,
+            3094,
+            3031,
+            3035,
+            0,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Connithrill#EUW",
+          "champion": "Janna",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 28,
+          "gold": 9146,
+          "cs": 15,
+          "damage": 7206,
+          "role": "UTILITY",
+          "visionScore": 64,
+          "items": [
+            3009,
+            3107,
+            3870,
+            6617,
+            1026,
+            3041,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1484,
+      "objectives": {
+        "blue": {
+          "towers": 2,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 11,
+          "dragons": 2,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
