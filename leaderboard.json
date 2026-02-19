@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 50.67567567567568,
+      "winrate": 50.33557046979866,
       "wins": 75,
-      "losses": 73,
+      "losses": 74,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 395,
+      "lp": 376,
       "profileIconId": 6097,
-      "lastGameTimestamp": 1771534336836
+      "lastGameTimestamp": 1771539149925
     },
     {
       "name": "Waldox#XXX",
@@ -13421,6 +13421,340 @@
           "barons": 1,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7741804393",
+      "timestamp": 1771539149925,
+      "player": "Neik#EUW02",
+      "win": false,
+      "team_kills": 32,
+      "players": [
+        {
+          "name": "Balanced#Findu",
+          "champion": "Malphite",
+          "kills": 14,
+          "deaths": 6,
+          "assists": 6,
+          "gold": 14147,
+          "cs": 173,
+          "damage": 31633,
+          "role": "TOP",
+          "visionScore": 24,
+          "items": [
+            3916,
+            4646,
+            3020,
+            4645,
+            3118,
+            1058,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Pato Carse#Ari",
+          "champion": "DrMundo",
+          "kills": 18,
+          "deaths": 2,
+          "assists": 13,
+          "gold": 17054,
+          "cs": 208,
+          "damage": 47961,
+          "role": "JUNGLE",
+          "visionScore": 28,
+          "items": [
+            3742,
+            3084,
+            3009,
+            3748,
+            3065,
+            1011,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Netroid#199",
+          "champion": "AurelionSol",
+          "kills": 10,
+          "deaths": 6,
+          "assists": 11,
+          "gold": 13497,
+          "cs": 210,
+          "damage": 24082,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            1056,
+            3175,
+            3157,
+            3147,
+            3116,
+            2503,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Zawisza Czarny#GRB",
+          "champion": "Ashe",
+          "kills": 5,
+          "deaths": 11,
+          "assists": 13,
+          "gold": 14566,
+          "cs": 216,
+          "damage": 26854,
+          "role": "BOTTOM",
+          "visionScore": 16,
+          "items": [
+            1055,
+            6672,
+            1029,
+            3046,
+            3031,
+            1038,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "paproszek#777",
+          "champion": "Janna",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 19,
+          "gold": 9553,
+          "cs": 25,
+          "damage": 11231,
+          "role": "UTILITY",
+          "visionScore": 72,
+          "items": [
+            3870,
+            6617,
+            3158,
+            3114,
+            3041,
+            3107,
+            3364
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Hr Monte Christo#QWERT",
+          "champion": "Vladimir",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 2,
+          "gold": 11492,
+          "cs": 219,
+          "damage": 24132,
+          "role": "TOP",
+          "visionScore": 25,
+          "items": [
+            4629,
+            3158,
+            4633,
+            1058,
+            1058,
+            3916,
+            3340
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 6,
+          "deaths": 9,
+          "assists": 3,
+          "gold": 12194,
+          "cs": 195,
+          "damage": 30252,
+          "role": "JUNGLE",
+          "visionScore": 35,
+          "items": [
+            6692,
+            3142,
+            3071,
+            3158,
+            3134,
+            1037,
+            3340
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "MTXVG#MTXVG",
+          "champion": "Zed",
+          "kills": 8,
+          "deaths": 10,
+          "assists": 5,
+          "gold": 12053,
+          "cs": 205,
+          "damage": 35344,
+          "role": "MIDDLE",
+          "visionScore": 14,
+          "items": [
+            3161,
+            6692,
+            3171,
+            3071,
+            2021,
+            1036,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Mechanic god#ERL",
+          "champion": "Veigar",
+          "kills": 11,
+          "deaths": 9,
+          "assists": 8,
+          "gold": 19245,
+          "cs": 271,
+          "damage": 40101,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            6657,
+            3040,
+            3157,
+            3089,
+            1052,
+            3137,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "mmm cokey cola#1euw",
+          "champion": "JarvanIV",
+          "kills": 4,
+          "deaths": 15,
+          "assists": 14,
+          "gold": 10363,
+          "cs": 55,
+          "damage": 21927,
+          "role": "UTILITY",
+          "visionScore": 90,
+          "items": [
+            3877,
+            3035,
+            3123,
+            3179,
+            6610,
+            2422,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1808,
+      "objectives": {
+        "blue": {
+          "towers": 8,
+          "dragons": 2,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 6,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
