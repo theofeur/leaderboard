@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Neik#EUW02",
-      "winrate": 50.33557046979866,
-      "wins": 75,
+      "winrate": 50.666666666666664,
+      "wins": 76,
       "losses": 74,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 376,
+      "lp": 397,
       "profileIconId": 7091,
-      "lastGameTimestamp": 1771539149925
+      "lastGameTimestamp": 1771693383136
     },
     {
       "name": "Waldox#XXX",
@@ -13417,6 +13417,340 @@
         },
         "red": {
           "towers": 9,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7744681382",
+      "timestamp": 1771693383136,
+      "player": "Neik#EUW02",
+      "win": true,
+      "team_kills": 42,
+      "players": [
+        {
+          "name": "Ym51#EUW",
+          "champion": "Singed",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 6,
+          "gold": 11125,
+          "cs": 285,
+          "damage": 23329,
+          "role": "TOP",
+          "visionScore": 32,
+          "items": [
+            1082,
+            6653,
+            3742,
+            3116,
+            0,
+            3009,
+            3364
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Kukkerpicikukk#KUKK",
+          "champion": "Briar",
+          "kills": 4,
+          "deaths": 9,
+          "assists": 6,
+          "gold": 10555,
+          "cs": 193,
+          "damage": 13668,
+          "role": "JUNGLE",
+          "visionScore": 17,
+          "items": [
+            3814,
+            6676,
+            1001,
+            3033,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Event Horizon#Solar",
+          "champion": "AurelionSol",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 4,
+          "gold": 10628,
+          "cs": 246,
+          "damage": 13740,
+          "role": "MIDDLE",
+          "visionScore": 16,
+          "items": [
+            1056,
+            3116,
+            1082,
+            3175,
+            6653,
+            1058,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Swollen#twt",
+          "champion": "Twitch",
+          "kills": 13,
+          "deaths": 13,
+          "assists": 8,
+          "gold": 18827,
+          "cs": 169,
+          "damage": 37974,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            3036,
+            6696,
+            3031,
+            2512,
+            6676,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Juan Barba#UwU",
+          "champion": "Teemo",
+          "kills": 6,
+          "deaths": 10,
+          "assists": 11,
+          "gold": 9603,
+          "cs": 52,
+          "damage": 26108,
+          "role": "UTILITY",
+          "visionScore": 104,
+          "items": [
+            3871,
+            3020,
+            3118,
+            4645,
+            3145,
+            2022,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Carnarius v2#EUW",
+          "champion": "Nasus",
+          "kills": 2,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 13505,
+          "cs": 286,
+          "damage": 22542,
+          "role": "TOP",
+          "visionScore": 27,
+          "items": [
+            3036,
+            1033,
+            3508,
+            3158,
+            6673,
+            1011,
+            3340
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Neik#EUW02",
+          "champion": "Talon",
+          "kills": 25,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 20879,
+          "cs": 254,
+          "damage": 42418,
+          "role": "JUNGLE",
+          "visionScore": 30,
+          "items": [
+            3142,
+            3026,
+            3179,
+            3009,
+            6696,
+            6694,
+            3340
+          ],
+          "summoners": [
+            11,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Decaff#1111",
+          "champion": "Aurora",
+          "kills": 9,
+          "deaths": 4,
+          "assists": 8,
+          "gold": 13544,
+          "cs": 241,
+          "damage": 25524,
+          "role": "MIDDLE",
+          "visionScore": 31,
+          "items": [
+            1058,
+            3152,
+            3041,
+            3170,
+            4646,
+            4645,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "HNF FBI#EUW",
+          "champion": "Aphelios",
+          "kills": 3,
+          "deaths": 13,
+          "assists": 13,
+          "gold": 12803,
+          "cs": 176,
+          "damage": 14098,
+          "role": "BOTTOM",
+          "visionScore": 14,
+          "items": [
+            1055,
+            3026,
+            2055,
+            3097,
+            3031,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "HNF Mouzz#supp",
+          "champion": "Thresh",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 21,
+          "gold": 9738,
+          "cs": 30,
+          "damage": 9591,
+          "role": "UTILITY",
+          "visionScore": 97,
+          "items": [
+            2524,
+            3190,
+            3222,
+            3876,
+            3158,
+            2022,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8100
+          }
+        }
+      ],
+      "duration": 1736,
+      "objectives": {
+        "blue": {
+          "towers": 1,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 8,
           "dragons": 3,
           "barons": 1,
           "heralds": 0,
