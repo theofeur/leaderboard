@@ -24,14 +24,14 @@
     },
     {
       "name": "Vegetation94#EUW",
-      "winrate": 49.523809523809526,
+      "winrate": 49.056603773584904,
       "wins": 52,
-      "losses": 53,
+      "losses": 54,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 216,
+      "lp": 182,
       "profileIconId": 23,
-      "lastGameTimestamp": 1772573315414
+      "lastGameTimestamp": 1772575691149
     },
     {
       "name": "Apog#4705",
@@ -18765,6 +18765,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 2,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7762160677",
+      "timestamp": 1772575691149,
+      "player": "Vegetation94#EUW",
+      "win": false,
+      "team_kills": 27,
+      "players": [
+        {
+          "name": "\uff47\uff4f\uff48\uff49\uff54\uff52\uff4f\uff59\uff50\uff49\uff59\uff4f\uff47\uff55\uff50\uff49#\uff56\uff53\uff4d\uff43\uff46",
+          "champion": "Ivern",
+          "kills": 10,
+          "deaths": 4,
+          "assists": 20,
+          "gold": 13228,
+          "cs": 126,
+          "damage": 33835,
+          "role": "TOP",
+          "visionScore": 39,
+          "items": [
+            2530,
+            6620,
+            6617,
+            3118,
+            3158,
+            1082,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Dawciu#VITB",
+          "champion": "MonkeyKing",
+          "kills": 12,
+          "deaths": 3,
+          "assists": 8,
+          "gold": 20584,
+          "cs": 303,
+          "damage": 48014,
+          "role": "JUNGLE",
+          "visionScore": 47,
+          "items": [
+            6610,
+            3026,
+            3111,
+            3078,
+            6333,
+            3065,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "trample the weak#pits",
+          "champion": "Sion",
+          "kills": 6,
+          "deaths": 6,
+          "assists": 17,
+          "gold": 17342,
+          "cs": 342,
+          "damage": 52301,
+          "role": "MIDDLE",
+          "visionScore": 33,
+          "items": [
+            3748,
+            2502,
+            3082,
+            3174,
+            6664,
+            6665,
+            3340
+          ],
+          "summoners": [
+            12,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Kopia#POL",
+          "champion": "Caitlyn",
+          "kills": 9,
+          "deaths": 9,
+          "assists": 9,
+          "gold": 17408,
+          "cs": 283,
+          "damage": 40266,
+          "role": "BOTTOM",
+          "visionScore": 24,
+          "items": [
+            3072,
+            2523,
+            3031,
+            3094,
+            3036,
+            0,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "T X M R#CEO",
+          "champion": "Leona",
+          "kills": 1,
+          "deaths": 6,
+          "assists": 21,
+          "gold": 10510,
+          "cs": 26,
+          "damage": 18842,
+          "role": "UTILITY",
+          "visionScore": 113,
+          "items": [
+            3877,
+            3047,
+            2525,
+            2524,
+            3067,
+            1031,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "chopper lover#EUW",
+          "champion": "RekSai",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 7,
+          "gold": 18516,
+          "cs": 263,
+          "damage": 44233,
+          "role": "TOP",
+          "visionScore": 29,
+          "items": [
+            3161,
+            6695,
+            3748,
+            3111,
+            3053,
+            6333,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "MrBanaBeer#444",
+          "champion": "Darius",
+          "kills": 7,
+          "deaths": 4,
+          "assists": 10,
+          "gold": 15798,
+          "cs": 264,
+          "damage": 27628,
+          "role": "JUNGLE",
+          "visionScore": 39,
+          "items": [
+            3047,
+            3142,
+            1057,
+            6333,
+            3053,
+            3742,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Ekko the Neeko#EUW",
+          "champion": "Viktor",
+          "kills": 2,
+          "deaths": 9,
+          "assists": 6,
+          "gold": 13909,
+          "cs": 320,
+          "damage": 41045,
+          "role": "MIDDLE",
+          "visionScore": 24,
+          "items": [
+            6657,
+            3137,
+            3916,
+            3171,
+            6653,
+            2420,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Oblivion#Betto",
+          "champion": "Yunara",
+          "kills": 10,
+          "deaths": 8,
+          "assists": 7,
+          "gold": 19101,
+          "cs": 299,
+          "damage": 60734,
+          "role": "BOTTOM",
+          "visionScore": 23,
+          "items": [
+            6673,
+            6672,
+            2512,
+            3031,
+            3036,
+            1053,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Vegetation94#EUW",
+          "champion": "Braum",
+          "kills": 0,
+          "deaths": 9,
+          "assists": 17,
+          "gold": 10154,
+          "cs": 29,
+          "damage": 12129,
+          "role": "UTILITY",
+          "visionScore": 110,
+          "items": [
+            3190,
+            3876,
+            2524,
+            2525,
+            3111,
+            3067,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 2222,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 6,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
