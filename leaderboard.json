@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 52.24274406332454,
-      "wins": 198,
+      "winrate": 52.36842105263158,
+      "wins": 199,
       "losses": 181,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 423,
+      "lp": 453,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1780144237833
+      "lastGameTimestamp": 1780226102502
     },
     {
       "name": "Neik#EUW02",
@@ -6730,6 +6730,340 @@
           "barons": 1,
           "heralds": 1,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7871678708",
+      "timestamp": 1780226102502,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 33,
+      "players": [
+        {
+          "name": "T H E  V 0 I D#0000",
+          "champion": "KogMaw",
+          "kills": 3,
+          "deaths": 6,
+          "assists": 3,
+          "gold": 8637,
+          "cs": 143,
+          "damage": 25496,
+          "role": "TOP",
+          "visionScore": 17,
+          "items": [
+            1056,
+            2510,
+            3020,
+            1082,
+            4645,
+            0,
+            3340
+          ],
+          "summoners": [
+            6,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "PAGO Spyrit#PAGO",
+          "champion": "Khazix",
+          "kills": 8,
+          "deaths": 0,
+          "assists": 1,
+          "gold": 12448,
+          "cs": 215,
+          "damage": 13026,
+          "role": "JUNGLE",
+          "visionScore": 16,
+          "items": [
+            3111,
+            3179,
+            6699,
+            3035,
+            2022,
+            1036,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Tengam#NdFeB",
+          "champion": "Lissandra",
+          "kills": 7,
+          "deaths": 3,
+          "assists": 9,
+          "gold": 13877,
+          "cs": 253,
+          "damage": 20754,
+          "role": "MIDDLE",
+          "visionScore": 14,
+          "items": [
+            3135,
+            2503,
+            4633,
+            3089,
+            3171,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Mystogan#DING",
+          "champion": "Heimerdinger",
+          "kills": 10,
+          "deaths": 1,
+          "assists": 6,
+          "gold": 12620,
+          "cs": 204,
+          "damage": 22426,
+          "role": "BOTTOM",
+          "visionScore": 17,
+          "items": [
+            4645,
+            3089,
+            3157,
+            0,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 5,
+          "deaths": 0,
+          "assists": 11,
+          "gold": 9280,
+          "cs": 36,
+          "damage": 15502,
+          "role": "UTILITY",
+          "visionScore": 73,
+          "items": [
+            6655,
+            1052,
+            1082,
+            4646,
+            3020,
+            3869,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Parlis#PRLS",
+          "champion": "Ornn",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 4,
+          "gold": 8834,
+          "cs": 184,
+          "damage": 12023,
+          "role": "TOP",
+          "visionScore": 16,
+          "items": [
+            2504,
+            3111,
+            2502,
+            1054,
+            3067,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8360,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "kata#hhhhh",
+          "champion": "Ekko",
+          "kills": 5,
+          "deaths": 7,
+          "assists": 0,
+          "gold": 11240,
+          "cs": 184,
+          "damage": 9982,
+          "role": "JUNGLE",
+          "visionScore": 18,
+          "items": [
+            2420,
+            1082,
+            2510,
+            4645,
+            3020,
+            1058,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8128,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Arianur#EUW",
+          "champion": "Yasuo",
+          "kills": 1,
+          "deaths": 6,
+          "assists": 1,
+          "gold": 6894,
+          "cs": 146,
+          "damage": 6236,
+          "role": "MIDDLE",
+          "visionScore": 13,
+          "items": [
+            1086,
+            3172,
+            3153,
+            1018,
+            1042,
+            1036,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Man of Spear#panth",
+          "champion": "Pantheon",
+          "kills": 1,
+          "deaths": 9,
+          "assists": 1,
+          "gold": 8022,
+          "cs": 154,
+          "damage": 8683,
+          "role": "BOTTOM",
+          "visionScore": 9,
+          "items": [
+            3142,
+            3814,
+            1055,
+            3155,
+            0,
+            0,
+            3364
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "ThatchersDead#AbyLM",
+          "champion": "Brand",
+          "kills": 0,
+          "deaths": 7,
+          "assists": 4,
+          "gold": 6366,
+          "cs": 56,
+          "damage": 12233,
+          "role": "UTILITY",
+          "visionScore": 26,
+          "items": [
+            1082,
+            3871,
+            3020,
+            3116,
+            2508,
+            1028,
+            3364
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8992,
+            "secondary": 8000
+          }
+        }
+      ],
+      "duration": 1519,
+      "objectives": {
+        "blue": {
+          "towers": 10,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 1,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 2,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
