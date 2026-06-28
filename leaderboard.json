@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 52.58426966292135,
-      "wins": 234,
-      "losses": 211,
+      "winrate": 52.572706935123044,
+      "wins": 235,
+      "losses": 212,
       "tier": "MASTER",
       "rank": "I",
       "lp": 735,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1782468965846
+      "lastGameTimestamp": 1782646245811
     },
     {
       "name": "Neik#EUW02",
@@ -6404,6 +6404,674 @@
       }
     },
     {
+      "match_id": "EUW1_7902071918",
+      "timestamp": 1782646245811,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 41,
+      "players": [
+        {
+          "name": "Moag#6660",
+          "champion": "Gnar",
+          "kills": 4,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 13831,
+          "cs": 252,
+          "damage": 25477,
+          "role": "TOP",
+          "visionScore": 36,
+          "items": [
+            2504,
+            3053,
+            3111,
+            2021,
+            3078,
+            2021,
+            3340
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "BBlade#Talon",
+          "champion": "Quinn",
+          "kills": 6,
+          "deaths": 7,
+          "assists": 5,
+          "gold": 14592,
+          "cs": 248,
+          "damage": 18818,
+          "role": "JUNGLE",
+          "visionScore": 27,
+          "items": [
+            6676,
+            6697,
+            1001,
+            3031,
+            3036,
+            0,
+            3363
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "temperance#rain",
+          "champion": "Locke",
+          "kills": 6,
+          "deaths": 15,
+          "assists": 2,
+          "gold": 10953,
+          "cs": 158,
+          "damage": 25082,
+          "role": "MIDDLE",
+          "visionScore": 20,
+          "items": [
+            3100,
+            4646,
+            4645,
+            1082,
+            3175,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Salaterka#east",
+          "champion": "Hwei",
+          "kills": 11,
+          "deaths": 8,
+          "assists": 8,
+          "gold": 16157,
+          "cs": 228,
+          "damage": 27783,
+          "role": "BOTTOM",
+          "visionScore": 44,
+          "items": [
+            2503,
+            4628,
+            4646,
+            3135,
+            0,
+            6655,
+            3364
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "CANDYYY#SRB",
+          "champion": "Nautilus",
+          "kills": 2,
+          "deaths": 6,
+          "assists": 11,
+          "gold": 8835,
+          "cs": 35,
+          "damage": 12495,
+          "role": "UTILITY",
+          "visionScore": 112,
+          "items": [
+            3190,
+            3877,
+            2525,
+            3111,
+            3067,
+            1029,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Basse#Nico",
+          "champion": "Aurora",
+          "kills": 15,
+          "deaths": 2,
+          "assists": 8,
+          "gold": 15557,
+          "cs": 190,
+          "damage": 37916,
+          "role": "TOP",
+          "visionScore": 32,
+          "items": [
+            4646,
+            3020,
+            3041,
+            4645,
+            1026,
+            3152,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "ayazcan#EUW",
+          "champion": "Nocturne",
+          "kills": 5,
+          "deaths": 9,
+          "assists": 8,
+          "gold": 12748,
+          "cs": 221,
+          "damage": 18540,
+          "role": "JUNGLE",
+          "visionScore": 39,
+          "items": [
+            2019,
+            6631,
+            2055,
+            1001,
+            3073,
+            3026,
+            3363
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 12,
+          "deaths": 7,
+          "assists": 9,
+          "gold": 13620,
+          "cs": 168,
+          "damage": 28198,
+          "role": "MIDDLE",
+          "visionScore": 25,
+          "items": [
+            6655,
+            4645,
+            1058,
+            4646,
+            3175,
+            1058,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Wompwomp#wub",
+          "champion": "Ezreal",
+          "kills": 8,
+          "deaths": 8,
+          "assists": 10,
+          "gold": 16430,
+          "cs": 238,
+          "damage": 30085,
+          "role": "BOTTOM",
+          "visionScore": 24,
+          "items": [
+            3161,
+            3078,
+            3042,
+            6694,
+            3155,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Isagi#PYKE",
+          "champion": "Rell",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 26,
+          "gold": 10047,
+          "cs": 19,
+          "damage": 11903,
+          "role": "UTILITY",
+          "visionScore": 133,
+          "items": [
+            2525,
+            3869,
+            3111,
+            2504,
+            3067,
+            1033,
+            3364
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        }
+      ],
+      "duration": 1912,
+      "objectives": {
+        "blue": {
+          "towers": 6,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 10,
+          "dragons": 4,
+          "barons": 1,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7902035274",
+      "timestamp": 1782643962676,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 16,
+      "players": [
+        {
+          "name": "Veigar v2#0000",
+          "champion": "Anivia",
+          "kills": 4,
+          "deaths": 4,
+          "assists": 8,
+          "gold": 12649,
+          "cs": 265,
+          "damage": 23550,
+          "role": "TOP",
+          "visionScore": 27,
+          "items": [
+            3009,
+            6657,
+            1082,
+            3137,
+            6653,
+            3916,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "\u00dctani Gran Hur#6979",
+          "champion": "LeeSin",
+          "kills": 3,
+          "deaths": 4,
+          "assists": 16,
+          "gold": 12031,
+          "cs": 178,
+          "damage": 17056,
+          "role": "JUNGLE",
+          "visionScore": 32,
+          "items": [
+            3071,
+            6610,
+            3047,
+            2019,
+            1037,
+            1036,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Random kdaplyers#EUW00",
+          "champion": "Akali",
+          "kills": 8,
+          "deaths": 5,
+          "assists": 4,
+          "gold": 12957,
+          "cs": 215,
+          "damage": 30539,
+          "role": "MIDDLE",
+          "visionScore": 17,
+          "items": [
+            1056,
+            3146,
+            4645,
+            3175,
+            1082,
+            3135,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Aer Haed#Bela",
+          "champion": "Caitlyn",
+          "kills": 13,
+          "deaths": 2,
+          "assists": 5,
+          "gold": 17370,
+          "cs": 240,
+          "damage": 42042,
+          "role": "BOTTOM",
+          "visionScore": 20,
+          "items": [
+            3033,
+            1038,
+            1036,
+            3094,
+            2523,
+            3031,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "StephenCarry73#EUW",
+          "champion": "Rakan",
+          "kills": 0,
+          "deaths": 1,
+          "assists": 17,
+          "gold": 8984,
+          "cs": 44,
+          "damage": 5033,
+          "role": "UTILITY",
+          "visionScore": 106,
+          "items": [
+            3869,
+            3190,
+            3050,
+            3158,
+            3067,
+            1033,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8465,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Numbers#PLUH",
+          "champion": "Volibear",
+          "kills": 3,
+          "deaths": 8,
+          "assists": 3,
+          "gold": 11369,
+          "cs": 222,
+          "damage": 24945,
+          "role": "TOP",
+          "visionScore": 38,
+          "items": [
+            4401,
+            3009,
+            2510,
+            1082,
+            3087,
+            1033,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Burre#Cats",
+          "champion": "Darius",
+          "kills": 7,
+          "deaths": 5,
+          "assists": 3,
+          "gold": 13711,
+          "cs": 263,
+          "damage": 19265,
+          "role": "JUNGLE",
+          "visionScore": 23,
+          "items": [
+            3742,
+            3142,
+            3009,
+            3053,
+            4401,
+            1029,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8230,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 2,
+          "deaths": 5,
+          "assists": 5,
+          "gold": 8824,
+          "cs": 166,
+          "damage": 21873,
+          "role": "MIDDLE",
+          "visionScore": 19,
+          "items": [
+            6655,
+            1052,
+            1082,
+            4646,
+            3175,
+            1052,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "USER NOT FOUND#1808",
+          "champion": "Ezreal",
+          "kills": 2,
+          "deaths": 4,
+          "assists": 5,
+          "gold": 12506,
+          "cs": 243,
+          "damage": 33180,
+          "role": "BOTTOM",
+          "visionScore": 15,
+          "items": [
+            1086,
+            3078,
+            3042,
+            3156,
+            3133,
+            1036,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Erwats#EUW",
+          "champion": "Sona",
+          "kills": 2,
+          "deaths": 6,
+          "assists": 6,
+          "gold": 7920,
+          "cs": 30,
+          "damage": 9003,
+          "role": "UTILITY",
+          "visionScore": 101,
+          "items": [
+            6620,
+            3877,
+            2530,
+            3009,
+            3114,
+            3108,
+            3364
+          ],
+          "summoners": [
+            3,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1865,
+      "objectives": {
+        "blue": {
+          "towers": 9,
+          "dragons": 1,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 1,
+          "dragons": 3,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
       "match_id": "EUW1_7899785905",
       "timestamp": 1782468965846,
       "player": "Waldox#XXX",
@@ -8400,674 +9068,6 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 0,
-          "atakhans": 0,
-          "firstBlood": 0,
-          "firstTurret": 0,
-          "epicMonsterKill": 0
-        }
-      }
-    },
-    {
-      "match_id": "EUW1_7897477544",
-      "timestamp": 1782294892118,
-      "player": "Waldox#XXX",
-      "win": false,
-      "team_kills": 15,
-      "players": [
-        {
-          "name": "ZEUS pt2#EUW",
-          "champion": "Jax",
-          "kills": 5,
-          "deaths": 4,
-          "assists": 3,
-          "gold": 10289,
-          "cs": 187,
-          "damage": 10145,
-          "role": "TOP",
-          "visionScore": 20,
-          "items": [
-            3078,
-            3111,
-            6610,
-            2019,
-            0,
-            0,
-            3340
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8437,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Darth Nihilus#0810",
-          "champion": "Olaf",
-          "kills": 6,
-          "deaths": 2,
-          "assists": 9,
-          "gold": 13119,
-          "cs": 213,
-          "damage": 15499,
-          "role": "JUNGLE",
-          "visionScore": 20,
-          "items": [
-            6333,
-            6631,
-            0,
-            3047,
-            1018,
-            3073,
-            3364
-          ],
-          "summoners": [
-            11,
-            6
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Percy Magic#1234",
-          "champion": "Galio",
-          "kills": 5,
-          "deaths": 3,
-          "assists": 11,
-          "gold": 12139,
-          "cs": 245,
-          "damage": 20864,
-          "role": "MIDDLE",
-          "visionScore": 32,
-          "items": [
-            3041,
-            2420,
-            3173,
-            1056,
-            6664,
-            4633,
-            3364
-          ],
-          "summoners": [
-            4,
-            12
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Ye Jianying#EUW",
-          "champion": "Corki",
-          "kills": 6,
-          "deaths": 4,
-          "assists": 8,
-          "gold": 13281,
-          "cs": 218,
-          "damage": 16946,
-          "role": "BOTTOM",
-          "visionScore": 15,
-          "items": [
-            3031,
-            3508,
-            2523,
-            1055,
-            1036,
-            0,
-            3363
-          ],
-          "summoners": [
-            4,
-            21
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "mel aviv#lina",
-          "champion": "Nautilus",
-          "kills": 3,
-          "deaths": 2,
-          "assists": 13,
-          "gold": 8347,
-          "cs": 41,
-          "damage": 10610,
-          "role": "UTILITY",
-          "visionScore": 86,
-          "items": [
-            3190,
-            3869,
-            3109,
-            2031,
-            3111,
-            3067,
-            3364
-          ],
-          "summoners": [
-            7,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "siber atlet#1234",
-          "champion": "Kennen",
-          "kills": 4,
-          "deaths": 8,
-          "assists": 3,
-          "gold": 9069,
-          "cs": 181,
-          "damage": 16958,
-          "role": "TOP",
-          "visionScore": 19,
-          "items": [
-            3152,
-            4645,
-            1055,
-            4630,
-            3020,
-            0,
-            3340
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Miguel Diaz#CKWIN",
-          "champion": "MonkeyKing",
-          "kills": 5,
-          "deaths": 4,
-          "assists": 1,
-          "gold": 9761,
-          "cs": 176,
-          "damage": 11311,
-          "role": "JUNGLE",
-          "visionScore": 22,
-          "items": [
-            3133,
-            1036,
-            2055,
-            6610,
-            3078,
-            3047,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Remigiusz#EUW",
-          "champion": "Chogath",
-          "kills": 3,
-          "deaths": 1,
-          "assists": 2,
-          "gold": 9701,
-          "cs": 231,
-          "damage": 9262,
-          "role": "MIDDLE",
-          "visionScore": 15,
-          "items": [
-            3152,
-            2055,
-            1056,
-            4633,
-            3170,
-            3066,
-            3364
-          ],
-          "summoners": [
-            4,
-            6
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 9923,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Alli\u00e9 1#POE",
-          "champion": "Yasuo",
-          "kills": 2,
-          "deaths": 7,
-          "assists": 2,
-          "gold": 9972,
-          "cs": 232,
-          "damage": 17250,
-          "role": "BOTTOM",
-          "visionScore": 15,
-          "items": [
-            1086,
-            3153,
-            6673,
-            1018,
-            1037,
-            0,
-            3340
-          ],
-          "summoners": [
-            4,
-            3
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Waldox#XXX",
-          "champion": "Leblanc",
-          "kills": 1,
-          "deaths": 5,
-          "assists": 7,
-          "gold": 7587,
-          "cs": 50,
-          "damage": 12579,
-          "role": "UTILITY",
-          "visionScore": 89,
-          "items": [
-            6655,
-            1082,
-            1052,
-            3916,
-            3158,
-            3869,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        }
-      ],
-      "duration": 1503,
-      "objectives": {
-        "blue": {
-          "towers": 6,
-          "dragons": 2,
-          "barons": 1,
-          "heralds": 0,
-          "grubs": 3,
-          "atakhans": 0,
-          "firstBlood": 0,
-          "firstTurret": 0,
-          "epicMonsterKill": 0
-        },
-        "red": {
-          "towers": 2,
-          "dragons": 2,
-          "barons": 0,
-          "heralds": 1,
-          "grubs": 0,
-          "atakhans": 0,
-          "firstBlood": 0,
-          "firstTurret": 0,
-          "epicMonsterKill": 0
-        }
-      }
-    },
-    {
-      "match_id": "EUW1_7897453397",
-      "timestamp": 1782292807684,
-      "player": "Waldox#XXX",
-      "win": false,
-      "team_kills": 12,
-      "players": [
-        {
-          "name": "silly pickle#akali",
-          "champion": "Riven",
-          "kills": 3,
-          "deaths": 4,
-          "assists": 4,
-          "gold": 12933,
-          "cs": 224,
-          "damage": 15305,
-          "role": "TOP",
-          "visionScore": 18,
-          "items": [
-            3071,
-            3047,
-            6333,
-            2517,
-            1033,
-            1055,
-            3340
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "HaruTKX#KAMI",
-          "champion": "Sylas",
-          "kills": 2,
-          "deaths": 12,
-          "assists": 5,
-          "gold": 11101,
-          "cs": 181,
-          "damage": 16406,
-          "role": "JUNGLE",
-          "visionScore": 26,
-          "items": [
-            3157,
-            3152,
-            0,
-            3158,
-            4633,
-            0,
-            3340
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Waldox#XXX",
-          "champion": "Leblanc",
-          "kills": 5,
-          "deaths": 4,
-          "assists": 4,
-          "gold": 12322,
-          "cs": 221,
-          "damage": 22685,
-          "role": "MIDDLE",
-          "visionScore": 23,
-          "items": [
-            3157,
-            6655,
-            1082,
-            4645,
-            3175,
-            2055,
-            3364
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "uncrits#EUW",
-          "champion": "Jinx",
-          "kills": 2,
-          "deaths": 5,
-          "assists": 1,
-          "gold": 13236,
-          "cs": 272,
-          "damage": 16357,
-          "role": "BOTTOM",
-          "visionScore": 16,
-          "items": [
-            3032,
-            1086,
-            3031,
-            3085,
-            1018,
-            3123,
-            3363
-          ],
-          "summoners": [
-            1,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "i like sandwiche#EUW",
-          "champion": "Karma",
-          "kills": 0,
-          "deaths": 6,
-          "assists": 6,
-          "gold": 7843,
-          "cs": 39,
-          "damage": 6508,
-          "role": "UTILITY",
-          "visionScore": 115,
-          "items": [
-            3870,
-            3222,
-            3108,
-            3158,
-            6620,
-            3114,
-            3364
-          ],
-          "summoners": [
-            7,
-            4
-          ],
-          "runes": {
-            "primary": 8200,
-            "keystone": 8214,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "ROI RESSUSCIT\u00c9#SMURF",
-          "champion": "Renekton",
-          "kills": 15,
-          "deaths": 3,
-          "assists": 3,
-          "gold": 15464,
-          "cs": 254,
-          "damage": 38042,
-          "role": "TOP",
-          "visionScore": 31,
-          "items": [
-            3156,
-            6699,
-            3158,
-            3071,
-            6333,
-            1037,
-            3340
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8005,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "nasoulis#CLMTX",
-          "champion": "XinZhao",
-          "kills": 3,
-          "deaths": 3,
-          "assists": 6,
-          "gold": 12160,
-          "cs": 203,
-          "damage": 11035,
-          "role": "JUNGLE",
-          "visionScore": 24,
-          "items": [
-            3111,
-            3748,
-            3071,
-            6333,
-            1028,
-            1028,
-            3364
-          ],
-          "summoners": [
-            4,
-            11
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "m0rdredjr#EUW",
-          "champion": "Zed",
-          "kills": 6,
-          "deaths": 4,
-          "assists": 2,
-          "gold": 10917,
-          "cs": 195,
-          "damage": 21285,
-          "role": "MIDDLE",
-          "visionScore": 24,
-          "items": [
-            2055,
-            6694,
-            3173,
-            2520,
-            6699,
-            0,
-            3363
-          ],
-          "summoners": [
-            4,
-            14
-          ],
-          "runes": {
-            "primary": 8100,
-            "keystone": 8112,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Sidelane Sion#EUW",
-          "champion": "Veigar",
-          "kills": 7,
-          "deaths": 1,
-          "assists": 8,
-          "gold": 16455,
-          "cs": 263,
-          "damage": 22852,
-          "role": "BOTTOM",
-          "visionScore": 8,
-          "items": [
-            4646,
-            2420,
-            3089,
-            4645,
-            1056,
-            6655,
-            3363
-          ],
-          "summoners": [
-            12,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8369,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "green fn#zap",
-          "champion": "Rell",
-          "kills": 0,
-          "deaths": 1,
-          "assists": 18,
-          "gold": 8736,
-          "cs": 38,
-          "damage": 7719,
-          "role": "UTILITY",
-          "visionScore": 117,
-          "items": [
-            3067,
-            3109,
-            1033,
-            3111,
-            3876,
-            3050,
-            3364
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8300
-          }
-        }
-      ],
-      "duration": 1833,
-      "objectives": {
-        "blue": {
-          "towers": 3,
-          "dragons": 1,
-          "barons": 1,
-          "heralds": 0,
-          "grubs": 0,
-          "atakhans": 0,
-          "firstBlood": 0,
-          "firstTurret": 0,
-          "epicMonsterKill": 0
-        },
-        "red": {
-          "towers": 11,
-          "dragons": 3,
-          "barons": 1,
-          "heralds": 1,
-          "grubs": 3,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
@@ -13072,340 +13072,6 @@
         },
         "red": {
           "towers": 9,
-          "dragons": 3,
-          "barons": 1,
-          "heralds": 0,
-          "grubs": 0,
-          "atakhans": 0,
-          "firstBlood": 0,
-          "firstTurret": 0,
-          "epicMonsterKill": 0
-        }
-      }
-    },
-    {
-      "match_id": "EUW1_7877849261",
-      "timestamp": 1780698644011,
-      "player": "Neik#EUW02",
-      "win": false,
-      "team_kills": 38,
-      "players": [
-        {
-          "name": "MUIN#\ubb3400",
-          "champion": "Varus",
-          "kills": 13,
-          "deaths": 7,
-          "assists": 4,
-          "gold": 16054,
-          "cs": 220,
-          "damage": 37147,
-          "role": "TOP",
-          "visionScore": 24,
-          "items": [
-            3115,
-            3006,
-            3073,
-            3124,
-            3302,
-            4632,
-            3364
-          ],
-          "summoners": [
-            6,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Neik#EUW02",
-          "champion": "Diana",
-          "kills": 6,
-          "deaths": 8,
-          "assists": 12,
-          "gold": 14740,
-          "cs": 283,
-          "damage": 28052,
-          "role": "JUNGLE",
-          "visionScore": 24,
-          "items": [
-            3152,
-            2510,
-            1058,
-            3111,
-            4633,
-            6653,
-            3364
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "oud satin mood#fiora",
-          "champion": "Fiora",
-          "kills": 6,
-          "deaths": 11,
-          "assists": 9,
-          "gold": 14942,
-          "cs": 238,
-          "damage": 31637,
-          "role": "MIDDLE",
-          "visionScore": 26,
-          "items": [
-            3074,
-            3133,
-            3140,
-            6333,
-            3168,
-            6697,
-            3340
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8005,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Feleon#EUW",
-          "champion": "Tristana",
-          "kills": 13,
-          "deaths": 6,
-          "assists": 5,
-          "gold": 16665,
-          "cs": 213,
-          "damage": 27038,
-          "role": "BOTTOM",
-          "visionScore": 24,
-          "items": [
-            3031,
-            6675,
-            6676,
-            3036,
-            1086,
-            1038,
-            3363
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8005,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Dark Gurd#EUW",
-          "champion": "Nautilus",
-          "kills": 0,
-          "deaths": 10,
-          "assists": 16,
-          "gold": 8703,
-          "cs": 40,
-          "damage": 11143,
-          "role": "UTILITY",
-          "visionScore": 96,
-          "items": [
-            3047,
-            3190,
-            3876,
-            2524,
-            3076,
-            1028,
-            3364
-          ],
-          "summoners": [
-            14,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8300
-          }
-        },
-        {
-          "name": "Sidelane Sion#EUW",
-          "champion": "Warwick",
-          "kills": 5,
-          "deaths": 6,
-          "assists": 7,
-          "gold": 13437,
-          "cs": 256,
-          "damage": 25095,
-          "role": "TOP",
-          "visionScore": 20,
-          "items": [
-            3153,
-            6631,
-            6333,
-            3047,
-            3076,
-            3067,
-            3340
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8008,
-            "secondary": 8400
-          }
-        },
-        {
-          "name": "Grim007#EUW",
-          "champion": "Shyvana",
-          "kills": 10,
-          "deaths": 9,
-          "assists": 6,
-          "gold": 14514,
-          "cs": 214,
-          "damage": 24469,
-          "role": "JUNGLE",
-          "visionScore": 19,
-          "items": [
-            3073,
-            3078,
-            3047,
-            3071,
-            3161,
-            0,
-            3340
-          ],
-          "summoners": [
-            11,
-            4
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Saul Goodman#XNS",
-          "champion": "Cassiopeia",
-          "kills": 8,
-          "deaths": 9,
-          "assists": 19,
-          "gold": 14322,
-          "cs": 188,
-          "damage": 37395,
-          "role": "MIDDLE",
-          "visionScore": 36,
-          "items": [
-            0,
-            3170,
-            3110,
-            3116,
-            3089,
-            3040,
-            3363
-          ],
-          "summoners": [
-            4,
-            3
-          ],
-          "runes": {
-            "primary": 8000,
-            "keystone": 8010,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "Nexis#EUW11",
-          "champion": "MissFortune",
-          "kills": 16,
-          "deaths": 7,
-          "assists": 7,
-          "gold": 20592,
-          "cs": 259,
-          "damage": 39447,
-          "role": "BOTTOM",
-          "visionScore": 18,
-          "items": [
-            3814,
-            6676,
-            6697,
-            3031,
-            3036,
-            1053,
-            3363
-          ],
-          "summoners": [
-            21,
-            4
-          ],
-          "runes": {
-            "primary": 8300,
-            "keystone": 8369,
-            "secondary": 8200
-          }
-        },
-        {
-          "name": "ArchLL#EUW",
-          "champion": "Thresh",
-          "kills": 2,
-          "deaths": 7,
-          "assists": 29,
-          "gold": 10549,
-          "cs": 31,
-          "damage": 9515,
-          "role": "UTILITY",
-          "visionScore": 109,
-          "items": [
-            3190,
-            1029,
-            3109,
-            3869,
-            4005,
-            3009,
-            3364
-          ],
-          "summoners": [
-            7,
-            4
-          ],
-          "runes": {
-            "primary": 8400,
-            "keystone": 8439,
-            "secondary": 8300
-          }
-        }
-      ],
-      "duration": 1918,
-      "objectives": {
-        "blue": {
-          "towers": 6,
-          "dragons": 2,
-          "barons": 1,
-          "heralds": 0,
-          "grubs": 3,
-          "atakhans": 0,
-          "firstBlood": 0,
-          "firstTurret": 0,
-          "epicMonsterKill": 0
-        },
-        "red": {
-          "towers": 8,
           "dragons": 3,
           "barons": 1,
           "heralds": 0,
