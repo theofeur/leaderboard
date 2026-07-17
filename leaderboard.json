@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 52.24839400428265,
+      "winrate": 52.136752136752136,
       "wins": 244,
-      "losses": 223,
+      "losses": 224,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 718,
+      "lp": 687,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1783765409014
+      "lastGameTimestamp": 1784294133149
     },
     {
       "name": "Neik#EUW02",
@@ -6396,6 +6396,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7921150039",
+      "timestamp": 1784294133149,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 8,
+      "players": [
+        {
+          "name": "Filled Reksai#Rek",
+          "champion": "RekSai",
+          "kills": 2,
+          "deaths": 1,
+          "assists": 2,
+          "gold": 7021,
+          "cs": 137,
+          "damage": 10251,
+          "role": "TOP",
+          "visionScore": 12,
+          "items": [
+            3748,
+            1054,
+            3047,
+            3076,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Bestie#WEST",
+          "champion": "JarvanIV",
+          "kills": 3,
+          "deaths": 2,
+          "assists": 7,
+          "gold": 8721,
+          "cs": 162,
+          "damage": 7383,
+          "role": "JUNGLE",
+          "visionScore": 15,
+          "items": [
+            3071,
+            0,
+            2422,
+            1036,
+            6610,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Privilegia#EUW",
+          "champion": "Akali",
+          "kills": 8,
+          "deaths": 2,
+          "assists": 1,
+          "gold": 9348,
+          "cs": 179,
+          "damage": 14329,
+          "role": "MIDDLE",
+          "visionScore": 12,
+          "items": [
+            3146,
+            4646,
+            3175,
+            1082,
+            1029,
+            1054,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Hanni plush#goat",
+          "champion": "MissFortune",
+          "kills": 9,
+          "deaths": 0,
+          "assists": 3,
+          "gold": 11799,
+          "cs": 201,
+          "damage": 13988,
+          "role": "BOTTOM",
+          "visionScore": 12,
+          "items": [
+            3134,
+            1037,
+            0,
+            3072,
+            6697,
+            1055,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Kixss jungler#EUW",
+          "champion": "Thresh",
+          "kills": 2,
+          "deaths": 3,
+          "assists": 11,
+          "gold": 6498,
+          "cs": 18,
+          "damage": 7133,
+          "role": "UTILITY",
+          "visionScore": 58,
+          "items": [
+            3876,
+            3190,
+            3009,
+            3067,
+            1031,
+            1006,
+            3364
+          ],
+          "summoners": [
+            3,
+            4
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Nathan Drake#DUA",
+          "champion": "Ambessa",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 0,
+          "gold": 6575,
+          "cs": 169,
+          "damage": 19618,
+          "role": "TOP",
+          "visionScore": 14,
+          "items": [
+            1054,
+            6692,
+            3047,
+            2021,
+            1028,
+            0,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "FrenchArabic#1v9",
+          "champion": "Trundle",
+          "kills": 0,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 5749,
+          "cs": 119,
+          "damage": 6237,
+          "role": "JUNGLE",
+          "visionScore": 22,
+          "items": [
+            3078,
+            3047,
+            1028,
+            1029,
+            0,
+            0,
+            3340
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 3,
+          "deaths": 5,
+          "assists": 1,
+          "gold": 6579,
+          "cs": 145,
+          "damage": 10519,
+          "role": "MIDDLE",
+          "visionScore": 11,
+          "items": [
+            6655,
+            1082,
+            1056,
+            3175,
+            3145,
+            0,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Galactic High#Lobby",
+          "champion": "KogMaw",
+          "kills": 1,
+          "deaths": 3,
+          "assists": 2,
+          "gold": 6930,
+          "cs": 164,
+          "damage": 6601,
+          "role": "BOTTOM",
+          "visionScore": 5,
+          "items": [
+            1056,
+            2510,
+            3145,
+            0,
+            0,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            6
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Pet that Dawg#12422",
+          "champion": "Camille",
+          "kills": 3,
+          "deaths": 10,
+          "assists": 2,
+          "gold": 5352,
+          "cs": 15,
+          "damage": 7753,
+          "role": "UTILITY",
+          "visionScore": 40,
+          "items": [
+            3877,
+            6610,
+            1001,
+            1029,
+            0,
+            1036,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8400
+          }
+        }
+      ],
+      "duration": 1148,
+      "objectives": {
+        "blue": {
+          "towers": 5,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 0,
+          "dragons": 0,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
