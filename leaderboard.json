@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 52.016985138004245,
-      "wins": 245,
+      "winrate": 52.11864406779661,
+      "wins": 246,
       "losses": 226,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 685,
+      "lp": 714,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1784382571761
+      "lastGameTimestamp": 1784386677254
     },
     {
       "name": "Neik#EUW02",
@@ -6396,6 +6396,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7922310908",
+      "timestamp": 1784386677254,
+      "player": "Waldox#XXX",
+      "win": true,
+      "team_kills": 54,
+      "players": [
+        {
+          "name": "Sigmaa Male#EUW",
+          "champion": "DrMundo",
+          "kills": 3,
+          "deaths": 7,
+          "assists": 7,
+          "gold": 13561,
+          "cs": 272,
+          "damage": 32882,
+          "role": "TOP",
+          "visionScore": 10,
+          "items": [
+            1054,
+            3083,
+            3047,
+            3084,
+            2501,
+            3076,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8437,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "MyTeamIsMyCircus#Shaco",
+          "champion": "Shaco",
+          "kills": 18,
+          "deaths": 8,
+          "assists": 12,
+          "gold": 18983,
+          "cs": 192,
+          "damage": 41788,
+          "role": "JUNGLE",
+          "visionScore": 43,
+          "items": [
+            3026,
+            3179,
+            3036,
+            3031,
+            3047,
+            6699,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "INEED60CENTS#Help",
+          "champion": "Naafiri",
+          "kills": 4,
+          "deaths": 11,
+          "assists": 11,
+          "gold": 12756,
+          "cs": 204,
+          "damage": 24026,
+          "role": "MIDDLE",
+          "visionScore": 33,
+          "items": [
+            6699,
+            6690,
+            6694,
+            6696,
+            3134,
+            3173,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "what is kite#EUW",
+          "champion": "Yunara",
+          "kills": 11,
+          "deaths": 17,
+          "assists": 11,
+          "gold": 19062,
+          "cs": 253,
+          "damage": 39444,
+          "role": "BOTTOM",
+          "visionScore": 24,
+          "items": [
+            2512,
+            3031,
+            6672,
+            3153,
+            3036,
+            0,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "P0SIPI#EUW",
+          "champion": "Zyra",
+          "kills": 7,
+          "deaths": 11,
+          "assists": 20,
+          "gold": 12522,
+          "cs": 52,
+          "damage": 36823,
+          "role": "UTILITY",
+          "visionScore": 115,
+          "items": [
+            3158,
+            3871,
+            6653,
+            3116,
+            3165,
+            1026,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Knqjestvo Lubovo#33333",
+          "champion": "Camille",
+          "kills": 9,
+          "deaths": 7,
+          "assists": 9,
+          "gold": 15149,
+          "cs": 226,
+          "damage": 53701,
+          "role": "TOP",
+          "visionScore": 21,
+          "items": [
+            3143,
+            3053,
+            3078,
+            3074,
+            2055,
+            3047,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "CC Cleaner#EUW",
+          "champion": "Belveth",
+          "kills": 13,
+          "deaths": 7,
+          "assists": 12,
+          "gold": 20484,
+          "cs": 288,
+          "damage": 49727,
+          "role": "JUNGLE",
+          "visionScore": 36,
+          "items": [
+            3047,
+            3143,
+            6631,
+            6672,
+            3153,
+            6333,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8100
+          }
+        },
+        {
+          "name": "I CJayy I#EUW",
+          "champion": "Sylas",
+          "kills": 11,
+          "deaths": 10,
+          "assists": 16,
+          "gold": 15011,
+          "cs": 173,
+          "damage": 34134,
+          "role": "MIDDLE",
+          "visionScore": 29,
+          "items": [
+            3157,
+            3152,
+            3174,
+            1058,
+            4633,
+            1058,
+            3340
+          ],
+          "summoners": [
+            14,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Keithrak#zeu",
+          "champion": "Jhin",
+          "kills": 12,
+          "deaths": 10,
+          "assists": 12,
+          "gold": 16348,
+          "cs": 219,
+          "damage": 32701,
+          "role": "BOTTOM",
+          "visionScore": 17,
+          "items": [
+            1120,
+            3031,
+            3094,
+            3033,
+            2523,
+            1038,
+            3363
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 9,
+          "deaths": 9,
+          "assists": 21,
+          "gold": 14069,
+          "cs": 83,
+          "damage": 27949,
+          "role": "UTILITY",
+          "visionScore": 123,
+          "items": [
+            3157,
+            4645,
+            3916,
+            6655,
+            3020,
+            3869,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 2017,
+      "objectives": {
+        "blue": {
+          "towers": 5,
+          "dragons": 1,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 2,
+          "heralds": 1,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
