@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 52.12765957446808,
+      "winrate": 52.016985138004245,
       "wins": 245,
-      "losses": 225,
+      "losses": 226,
       "tier": "MASTER",
       "rank": "I",
       "lp": 685,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1784380634655
+      "lastGameTimestamp": 1784382571761
     },
     {
       "name": "Neik#EUW02",
@@ -6396,6 +6396,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7922239958",
+      "timestamp": 1784382571761,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 49,
+      "players": [
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 5,
+          "deaths": 5,
+          "assists": 17,
+          "gold": 15122,
+          "cs": 262,
+          "damage": 35263,
+          "role": "TOP",
+          "visionScore": 49,
+          "items": [
+            3157,
+            3089,
+            1082,
+            3137,
+            6655,
+            3020,
+            3363
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Vinxen#1212",
+          "champion": "Locke",
+          "kills": 23,
+          "deaths": 9,
+          "assists": 13,
+          "gold": 21447,
+          "cs": 279,
+          "damage": 47626,
+          "role": "JUNGLE",
+          "visionScore": 47,
+          "items": [
+            8010,
+            3157,
+            3102,
+            3020,
+            3089,
+            3100,
+            3364
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Herbert#Bandi",
+          "champion": "Veigar",
+          "kills": 12,
+          "deaths": 5,
+          "assists": 11,
+          "gold": 16793,
+          "cs": 245,
+          "damage": 45891,
+          "role": "MIDDLE",
+          "visionScore": 18,
+          "items": [
+            3089,
+            3175,
+            4645,
+            6657,
+            3040,
+            3137,
+            3363
+          ],
+          "summoners": [
+            12,
+            4
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8369,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "jng sex king#EUW",
+          "champion": "Jhin",
+          "kills": 9,
+          "deaths": 10,
+          "assists": 16,
+          "gold": 16914,
+          "cs": 255,
+          "damage": 45828,
+          "role": "BOTTOM",
+          "visionScore": 34,
+          "items": [
+            3036,
+            2523,
+            3031,
+            3094,
+            1053,
+            1037,
+            3340
+          ],
+          "summoners": [
+            4,
+            21
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8021,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "DinPaven#EUW",
+          "champion": "Milio",
+          "kills": 0,
+          "deaths": 7,
+          "assists": 37,
+          "gold": 12277,
+          "cs": 43,
+          "damage": 11692,
+          "role": "UTILITY",
+          "visionScore": 132,
+          "items": [
+            3107,
+            3870,
+            6616,
+            3158,
+            2530,
+            6621,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "BENDEATH11#888",
+          "champion": "Ornn",
+          "kills": 4,
+          "deaths": 7,
+          "assists": 14,
+          "gold": 13740,
+          "cs": 207,
+          "damage": 18440,
+          "role": "TOP",
+          "visionScore": 35,
+          "items": [
+            2504,
+            3109,
+            3111,
+            1011,
+            6664,
+            1057,
+            3364
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "Bitsy Spider#EUW",
+          "champion": "Briar",
+          "kills": 10,
+          "deaths": 13,
+          "assists": 5,
+          "gold": 19484,
+          "cs": 276,
+          "damage": 28463,
+          "role": "JUNGLE",
+          "visionScore": 35,
+          "items": [
+            3748,
+            3036,
+            6676,
+            6333,
+            3053,
+            1037,
+            3340
+          ],
+          "summoners": [
+            11,
+            4
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Sqqarel#EUW",
+          "champion": "Galio",
+          "kills": 1,
+          "deaths": 11,
+          "assists": 17,
+          "gold": 13010,
+          "cs": 233,
+          "damage": 33216,
+          "role": "MIDDLE",
+          "visionScore": 18,
+          "items": [
+            2421,
+            8020,
+            0,
+            4005,
+            3173,
+            2504,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8400,
+            "keystone": 8439,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "fiske handleren#EUW",
+          "champion": "Kaisa",
+          "kills": 20,
+          "deaths": 10,
+          "assists": 8,
+          "gold": 27352,
+          "cs": 343,
+          "damage": 80150,
+          "role": "BOTTOM",
+          "visionScore": 25,
+          "items": [
+            3157,
+            3087,
+            3115,
+            3124,
+            3089,
+            4645,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Mogs#Mogs",
+          "champion": "Janna",
+          "kills": 1,
+          "deaths": 9,
+          "assists": 27,
+          "gold": 11812,
+          "cs": 27,
+          "damage": 13090,
+          "role": "UTILITY",
+          "visionScore": 109,
+          "items": [
+            6617,
+            3876,
+            3222,
+            3190,
+            6620,
+            3009,
+            3364
+          ],
+          "summoners": [
+            7,
+            4
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8100
+          }
+        }
+      ],
+      "duration": 2357,
+      "objectives": {
+        "blue": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 2,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 9,
+          "dragons": 3,
+          "barons": 0,
+          "heralds": 1,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
