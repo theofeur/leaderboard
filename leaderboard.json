@@ -2,14 +2,14 @@
   "players": [
     {
       "name": "Waldox#XXX",
-      "winrate": 52.11864406779661,
+      "winrate": 52.00845665961945,
       "wins": 246,
-      "losses": 226,
+      "losses": 227,
       "tier": "MASTER",
       "rank": "I",
-      "lp": 714,
+      "lp": 683,
       "profileIconId": 3505,
-      "lastGameTimestamp": 1784386677254
+      "lastGameTimestamp": 1784457113331
     },
     {
       "name": "Neik#EUW02",
@@ -6396,6 +6396,340 @@
           "barons": 0,
           "heralds": 0,
           "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        }
+      }
+    },
+    {
+      "match_id": "EUW1_7923120375",
+      "timestamp": 1784457113331,
+      "player": "Waldox#XXX",
+      "win": false,
+      "team_kills": 37,
+      "players": [
+        {
+          "name": "MASTOS CHALL#HLD",
+          "champion": "Rumble",
+          "kills": 17,
+          "deaths": 8,
+          "assists": 10,
+          "gold": 16325,
+          "cs": 207,
+          "damage": 40158,
+          "role": "TOP",
+          "visionScore": 20,
+          "items": [
+            3102,
+            3152,
+            1058,
+            3111,
+            6653,
+            4645,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Candysock#EUW",
+          "champion": "RekSai",
+          "kills": 13,
+          "deaths": 3,
+          "assists": 12,
+          "gold": 16796,
+          "cs": 245,
+          "damage": 22159,
+          "role": "JUNGLE",
+          "visionScore": 27,
+          "items": [
+            3211,
+            6631,
+            2504,
+            3161,
+            3156,
+            3111,
+            3364
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 9923,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "DAZA#KAWAI",
+          "champion": "Vladimir",
+          "kills": 8,
+          "deaths": 9,
+          "assists": 9,
+          "gold": 13856,
+          "cs": 245,
+          "damage": 29660,
+          "role": "MIDDLE",
+          "visionScore": 25,
+          "items": [
+            4646,
+            3157,
+            1082,
+            3089,
+            3170,
+            4630,
+            3340
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8214,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "RDC koji#4181",
+          "champion": "Caitlyn",
+          "kills": 11,
+          "deaths": 7,
+          "assists": 6,
+          "gold": 17894,
+          "cs": 283,
+          "damage": 41974,
+          "role": "BOTTOM",
+          "visionScore": 17,
+          "items": [
+            3036,
+            1086,
+            2523,
+            3140,
+            3094,
+            3031,
+            3363
+          ],
+          "summoners": [
+            21,
+            4
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "curvy apricot#SABO",
+          "champion": "Thresh",
+          "kills": 1,
+          "deaths": 10,
+          "assists": 20,
+          "gold": 9794,
+          "cs": 36,
+          "damage": 6565,
+          "role": "UTILITY",
+          "visionScore": 93,
+          "items": [
+            3190,
+            3869,
+            3009,
+            2504,
+            3211,
+            3067,
+            3364
+          ],
+          "summoners": [
+            4,
+            7
+          ],
+          "runes": {
+            "primary": 8300,
+            "keystone": 8351,
+            "secondary": 8400
+          }
+        },
+        {
+          "name": "1NooR#EUW",
+          "champion": "Cassiopeia",
+          "kills": 6,
+          "deaths": 14,
+          "assists": 9,
+          "gold": 12358,
+          "cs": 194,
+          "damage": 25548,
+          "role": "TOP",
+          "visionScore": 15,
+          "items": [
+            3040,
+            3009,
+            6665,
+            1082,
+            3116,
+            4630,
+            3363
+          ],
+          "summoners": [
+            4,
+            3
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8010,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "Last in team#EUW",
+          "champion": "Teemo",
+          "kills": 16,
+          "deaths": 6,
+          "assists": 9,
+          "gold": 19171,
+          "cs": 242,
+          "damage": 50475,
+          "role": "JUNGLE",
+          "visionScore": 40,
+          "items": [
+            3157,
+            2510,
+            3115,
+            3135,
+            3020,
+            3089,
+            3340
+          ],
+          "summoners": [
+            4,
+            11
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8005,
+            "secondary": 8200
+          }
+        },
+        {
+          "name": "\u041a\u0410\u041f\u0410#\u0410\u041f\u0410\u041a",
+          "champion": "Hwei",
+          "kills": 6,
+          "deaths": 13,
+          "assists": 8,
+          "gold": 14273,
+          "cs": 227,
+          "damage": 33736,
+          "role": "MIDDLE",
+          "visionScore": 20,
+          "items": [
+            1026,
+            2503,
+            3157,
+            6653,
+            4630,
+            3175,
+            3363
+          ],
+          "summoners": [
+            4,
+            12
+          ],
+          "runes": {
+            "primary": 8200,
+            "keystone": 8229,
+            "secondary": 8000
+          }
+        },
+        {
+          "name": "JaimeLesChats#EUW",
+          "champion": "Yunara",
+          "kills": 5,
+          "deaths": 8,
+          "assists": 6,
+          "gold": 14935,
+          "cs": 258,
+          "damage": 25304,
+          "role": "BOTTOM",
+          "visionScore": 27,
+          "items": [
+            3031,
+            6672,
+            2512,
+            3033,
+            1038,
+            0,
+            3363
+          ],
+          "summoners": [
+            4,
+            1
+          ],
+          "runes": {
+            "primary": 8000,
+            "keystone": 8008,
+            "secondary": 8300
+          }
+        },
+        {
+          "name": "Waldox#XXX",
+          "champion": "Leblanc",
+          "kills": 4,
+          "deaths": 9,
+          "assists": 10,
+          "gold": 9626,
+          "cs": 62,
+          "damage": 16625,
+          "role": "UTILITY",
+          "visionScore": 111,
+          "items": [
+            6655,
+            4645,
+            4630,
+            2031,
+            3020,
+            3869,
+            3364
+          ],
+          "summoners": [
+            4,
+            14
+          ],
+          "runes": {
+            "primary": 8100,
+            "keystone": 8112,
+            "secondary": 8200
+          }
+        }
+      ],
+      "duration": 1917,
+      "objectives": {
+        "blue": {
+          "towers": 8,
+          "dragons": 2,
+          "barons": 0,
+          "heralds": 0,
+          "grubs": 3,
+          "atakhans": 0,
+          "firstBlood": 0,
+          "firstTurret": 0,
+          "epicMonsterKill": 0
+        },
+        "red": {
+          "towers": 6,
+          "dragons": 3,
+          "barons": 1,
+          "heralds": 1,
+          "grubs": 0,
           "atakhans": 0,
           "firstBlood": 0,
           "firstTurret": 0,
